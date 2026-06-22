@@ -12,9 +12,15 @@
 
 ## 사진 추가 방법
 
-1. `public/photos/여행-id/` 폴더를 만든다.
-2. 대표 사진을 `cover.png` 또는 `cover.jpg`로 넣는다.
-3. `src/data/trips.ts`의 `cover` 값을 `/photos/여행-id/cover.png`처럼 맞춘다.
+1. 네이버 클라우드 등에서 사진을 zip으로 내려받는다.
+2. 아래 명령으로 웹용 사진을 자동 추출한다.
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File scripts\import-travel-photos.ps1 -ZipPath "C:\Users\82102\Downloads\일본여행.zip" -PhotosPerTrip 12 -MaxWidth 1600
+```
+
+3. `src/data/trips.ts`에서 여행 제목, 요약, 일정 메모를 다듬는다.
+4. 공개 사이트에 올려도 되는 얼굴 사진인지 확인한다.
 
 ## 다음에 만들기 좋은 기능
 

@@ -3,10 +3,10 @@ import { trips, travelStats } from "@/data/trips";
 import type { CSSProperties } from "react";
 
 const cityNotes = [
-  { city: "Tokyo", note: "밤거리와 골목 사진을 모으기 좋은 기준점" },
-  { city: "Osaka", note: "먹는 기억과 이동 동선이 가장 선명한 도시" },
-  { city: "Fukuoka", note: "짧게 다녀와도 여운이 오래 남는 곳" },
-  { city: "Kyoto", note: "계절별로 다시 찍고 싶은 장면이 많은 도시" },
+  { city: "Kyoto & Nara", note: "2025년 첫 여행으로 사진이 가장 많이 남은 기록" },
+  { city: "Hokkaido", note: "삿포로와 하코다테를 계절별로 꺼내보기 좋은 묶음" },
+  { city: "Kyushu", note: "기타큐슈와 가고시마처럼 짧지만 밀도 있는 여행" },
+  { city: "Chubu", note: "나고야와 시즈오카를 이동 동선으로 정리하기 좋은 기록" },
 ];
 
 export default function Home() {
@@ -33,9 +33,9 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-5 py-10 sm:px-8 lg:px-10">
         <div className="grid gap-3 sm:grid-cols-4">
           <Stat label="전체 여행" value={`${travelStats.totalTrips}회`} />
+          <Stat label="정리된 여행" value={`${travelStats.archivedTrips}회`} />
           <Stat label="2025년" value={`${travelStats.lastYearTrips}회`} />
           <Stat label="2026년" value={`${travelStats.thisYearTrips}회`} />
-          <Stat label="기록 도시" value={`${travelStats.visitedCities}곳`} />
         </div>
       </section>
 

@@ -1,23 +1,33 @@
 # Photo folders
 
-Add travel photos here and reference them from `src/data/trips.ts`.
+This folder contains web-optimized travel photos for the site.
+
+The current photos were generated from:
+
+```text
+C:\Users\82102\Downloads\일본여행.zip
+```
+
+Run this from the project root to regenerate the gallery images:
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File scripts\import-travel-photos.ps1 -ZipPath "C:\Users\82102\Downloads\일본여행.zip" -PhotosPerTrip 12 -MaxWidth 1600
+```
 
 Recommended structure:
 
 ```text
 public/photos/
-  tokyo-winter/
-    cover.png
+  kyoto-nara-2025-02/
+    cover.jpg
     001.jpg
     002.jpg
-  osaka-food/
-    cover.png
-  fukuoka-spring/
-    cover.png
+  kagoshima-2026-05/
+    cover.jpg
 ```
 
 Files inside `public` are served from the site root. For example:
 
 ```ts
-cover: "/photos/tokyo-winter/cover.png"
+cover: "/photos/kyoto-nara-2025-02/cover.jpg"
 ```
