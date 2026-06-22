@@ -1,12 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { trips } from "@/data/trips";
+import { trips, type TripPhoto } from "@/data/trips";
 
 type TripPageProps = {
   params: Promise<{
     id: string;
   }>;
+};
+
+type RoutePoint = TripPhoto & {
+  latitude: number;
+  longitude: number;
+  x: number;
+  y: number;
 };
 
 export function generateStaticParams() {
@@ -72,6 +79,8 @@ export default async function TripPage({ params }: TripPageProps) {
 
       <section className="mx-auto grid max-w-6xl gap-8 px-5 py-10 sm:px-8 lg:grid-cols-[1fr_320px] lg:px-10">
         <div className="space-y-8">
+          <TripRouteMap photos={trip.photos} />
+
           <section>
             <p className="text-sm font-semibold text-[#9a4f33]">Timeline</p>
             <h2 className="mt-1 text-3xl font-semibold tracking-normal">
@@ -111,8 +120,8 @@ export default async function TripPage({ params }: TripPageProps) {
               장소 기록 사진
             </h2>
             <p className="mt-2 text-sm leading-6 text-[#6f665c]">
-              GPS EXIF가 남아 있는 사진을 우선으로 골랐고, 좌표가 있는 사진은
-              지도 링크를 함께 표시합니다.
+              GPS EXIF가 남아 있는 사진을 우선으로 골랐고, 좌표가 있는
+              사진은 지도 링크를 함께 표시합니다.
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {trip.photos.map((photo) => (
@@ -199,6 +208,153 @@ export default async function TripPage({ params }: TripPageProps) {
         </aside>
       </section>
     </main>
+  );
+}
+
+function TripRouteMap({ photos }: { photos: TripPhoto[] }) {
+  const sortedPhotos = photos
+    .filter(
+      (photo) =>
+        typeof photo.latitude === "number" &&
+        typeof photo.longitude === "number",
+    )
+    .sort((a, b) => (a.takenAt ?? "").localeCompare(b.takenAt ?? ""));
+
+  if (sortedPhotos.length === 0) {
+    return null;
+  }
+
+  const latitudes = sortedPhotos.map((photo) => photo.latitude as number);
+  const longitudes = sortedPhotos.map((photo) => photo.longitude as number);
+  const minLat = Math.min(...latitudes);
+  const maxLat = Math.max(...latitudes);
+  const minLng = Math.min(...longitudes);
+  const maxLng = Math.max(...longitudes);
+  const latSpan = Math.max(maxLat - minLat, 0.001);
+  const lngSpan = Math.max(maxLng - minLng, 0.001);
+  const padding = 70;
+  const width = 1000;
+  const height = 620;
+
+  const points: RoutePoint[] = sortedPhotos.map((photo) => {
+    const longitude = photo.longitude as number;
+    const latitude = photo.latitude as number;
+
+    return {
+      ...photo,
+      latitude,
+      longitude,
+      x: padding + ((longitude - minLng) / lngSpan) * (width - padding * 2),
+      y:
+        height -
+        padding -
+        ((latitude - minLat) / latSpan) * (height - padding * 2),
+    };
+  });
+
+  const path = points
+    .map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`)
+    .join(" ");
+  const firstPoint = points[0];
+  const lastPoint = points[points.length - 1];
+
+  return (
+    <section className="rounded-lg border border-[#ddd3c4] bg-white p-5 shadow-sm">
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p className="text-sm font-semibold text-[#9a4f33]">GPS Route</p>
+          <h2 className="mt-1 text-3xl font-semibold tracking-normal">
+            촬영시간 순 이동 경로
+          </h2>
+        </div>
+        <p className="text-sm font-semibold text-[#6f665c]">
+          {points.length}개 GPS 포인트
+        </p>
+      </div>
+
+      <div className="mt-5 overflow-hidden rounded-lg border border-[#ded6c8] bg-[#f4efe5]">
+        <svg
+          viewBox={`0 0 ${width} ${height}`}
+          role="img"
+          aria-label="촬영시간 순서대로 연결한 GPS 이동 경로"
+          className="h-auto w-full"
+        >
+          <defs>
+            <pattern
+              id="map-grid"
+              width="50"
+              height="50"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 50 0 L 0 0 0 50"
+                fill="none"
+                stroke="#ded6c8"
+                strokeWidth="1"
+              />
+            </pattern>
+          </defs>
+          <rect width={width} height={height} fill="url(#map-grid)" />
+          <path
+            d={path}
+            fill="none"
+            stroke="#9a4f33"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          {points.map((point, index) => (
+            <g key={`${point.src}-${index}`}>
+              <circle
+                cx={point.x}
+                cy={point.y}
+                fill={index === 0 ? "#2f6f4e" : "#ffffff"}
+                r="20"
+                stroke={index === points.length - 1 ? "#151515" : "#9a4f33"}
+                strokeWidth="6"
+              />
+              <text
+                x={point.x}
+                y={point.y + 6}
+                fill={index === 0 ? "#ffffff" : "#171717"}
+                fontSize="20"
+                fontWeight="700"
+                textAnchor="middle"
+              >
+                {index + 1}
+              </text>
+            </g>
+          ))}
+        </svg>
+      </div>
+
+      <div className="mt-4 grid gap-3 text-sm text-[#5d554c] sm:grid-cols-2">
+        <RouteEndpoint label="시작" point={firstPoint} />
+        <RouteEndpoint label="마지막" point={lastPoint} />
+      </div>
+    </section>
+  );
+}
+
+function RouteEndpoint({ label, point }: { label: string; point: RoutePoint }) {
+  return (
+    <div className="rounded-lg bg-[#f8f5ef] p-4">
+      <p className="font-semibold text-[#171717]">{label}</p>
+      <p className="mt-1">{formatTakenAt(point.takenAt ?? "")}</p>
+      <p className="mt-1">
+        {point.latitude.toFixed(5)}, {point.longitude.toFixed(5)}
+      </p>
+      {point.mapUrl ? (
+        <a
+          href={point.mapUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-2 inline-flex rounded-md bg-[#efe8dc] px-2.5 py-1 text-xs font-semibold text-[#594331] transition hover:bg-[#e0d2bf]"
+        >
+          지도에서 보기
+        </a>
+      ) : null}
+    </div>
   );
 }
 
