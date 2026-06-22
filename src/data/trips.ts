@@ -1,3 +1,16 @@
+export type TripDay = {
+  day: string;
+  title: string;
+  places: string[];
+  note: string;
+};
+
+export type TripPhoto = {
+  src: string;
+  alt: string;
+  caption: string;
+};
+
 export type Trip = {
   id: string;
   title: string;
@@ -10,6 +23,8 @@ export type Trip = {
   highlights: string[];
   route: string[];
   photoCount: number;
+  days: TripDay[];
+  photos: TripPhoto[];
 };
 
 export const trips: Trip[] = [
@@ -26,6 +41,27 @@ export const trips: Trip[] = [
     highlights: ["시부야 야경", "요코하마 항구", "아침 카페"],
     route: ["Incheon", "Narita", "Shibuya", "Yokohama", "Ueno"],
     photoCount: 84,
+    days: [
+      {
+        day: "Day 1",
+        title: "도착과 시부야 밤 산책",
+        places: ["Narita", "Shibuya", "Omotesando"],
+        note: "숙소에 짐을 두고 바로 밤거리로 나간 날. 네온과 횡단보도 사진을 중심으로 남겼다.",
+      },
+      {
+        day: "Day 2",
+        title: "요코하마까지 천천히 이동",
+        places: ["Yokohama", "Minato Mirai", "Ueno"],
+        note: "항구 쪽 공기와 저녁 풍경이 좋았던 날. 이동 경로가 길어서 전철 기록도 남기기 좋았다.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/tokyo-winter/cover.png",
+        alt: "도쿄 겨울 여행 대표 이미지",
+        caption: "도쿄 여행 대표 컷",
+      },
+    ],
   },
   {
     id: "osaka-food",
@@ -40,6 +76,27 @@ export const trips: Trip[] = [
     highlights: ["도톤보리", "교토 골목", "나라공원"],
     route: ["Kansai Airport", "Namba", "Kyoto", "Nara", "Umeda"],
     photoCount: 126,
+    days: [
+      {
+        day: "Day 1",
+        title: "난바와 도톤보리",
+        places: ["Kansai Airport", "Namba", "Dotonbori"],
+        note: "도착하자마자 먹는 일정으로 시작. 간판, 골목, 음식 사진이 많이 남은 날.",
+      },
+      {
+        day: "Day 2",
+        title: "교토 골목 산책",
+        places: ["Kyoto", "Gion", "Kamo River"],
+        note: "오사카와 전혀 다른 분위기. 다음에는 계절을 바꿔서 다시 찍어보고 싶은 곳.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/osaka-food/cover.png",
+        alt: "오사카 여행 대표 이미지",
+        caption: "오사카 여행 대표 컷",
+      },
+    ],
   },
   {
     id: "fukuoka-spring",
@@ -54,6 +111,27 @@ export const trips: Trip[] = [
     highlights: ["오호리공원", "다자이후", "야타이 거리"],
     route: ["Busan", "Fukuoka", "Ohori Park", "Dazaifu", "Hakata"],
     photoCount: 73,
+    days: [
+      {
+        day: "Day 1",
+        title: "하카타와 오호리공원",
+        places: ["Hakata", "Ohori Park", "Tenjin"],
+        note: "빡빡하게 움직이기보다 천천히 머물렀던 날. 공원과 카페 사진을 중심으로 정리하면 좋다.",
+      },
+      {
+        day: "Day 2",
+        title: "다자이후 반나절",
+        places: ["Dazaifu", "Hakata"],
+        note: "짧지만 기억에 오래 남는 코스. 기념품, 골목, 간식 사진을 한 묶음으로 두기 좋다.",
+      },
+    ],
+    photos: [
+      {
+        src: "/photos/fukuoka-spring/cover.png",
+        alt: "후쿠오카 여행 대표 이미지",
+        caption: "후쿠오카 여행 대표 컷",
+      },
+    ],
   },
 ];
 

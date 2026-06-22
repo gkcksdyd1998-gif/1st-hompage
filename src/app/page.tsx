@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { trips, travelStats } from "@/data/trips";
 import type { CSSProperties } from "react";
 
@@ -13,7 +14,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#f8f5ef] text-[#171717]">
       <section className="relative overflow-hidden border-b border-[#ded6c8] bg-[#151515] text-white">
         <div className="absolute inset-0 opacity-45">
-          <div className="h-full w-full bg-[linear-gradient(120deg,rgba(6,6,6,.95),rgba(6,6,6,.42)),url('/photos/tokyo-winter/cover.jpg')] bg-cover bg-center" />
+          <div className="h-full w-full bg-[linear-gradient(120deg,rgba(6,6,6,.95),rgba(6,6,6,.42)),url('/photos/tokyo-winter/cover.png')] bg-cover bg-center" />
         </div>
         <div className="relative mx-auto grid min-h-[76vh] max-w-6xl content-end px-5 pb-12 pt-24 sm:px-8 lg:px-10">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-[#e6cf9f]">
@@ -48,15 +49,16 @@ export default function Home() {
               </h2>
             </div>
             <p className="hidden text-sm text-[#6f665c] sm:block">
-              사진 폴더를 채우면 실제 갤러리로 확장할 자리
+              카드를 클릭하면 상세 기록으로 이동합니다
             </p>
           </div>
 
           <div className="grid gap-4">
             {trips.map((trip) => (
-              <article
+              <Link
                 key={trip.id}
-                className="grid overflow-hidden rounded-lg border border-[#ddd3c4] bg-white shadow-sm sm:grid-cols-[220px_1fr]"
+                href={`/trips/${trip.id}`}
+                className="grid overflow-hidden rounded-lg border border-[#ddd3c4] bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-[#b99a71] hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#9a4f33] sm:grid-cols-[220px_1fr]"
               >
                 <div
                   className="min-h-48 bg-[#d6c5ad] bg-[linear-gradient(135deg,rgba(20,20,20,.18),rgba(20,20,20,.02)),var(--cover)] bg-cover bg-center"
@@ -93,8 +95,11 @@ export default function Home() {
                       <p className="mt-1">선별 예정 사진 {trip.photoCount}장</p>
                     </div>
                   </div>
+                  <p className="mt-5 text-sm font-semibold text-[#9a4f33]">
+                    자세히 보기
+                  </p>
                 </div>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
