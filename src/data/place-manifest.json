@@ -1,1287 +1,1599 @@
 [
-    {
-        "slug":  "kagoshima-2026-05",
-        "name":  "가고시마 여행 (26.05.15~26.05.18)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2026.05.16",
-                         "title":  "2026.05.16 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5"
-                                    ],
-                         "note":  "Grouped 17 geotagged photos into 5 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  7,
-                                                 "representative":  "/photos/kagoshima-2026-05/places/20260516-01.jpg",
-                                                 "originalName":  "20260516_103137.jpg",
-                                                 "startTime":  "2026:05:16 10:24:08",
-                                                 "endTime":  "2026:05:16 10:45:16",
-                                                 "latitude":  31.582906,
-                                                 "longitude":  130.548265,
-                                                 "mapUrl":  "https://www.google.com/maps?q=31.582906,130.548265"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/kagoshima-2026-05/places/20260516-02.jpg",
-                                                 "originalName":  "20260516_105329.jpg",
-                                                 "startTime":  "2026:05:16 10:53:29",
-                                                 "endTime":  "2026:05:16 10:53:34",
-                                                 "latitude":  31.596671,
-                                                 "longitude":  130.562746,
-                                                 "mapUrl":  "https://www.google.com/maps?q=31.596671,130.562746"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/kagoshima-2026-05/places/20260516-03.jpg",
-                                                 "originalName":  "20260516_174011.jpg",
-                                                 "startTime":  "2026:05:16 17:34:18",
-                                                 "endTime":  "2026:05:16 17:40:17",
-                                                 "latitude":  31.229515,
-                                                 "longitude":  130.651838,
-                                                 "mapUrl":  "https://www.google.com/maps?q=31.229515,130.651838"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kagoshima-2026-05/places/20260516-04.jpg",
-                                                 "originalName":  "20260516_180149.jpg",
-                                                 "startTime":  "2026:05:16 18:01:49",
-                                                 "endTime":  "2026:05:16 18:01:49",
-                                                 "latitude":  31.159495,
-                                                 "longitude":  130.588124,
-                                                 "mapUrl":  "https://www.google.com/maps?q=31.159495,130.588124"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  4,
-                                                 "representative":  "/photos/kagoshima-2026-05/places/20260516-05.jpg",
-                                                 "originalName":  "20260516_203909.jpg",
-                                                 "startTime":  "2026:05:16 20:32:42",
-                                                 "endTime":  "2026:05:16 21:22:37",
-                                                 "latitude":  31.594594,
-                                                 "longitude":  130.54732,
-                                                 "mapUrl":  "https://www.google.com/maps?q=31.594594,130.54732"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2026.05.17",
-                         "title":  "2026.05.17 GPS route",
-                         "places":  [
-
-                                    ],
-                         "note":  "Grouped 2 geotagged photos into 0 representative places.",
-                         "placeGroups":  [
-
-                                         ]
-                     },
-                     {
-                         "day":  "2026.05.18",
-                         "title":  "2026.05.18 GPS route",
-                         "places":  [
-
-                                    ],
-                         "note":  "Grouped 3 geotagged photos into 0 representative places.",
-                         "placeGroups":  [
-
-                                         ]
-                     }
-                 ]
-    },
-    {
-        "slug":  "kyoto-nara-2025-02",
-        "name":  "교토 나라 여행 (25.02.08~25.02.11)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2025.02.08",
-                         "title":  "2025.02.08 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5",
-                                        "Place 6",
-                                        "Place 7"
-                                    ],
-                         "note":  "Grouped 56 geotagged photos into 7 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-01.jpg",
-                                                 "originalName":  "1739007529620-2.jpg",
-                                                 "startTime":  "2025:02:08 01:28:32",
-                                                 "endTime":  "2025:02:08 10:49:24",
-                                                 "latitude":  34.646187,
-                                                 "longitude":  135.502818,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.646187,135.502818"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-02.jpg",
-                                                 "originalName":  "1739007529620-6.jpg",
-                                                 "startTime":  "2025:02:08 12:18:37",
-                                                 "endTime":  "2025:02:08 12:18:37",
-                                                 "latitude":  34.760842,
-                                                 "longitude":  135.534836,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.760842,135.534836"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-03.jpg",
-                                                 "originalName":  "1739007529620-8.jpg",
-                                                 "startTime":  "2025:02:08 13:37:43",
-                                                 "endTime":  "2025:02:08 14:23:40",
-                                                 "latitude":  35.022672,
-                                                 "longitude":  135.745183,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.022672,135.745183"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  5,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-04.jpg",
-                                                 "originalName":  "1739007529620-12.jpg",
-                                                 "startTime":  "2025:02:08 14:44:39",
-                                                 "endTime":  "2025:02:08 15:26:55",
-                                                 "latitude":  35.020022,
-                                                 "longitude":  135.75633,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.020022,135.75633"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  18,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-05.jpg",
-                                                 "originalName":  "1739007529620-24.jpg",
-                                                 "startTime":  "2025:02:08 16:17:51",
-                                                 "endTime":  "2025:02:08 16:43:55",
-                                                 "latitude":  35.026659,
-                                                 "longitude":  135.798195,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.026659,135.798195"
-                                             },
-                                             {
-                                                 "label":  "Place 6",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-06.jpg",
-                                                 "originalName":  "1739022129009-4.jpg",
-                                                 "startTime":  "2025:02:08 17:24:39",
-                                                 "endTime":  "2025:02:08 17:24:39",
-                                                 "latitude":  35.017372,
-                                                 "longitude":  135.7807,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.017372,135.7807"
-                                             },
-                                             {
-                                                 "label":  "Place 7",
-                                                 "photoCount":  25,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250208-07.jpg",
-                                                 "originalName":  "1739022129009-19.jpg",
-                                                 "startTime":  "2025:02:08 17:40:26",
-                                                 "endTime":  "2025:02:08 21:35:38",
-                                                 "latitude":  35.005272,
-                                                 "longitude":  135.767549,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.005272,135.767549"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.02.09",
-                         "title":  "2025.02.09 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5"
-                                    ],
-                         "note":  "Grouped 71 geotagged photos into 5 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250209-01.jpg",
-                                                 "originalName":  "1739063705264.jpg",
-                                                 "startTime":  "2025:02:09 00:26:42",
-                                                 "endTime":  "2025:02:09 00:26:42",
-                                                 "latitude":  35.022728,
-                                                 "longitude":  135.741256,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.022728,135.741256"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  35,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250209-02.jpg",
-                                                 "originalName":  "1739115777929-23.jpg",
-                                                 "startTime":  "2025:02:09 15:16:33",
-                                                 "endTime":  "2025:02:09 15:51:40",
-                                                 "latitude":  34.994737,
-                                                 "longitude":  135.784319,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.994737,135.784319"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  21,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250209-03.jpg",
-                                                 "originalName":  "1739115753757-21.jpg",
-                                                 "startTime":  "2025:02:09 16:32:29",
-                                                 "endTime":  "2025:02:09 17:32:25",
-                                                 "latitude":  34.968396,
-                                                 "longitude":  135.776064,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.968396,135.776064"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  8,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250209-04.jpg",
-                                                 "originalName":  "1739115726762-13.jpg",
-                                                 "startTime":  "2025:02:09 18:18:13",
-                                                 "endTime":  "2025:02:09 21:27:14",
-                                                 "latitude":  34.988594,
-                                                 "longitude":  135.762142,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.988594,135.762142"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  6,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250209-05.jpg",
-                                                 "originalName":  "1739115726762-20.jpg",
-                                                 "startTime":  "2025:02:09 21:53:25",
-                                                 "endTime":  "2025:02:09 22:05:29",
-                                                 "latitude":  35.003508,
-                                                 "longitude":  135.776893,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.003508,135.776893"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.02.10",
-                         "title":  "2025.02.10 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5",
-                                        "Place 6"
-                                    ],
-                         "note":  "Grouped 108 geotagged photos into 6 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  4,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250210-01.jpg",
-                                                 "originalName":  "1739197777982-2.jpg",
-                                                 "startTime":  "2025:02:10 01:27:35",
-                                                 "endTime":  "2025:02:10 01:27:46",
-                                                 "latitude":  35.022794,
-                                                 "longitude":  135.741268,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.022794,135.741268"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250210-02.jpg",
-                                                 "originalName":  "1739197777982-5.jpg",
-                                                 "startTime":  "2025:02:10 12:04:26",
-                                                 "endTime":  "2025:02:10 12:28:26",
-                                                 "latitude":  34.979439,
-                                                 "longitude":  135.752121,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.979439,135.752121"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250210-03.jpg",
-                                                 "originalName":  "1739197777982-8.jpg",
-                                                 "startTime":  "2025:02:10 13:17:22",
-                                                 "endTime":  "2025:02:10 13:59:38",
-                                                 "latitude":  34.686322,
-                                                 "longitude":  135.807474,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.686322,135.807474"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  80,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250210-04.jpg",
-                                                 "originalName":  "1739197848435-24.jpg",
-                                                 "startTime":  "2025:02:10 14:55:03",
-                                                 "endTime":  "2025:02:10 17:23:10",
-                                                 "latitude":  34.682226,
-                                                 "longitude":  135.842792,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.682226,135.842792"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  14,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250210-05.jpg",
-                                                 "originalName":  "1757601348209.jpg",
-                                                 "startTime":  "2025:02:10 17:48:01",
-                                                 "endTime":  "2025:02:10 21:13:30",
-                                                 "latitude":  34.682794,
-                                                 "longitude":  135.819276,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.682794,135.819276"
-                                             },
-                                             {
-                                                 "label":  "Place 6",
-                                                 "photoCount":  5,
-                                                 "representative":  "/photos/kyoto-nara-2025-02/places/20250210-06.jpg",
-                                                 "originalName":  "1739197907685-23.jpg",
-                                                 "startTime":  "2025:02:10 21:24:07",
-                                                 "endTime":  "2025:02:10 23:14:50",
-                                                 "latitude":  34.687238,
-                                                 "longitude":  135.805578,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.687238,135.805578"
-                                             }
-                                         ]
-                     }
-                 ]
-    },
-    {
-        "slug":  "kitakyushu-2026-03",
-        "name":  "기타큐슈 여행 (26.03.14~26.03.16)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2026.03.14",
-                         "title":  "2026.03.14 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2"
-                                    ],
-                         "note":  "Grouped 4 geotagged photos into 2 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260314-01.jpg",
-                                                 "originalName":  "20260314_160911.jpg",
-                                                 "startTime":  "2026:03:14 16:09:11",
-                                                 "endTime":  "2026:03:14 16:09:11",
-                                                 "latitude":  37.470316,
-                                                 "longitude":  126.428854,
-                                                 "mapUrl":  "https://www.google.com/maps?q=37.470316,126.428854"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260314-02.jpg",
-                                                 "originalName":  "20260314_214524.jpg",
-                                                 "startTime":  "2026:03:14 21:26:08",
-                                                 "endTime":  "2026:03:14 21:45:31",
-                                                 "latitude":  33.922109,
-                                                 "longitude":  130.919169,
-                                                 "mapUrl":  "https://www.google.com/maps?q=33.922109,130.919169"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2026.03.15",
-                         "title":  "2026.03.15 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2"
-                                    ],
-                         "note":  "Grouped 4 geotagged photos into 2 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260315-01.jpg",
-                                                 "originalName":  "20260315_130732.jpg",
-                                                 "startTime":  "2026:03:15 13:04:14",
-                                                 "endTime":  "2026:03:15 13:07:34",
-                                                 "latitude":  33.947589,
-                                                 "longitude":  130.964056,
-                                                 "mapUrl":  "https://www.google.com/maps?q=33.947589,130.964056"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260315-02.jpg",
-                                                 "originalName":  "20260315_221514.jpg",
-                                                 "startTime":  "2026:03:15 22:15:14",
-                                                 "endTime":  "2026:03:15 22:15:14",
-                                                 "latitude":  33.879213,
-                                                 "longitude":  130.8844,
-                                                 "mapUrl":  "https://www.google.com/maps?q=33.879213,130.8844"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2026.03.16",
-                         "title":  "2026.03.16 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3"
-                                    ],
-                         "note":  "Grouped 6 geotagged photos into 3 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  4,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260316-01.jpg",
-                                                 "originalName":  "20260316_113912.jpg",
-                                                 "startTime":  "2026:03:16 00:17:12",
-                                                 "endTime":  "2026:03:16 14:58:21",
-                                                 "latitude":  33.883109,
-                                                 "longitude":  130.876878,
-                                                 "mapUrl":  "https://www.google.com/maps?q=33.883109,130.876878"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260316-02.jpg",
-                                                 "originalName":  "20260316_174819.jpg",
-                                                 "startTime":  "2026:03:16 17:48:19",
-                                                 "endTime":  "2026:03:16 17:48:19",
-                                                 "latitude":  33.839427,
-                                                 "longitude":  131.032104,
-                                                 "mapUrl":  "https://www.google.com/maps?q=33.839427,131.032104"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/kitakyushu-2026-03/places/20260316-03.jpg",
-                                                 "originalName":  "20260316_230104.jpg",
-                                                 "startTime":  "2026:03:16 23:01:04",
-                                                 "endTime":  "2026:03:16 23:01:04",
-                                                 "latitude":  37.471681,
-                                                 "longitude":  127.087529,
-                                                 "mapUrl":  "https://www.google.com/maps?q=37.471681,127.087529"
-                                             }
-                                         ]
-                     }
-                 ]
-    },
-    {
-        "slug":  "nagoya-shizuoka-2025-04",
-        "name":  "나고야 시즈오카 여행 (25.04.12~25.04.15)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2025.04.13",
-                         "title":  "2025.04.13 GPS route",
-                         "places":  [
-
-                                    ],
-                         "note":  "Grouped 20 geotagged photos into 0 representative places.",
-                         "placeGroups":  [
-
-                                         ]
-                     },
-                     {
-                         "day":  "2025.04.14",
-                         "title":  "2025.04.14 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5",
-                                        "Place 6",
-                                        "Place 7",
-                                        "Place 8"
-                                    ],
-                         "note":  "Grouped 155 geotagged photos into 8 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  6,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-01.jpg",
-                                                 "originalName":  "1744625336845-4.jpg",
-                                                 "startTime":  "2025:04:14 08:44:03",
-                                                 "endTime":  "2025:04:14 08:45:50",
-                                                 "latitude":  35.171071,
-                                                 "longitude":  136.908021,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.171071,136.908021"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-02.jpg",
-                                                 "originalName":  "1744625336845-16.jpg",
-                                                 "startTime":  "2025:04:14 10:37:53",
-                                                 "endTime":  "2025:04:14 10:44:23",
-                                                 "latitude":  34.971615,
-                                                 "longitude":  138.389384,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.971615,138.389384"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-03.jpg",
-                                                 "originalName":  "1744625336845-19.jpg",
-                                                 "startTime":  "2025:04:14 11:39:25",
-                                                 "endTime":  "2025:04:14 11:39:26",
-                                                 "latitude":  35.149934,
-                                                 "longitude":  138.630007,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.149934,138.630007"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-04.jpg",
-                                                 "originalName":  "1744625336845-27.jpg",
-                                                 "startTime":  "2025:04:14 13:00:45",
-                                                 "endTime":  "2025:04:14 13:00:49",
-                                                 "latitude":  35.260266,
-                                                 "longitude":  138.614615,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.260266,138.614615"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  31,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-05.jpg",
-                                                 "originalName":  "1744625622898-20.jpg",
-                                                 "startTime":  "2025:04:14 14:07:44",
-                                                 "endTime":  "2025:04:14 15:23:48",
-                                                 "latitude":  35.341401,
-                                                 "longitude":  138.560144,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.341401,138.560144"
-                                             },
-                                             {
-                                                 "label":  "Place 6",
-                                                 "photoCount":  65,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-06.jpg",
-                                                 "originalName":  "1744625637052-30.jpg",
-                                                 "startTime":  "2025:04:14 15:25:58",
-                                                 "endTime":  "2025:04:14 16:37:58",
-                                                 "latitude":  35.342183,
-                                                 "longitude":  138.559631,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.342183,138.559631"
-                                             },
-                                             {
-                                                 "label":  "Place 7",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-07.jpg",
-                                                 "originalName":  "1744626041628-17.jpg",
-                                                 "startTime":  "2025:04:14 16:41:17",
-                                                 "endTime":  "2025:04:14 16:48:23",
-                                                 "latitude":  35.343316,
-                                                 "longitude":  138.560564,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.343316,138.560564"
-                                             },
-                                             {
-                                                 "label":  "Place 8",
-                                                 "photoCount":  10,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250414-08.jpg",
-                                                 "originalName":  "1744626041628-24.jpg",
-                                                 "startTime":  "2025:04:14 16:52:10",
-                                                 "endTime":  "2025:04:14 17:19:07",
-                                                 "latitude":  35.341883,
-                                                 "longitude":  138.561455,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.341883,138.561455"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.04.15",
-                         "title":  "2025.04.15 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4"
-                                    ],
-                         "note":  "Grouped 29 geotagged photos into 4 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  20,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250415-01.jpg",
-                                                 "originalName":  "1744698982120-14.jpg",
-                                                 "startTime":  "2025:04:15 08:44:19",
-                                                 "endTime":  "2025:04:15 11:36:08",
-                                                 "latitude":  35.22426,
-                                                 "longitude":  138.611474,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.22426,138.611474"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250415-02.jpg",
-                                                 "originalName":  "1744699028850-1.jpg",
-                                                 "startTime":  "2025:04:15 12:04:56",
-                                                 "endTime":  "2025:04:15 12:04:56",
-                                                 "latitude":  35.155986,
-                                                 "longitude":  138.639458,
-                                                 "mapUrl":  "https://www.google.com/maps?q=35.155986,138.639458"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  7,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250415-03.jpg",
-                                                 "originalName":  "1744699028850-5.jpg",
-                                                 "startTime":  "2025:04:15 13:01:00",
-                                                 "endTime":  "2025:04:15 14:03:39",
-                                                 "latitude":  34.971052,
-                                                 "longitude":  138.387591,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.971052,138.387591"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/nagoya-shizuoka-2025-04/places/20250415-04.jpg",
-                                                 "originalName":  "1744699028850-10.jpg",
-                                                 "startTime":  "2025:04:15 14:09:20",
-                                                 "endTime":  "2025:04:15 14:09:20",
-                                                 "latitude":  34.95913,
-                                                 "longitude":  138.374189,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.95913,138.374189"
-                                             }
-                                         ]
-                     }
-                 ]
-    },
-    {
-        "slug":  "sapporo-2025-08",
-        "name":  "삿포로 여행 (25.08.25~25.08.28)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2025.08.25",
-                         "title":  "2025.08.25 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5",
-                                        "Place 6",
-                                        "Place 7",
-                                        "Place 8"
-                                    ],
-                         "note":  "Grouped 18 geotagged photos into 8 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-01.jpg",
-                                                 "originalName":  "20250825_053455.jpg",
-                                                 "startTime":  "2025:08:25 05:34:55",
-                                                 "endTime":  "2025:08:25 05:34:55",
-                                                 "latitude":  37.465058,
-                                                 "longitude":  127.094822,
-                                                 "mapUrl":  "https://www.google.com/maps?q=37.465058,127.094822"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-02.jpg",
-                                                 "originalName":  "20250825_090329.jpg",
-                                                 "startTime":  "2025:08:25 07:46:24",
-                                                 "endTime":  "2025:08:25 09:05:40",
-                                                 "latitude":  37.453274,
-                                                 "longitude":  126.450696,
-                                                 "mapUrl":  "https://www.google.com/maps?q=37.453274,126.450696"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-03.jpg",
-                                                 "originalName":  "20250825_095926.jpg",
-                                                 "startTime":  "2025:08:25 09:59:26",
-                                                 "endTime":  "2025:08:25 09:59:26",
-                                                 "latitude":  37.62931,
-                                                 "longitude":  128.280466,
-                                                 "mapUrl":  "https://www.google.com/maps?q=37.62931,128.280466"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  4,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-04.jpg",
-                                                 "originalName":  "20250825_153543.jpg",
-                                                 "startTime":  "2025:08:25 15:11:46",
-                                                 "endTime":  "2025:08:25 16:32:07",
-                                                 "latitude":  43.057893,
-                                                 "longitude":  141.354416,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.057893,141.354416"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-05.jpg",
-                                                 "originalName":  "20250825_173523.jpg",
-                                                 "startTime":  "2025:08:25 17:35:23",
-                                                 "endTime":  "2025:08:25 17:35:23",
-                                                 "latitude":  43.072443,
-                                                 "longitude":  141.367245,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.072443,141.367245"
-                                             },
-                                             {
-                                                 "label":  "Place 6",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-06.jpg",
-                                                 "originalName":  "20250825_192635.jpg",
-                                                 "startTime":  "2025:08:25 19:26:36",
-                                                 "endTime":  "2025:08:25 19:26:36",
-                                                 "latitude":  43.022232,
-                                                 "longitude":  141.322643,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.022232,141.322643"
-                                             },
-                                             {
-                                                 "label":  "Place 7",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-07.jpg",
-                                                 "originalName":  "20250825_203106.jpg",
-                                                 "startTime":  "2025:08:25 20:31:06",
-                                                 "endTime":  "2025:08:25 20:31:08",
-                                                 "latitude":  43.04097,
-                                                 "longitude":  141.343557,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.04097,141.343557"
-                                             },
-                                             {
-                                                 "label":  "Place 8",
-                                                 "photoCount":  5,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250825-08.jpg",
-                                                 "originalName":  "20250825_215959.jpg",
-                                                 "startTime":  "2025:08:25 21:22:36",
-                                                 "endTime":  "2025:08:25 23:28:30",
-                                                 "latitude":  43.053222,
-                                                 "longitude":  141.353104,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.053222,141.353104"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.08.26",
-                         "title":  "2025.08.26 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5",
-                                        "Place 6"
-                                    ],
-                         "note":  "Grouped 11 geotagged photos into 6 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250826-01.jpg",
-                                                 "originalName":  "20250826_064816.jpg",
-                                                 "startTime":  "2025:08:26 06:48:16",
-                                                 "endTime":  "2025:08:26 07:05:23",
-                                                 "latitude":  43.055842,
-                                                 "longitude":  141.351241,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.055842,141.351241"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250826-02.jpg",
-                                                 "originalName":  "20250826_082107.jpg",
-                                                 "startTime":  "2025:08:26 08:21:07",
-                                                 "endTime":  "2025:08:26 08:21:07",
-                                                 "latitude":  43.194922,
-                                                 "longitude":  141.800769,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.194922,141.800769"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250826-03.jpg",
-                                                 "originalName":  "20250826_100709.jpg",
-                                                 "startTime":  "2025:08:26 10:07:09",
-                                                 "endTime":  "2025:08:26 10:52:05",
-                                                 "latitude":  43.529016,
-                                                 "longitude":  142.464517,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.529016,142.464517"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250826-04.jpg",
-                                                 "originalName":  "20250826_130257.jpg",
-                                                 "startTime":  "2025:08:26 13:02:57",
-                                                 "endTime":  "2025:08:26 13:04:52",
-                                                 "latitude":  43.594725,
-                                                 "longitude":  142.467369,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.594725,142.467369"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250826-05.jpg",
-                                                 "originalName":  "20250826_140348.jpg",
-                                                 "startTime":  "2025:08:26 14:03:49",
-                                                 "endTime":  "2025:08:26 14:03:49",
-                                                 "latitude":  43.608385,
-                                                 "longitude":  142.463622,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.608385,142.463622"
-                                             },
-                                             {
-                                                 "label":  "Place 6",
-                                                 "photoCount":  3,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250826-06.jpg",
-                                                 "originalName":  "20250826_193140.jpg",
-                                                 "startTime":  "2025:08:26 19:09:28",
-                                                 "endTime":  "2025:08:26 20:02:54",
-                                                 "latitude":  43.056847,
-                                                 "longitude":  141.350679,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.056847,141.350679"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.08.27",
-                         "title":  "2025.08.27 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5"
-                                    ],
-                         "note":  "Grouped 20 geotagged photos into 5 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  6,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250827-01.jpg",
-                                                 "originalName":  "20250827_094133.jpg",
-                                                 "startTime":  "2025:08:27 09:38:53",
-                                                 "endTime":  "2025:08:27 11:36:54",
-                                                 "latitude":  43.058923,
-                                                 "longitude":  141.352671,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.058923,141.352671"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250827-02.jpg",
-                                                 "originalName":  "20250827_130832.jpg",
-                                                 "startTime":  "2025:08:27 13:08:32",
-                                                 "endTime":  "2025:08:27 14:16:27",
-                                                 "latitude":  43.196436,
-                                                 "longitude":  140.997967,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.196436,140.997967"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  7,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250827-03.jpg",
-                                                 "originalName":  "20250827_172136.jpg",
-                                                 "startTime":  "2025:08:27 17:13:13",
-                                                 "endTime":  "2025:08:27 17:22:54",
-                                                 "latitude":  43.177792,
-                                                 "longitude":  140.972244,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.177792,140.972244"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250827-04.jpg",
-                                                 "originalName":  "20250827_181313.jpg",
-                                                 "startTime":  "2025:08:27 18:13:14",
-                                                 "endTime":  "2025:08:27 18:13:14",
-                                                 "latitude":  43.198685,
-                                                 "longitude":  140.997315,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.198685,140.997315"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  4,
-                                                 "representative":  "/photos/sapporo-2025-08/places/20250827-05.jpg",
-                                                 "originalName":  "20250827_213236.jpg",
-                                                 "startTime":  "2025:08:27 20:28:28",
-                                                 "endTime":  "2025:08:27 22:22:03",
-                                                 "latitude":  43.052669,
-                                                 "longitude":  141.352564,
-                                                 "mapUrl":  "https://www.google.com/maps?q=43.052669,141.352564"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.08.28",
-                         "title":  "2025.08.28 GPS route",
-                         "places":  [
-
-                                    ],
-                         "note":  "Grouped 1 geotagged photos into 0 representative places.",
-                         "placeGroups":  [
-
-                                         ]
-                     }
-                 ]
-    },
-    {
-        "slug":  "hakodate-2025-10",
-        "name":  "하코다테 여행 (25.10.18~25.10.21)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2025.10.18",
-                         "title":  "2025.10.18 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4"
-                                    ],
-                         "note":  "Grouped 53 geotagged photos into 4 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251018-01.jpg",
-                                                 "originalName":  "1760796114149.jpg",
-                                                 "startTime":  "2025:10:18 13:17:29",
-                                                 "endTime":  "2025:10:18 13:18:26",
-                                                 "latitude":  37.457857,
-                                                 "longitude":  126.448379,
-                                                 "mapUrl":  "https://www.google.com/maps?q=37.457857,126.448379"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251018-02.jpg",
-                                                 "originalName":  "1760796114308.jpg",
-                                                 "startTime":  "2025:10:18 17:39:26",
-                                                 "endTime":  "2025:10:18 17:39:26",
-                                                 "latitude":  41.777503,
-                                                 "longitude":  140.808136,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.777503,140.808136"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  20,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251018-03.jpg",
-                                                 "originalName":  "1760796114541.jpg",
-                                                 "startTime":  "2025:10:18 17:59:43",
-                                                 "endTime":  "2025:10:18 18:58:04",
-                                                 "latitude":  41.766653,
-                                                 "longitude":  140.707525,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.766653,140.707525"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  30,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251018-04.jpg",
-                                                 "originalName":  "1760796093995.jpg",
-                                                 "startTime":  "2025:10:18 19:26:11",
-                                                 "endTime":  "2025:10:18 22:44:15",
-                                                 "latitude":  41.766566,
-                                                 "longitude":  140.707673,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.766566,140.707673"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.10.19",
-                         "title":  "2025.10.19 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4",
-                                        "Place 5",
-                                        "Place 6",
-                                        "Place 7"
-                                    ],
-                         "note":  "Grouped 93 geotagged photos into 7 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  9,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-01.jpg",
-                                                 "originalName":  "1760844558950.jpg",
-                                                 "startTime":  "2025:10:19 00:26:01",
-                                                 "endTime":  "2025:10:19 10:12:51",
-                                                 "latitude":  41.76566,
-                                                 "longitude":  140.70642,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.76566,140.70642"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  15,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-02.jpg",
-                                                 "originalName":  "1760844559785.jpg",
-                                                 "startTime":  "2025:10:19 10:42:16",
-                                                 "endTime":  "2025:10:19 12:20:38",
-                                                 "latitude":  41.773112,
-                                                 "longitude":  140.725873,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.773112,140.725873"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  46,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-03.jpg",
-                                                 "originalName":  "1760861832291.jpg",
-                                                 "startTime":  "2025:10:19 13:20:55",
-                                                 "endTime":  "2025:10:19 15:05:45",
-                                                 "latitude":  41.98536,
-                                                 "longitude":  140.671651,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.98536,140.671651"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  2,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-04.jpg",
-                                                 "originalName":  "20251019_161440.jpg",
-                                                 "startTime":  "2025:10:19 16:14:40",
-                                                 "endTime":  "2025:10:19 16:14:41",
-                                                 "latitude":  41.803448,
-                                                 "longitude":  140.734555,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.803448,140.734555"
-                                             },
-                                             {
-                                                 "label":  "Place 5",
-                                                 "photoCount":  7,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-05.jpg",
-                                                 "originalName":  "1760881003677.jpg",
-                                                 "startTime":  "2025:10:19 16:41:48",
-                                                 "endTime":  "2025:10:19 17:06:11",
-                                                 "latitude":  41.795173,
-                                                 "longitude":  140.753992,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.795173,140.753992"
-                                             },
-                                             {
-                                                 "label":  "Place 6",
-                                                 "photoCount":  9,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-06.jpg",
-                                                 "originalName":  "1760881004282.jpg",
-                                                 "startTime":  "2025:10:19 18:20:02",
-                                                 "endTime":  "2025:10:19 21:35:30",
-                                                 "latitude":  41.771997,
-                                                 "longitude":  140.729396,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.771997,140.729396"
-                                             },
-                                             {
-                                                 "label":  "Place 7",
-                                                 "photoCount":  5,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251019-07.jpg",
-                                                 "originalName":  "1760881267082.jpg",
-                                                 "startTime":  "2025:10:19 21:54:50",
-                                                 "endTime":  "2025:10:19 21:55:29",
-                                                 "latitude":  41.764957,
-                                                 "longitude":  140.712967,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.764957,140.712967"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.10.20",
-                         "title":  "2025.10.20 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4"
-                                    ],
-                         "note":  "Grouped 111 geotagged photos into 4 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  56,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251020-01.jpg",
-                                                 "originalName":  "20251020_112836.jpg",
-                                                 "startTime":  "2025:10:20 10:49:52",
-                                                 "endTime":  "2025:10:20 13:25:06",
-                                                 "latitude":  41.755679,
-                                                 "longitude":  140.716005,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.755679,140.716005"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  26,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251020-02.jpg",
-                                                 "originalName":  "1760967006060.jpg",
-                                                 "startTime":  "2025:10:20 13:38:56",
-                                                 "endTime":  "2025:10:20 14:15:28",
-                                                 "latitude":  41.745533,
-                                                 "longitude":  140.720838,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.745533,140.720838"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  25,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251020-03.jpg",
-                                                 "originalName":  "1760968015238.jpg",
-                                                 "startTime":  "2025:10:20 14:36:27",
-                                                 "endTime":  "2025:10:20 17:50:06",
-                                                 "latitude":  41.757856,
-                                                 "longitude":  140.706321,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.757856,140.706321"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  4,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251020-04.jpg",
-                                                 "originalName":  "1760968087715.jpg",
-                                                 "startTime":  "2025:10:20 20:27:19",
-                                                 "endTime":  "2025:10:20 21:45:02",
-                                                 "latitude":  41.812803,
-                                                 "longitude":  140.762242,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.812803,140.762242"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.10.21",
-                         "title":  "2025.10.21 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2",
-                                        "Place 3",
-                                        "Place 4"
-                                    ],
-                         "note":  "Grouped 15 geotagged photos into 4 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  5,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251021-01.jpg",
-                                                 "originalName":  "1761034019614.jpg",
-                                                 "startTime":  "2025:10:21 09:31:55",
-                                                 "endTime":  "2025:10:21 10:48:04",
-                                                 "latitude":  41.767093,
-                                                 "longitude":  140.704566,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.767093,140.704566"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  8,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251021-02.jpg",
-                                                 "originalName":  "1761034015715.jpg",
-                                                 "startTime":  "2025:10:21 12:00:10",
-                                                 "endTime":  "2025:10:21 13:03:56",
-                                                 "latitude":  41.766995,
-                                                 "longitude":  140.716798,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.766995,140.716798"
-                                             },
-                                             {
-                                                 "label":  "Place 3",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251021-03.jpg",
-                                                 "originalName":  "1761034015913.jpg",
-                                                 "startTime":  "2025:10:21 14:34:30",
-                                                 "endTime":  "2025:10:21 14:34:30",
-                                                 "latitude":  41.771689,
-                                                 "longitude":  140.727386,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.771689,140.727386"
-                                             },
-                                             {
-                                                 "label":  "Place 4",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/hakodate-2025-10/places/20251021-04.jpg",
-                                                 "originalName":  "1761034020158.jpg",
-                                                 "startTime":  "2025:10:21 16:14:56",
-                                                 "endTime":  "2025:10:21 16:14:56",
-                                                 "latitude":  41.775783,
-                                                 "longitude":  140.814392,
-                                                 "mapUrl":  "https://www.google.com/maps?q=41.775783,140.814392"
-                                             }
-                                         ]
-                     }
-                 ]
-    },
-    {
-        "slug":  "hiroshima-2025-12",
-        "name":  "히로시마 여행 (25.12.13~25.12.16)",
-        "placeRadiusKm":  1,
-        "days":  [
-                     {
-                         "day":  "2025.12.13",
-                         "title":  "2025.12.13 GPS route",
-                         "places":  [
-
-                                    ],
-                         "note":  "Grouped 8 geotagged photos into 0 representative places.",
-                         "placeGroups":  [
-
-                                         ]
-                     },
-                     {
-                         "day":  "2025.12.14",
-                         "title":  "2025.12.14 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2"
-                                    ],
-                         "note":  "Grouped 25 geotagged photos into 2 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  24,
-                                                 "representative":  "/photos/hiroshima-2025-12/places/20251214-01.jpg",
-                                                 "originalName":  "1765702073586.jpg",
-                                                 "startTime":  "2025:12:14 13:49:29",
-                                                 "endTime":  "2025:12:14 15:33:04",
-                                                 "latitude":  34.296574,
-                                                 "longitude":  132.319408,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.296574,132.319408"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/hiroshima-2025-12/places/20251214-02.jpg",
-                                                 "originalName":  "20251214_210118.jpg",
-                                                 "startTime":  "2025:12:14 21:01:18",
-                                                 "endTime":  "2025:12:14 21:01:18",
-                                                 "latitude":  34.393873,
-                                                 "longitude":  132.456478,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.393873,132.456478"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.12.15",
-                         "title":  "2025.12.15 GPS route",
-                         "places":  [
-                                        "Place 1",
-                                        "Place 2"
-                                    ],
-                         "note":  "Grouped 29 geotagged photos into 2 representative places.",
-                         "placeGroups":  [
-                                             {
-                                                 "label":  "Place 1",
-                                                 "photoCount":  1,
-                                                 "representative":  "/photos/hiroshima-2025-12/places/20251215-01.jpg",
-                                                 "originalName":  "20251215_120142.jpg",
-                                                 "startTime":  "2025:12:15 12:01:42",
-                                                 "endTime":  "2025:12:15 12:01:42",
-                                                 "latitude":  34.394698,
-                                                 "longitude":  132.456016,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.394698,132.456016"
-                                             },
-                                             {
-                                                 "label":  "Place 2",
-                                                 "photoCount":  28,
-                                                 "representative":  "/photos/hiroshima-2025-12/places/20251215-02.jpg",
-                                                 "originalName":  "1765793344787.jpg",
-                                                 "startTime":  "2025:12:15 15:12:29",
-                                                 "endTime":  "2025:12:15 17:23:52",
-                                                 "latitude":  34.408858,
-                                                 "longitude":  133.200482,
-                                                 "mapUrl":  "https://www.google.com/maps?q=34.408858,133.200482"
-                                             }
-                                         ]
-                     },
-                     {
-                         "day":  "2025.12.16",
-                         "title":  "2025.12.16 GPS route",
-                         "places":  [
-
-                                    ],
-                         "note":  "Grouped 12 geotagged photos into 0 representative places.",
-                         "placeGroups":  [
-
-                                         ]
-                     }
-                 ]
-    }
+  {
+    "slug": "kagoshima-2026-05",
+    "name": "가고시마 여행 (26.05.15~26.05.18)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2026.05.16",
+        "title": "2026.05.16 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5"
+        ],
+        "note": "Grouped 17 geotagged photos into 5 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 7,
+            "representative": "/photos/kagoshima-2026-05/places/20260516-01.jpg",
+            "originalName": "20260516_103137.jpg",
+            "startTime": "2026:05:16 10:24:08",
+            "endTime": "2026:05:16 10:45:16",
+            "latitude": 31.582906,
+            "longitude": 130.548265,
+            "mapUrl": "https://www.google.com/maps?q=31.582906,130.548265",
+            "resolvedName": "Chuo",
+            "area": "Chuo, 가고시마시",
+            "address": "Uenosono-cho, Chuo, 가고시마시, 가고시마현, 892-8677, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 2,
+            "representative": "/photos/kagoshima-2026-05/places/20260516-02.jpg",
+            "originalName": "20260516_105329.jpg",
+            "startTime": "2026:05:16 10:53:29",
+            "endTime": "2026:05:16 10:53:34",
+            "latitude": 31.596671,
+            "longitude": 130.562746,
+            "mapUrl": "https://www.google.com/maps?q=31.596671,130.562746",
+            "resolvedName": "鹿児島港臨港道路",
+            "area": "Chuo, 가고시마시",
+            "address": "鹿児島港臨港道路, Ogawa-cho, Chuo, 가고시마시, 가고시마현, 892-8677, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 3,
+            "representative": "/photos/kagoshima-2026-05/places/20260516-03.jpg",
+            "originalName": "20260516_174011.jpg",
+            "startTime": "2026:05:16 17:34:18",
+            "endTime": "2026:05:16 17:40:17",
+            "latitude": 31.229515,
+            "longitude": 130.651838,
+            "mapUrl": "https://www.google.com/maps?q=31.229515,130.651838",
+            "resolvedName": "下里湊宮ヶ浜線",
+            "area": "Yunohama 5-chome, 이부스키시",
+            "address": "下里湊宮ヶ浜線, Yunohama 5-chome, Yunohama, 이부스키시, 가고시마현, 891-0406, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 1,
+            "representative": "/photos/kagoshima-2026-05/places/20260516-04.jpg",
+            "originalName": "20260516_180149.jpg",
+            "startTime": "2026:05:16 18:01:49",
+            "endTime": "2026:05:16 18:01:49",
+            "latitude": 31.159495,
+            "longitude": 130.588124,
+            "mapUrl": "https://www.google.com/maps?q=31.159495,130.588124",
+            "resolvedName": "龍宮神社",
+            "area": "Yamagawa-Okachogamizu, 이부스키시",
+            "address": "龍宮神社, 長崎鼻公園開聞線, Yamagawa-Okachogamizu, 이부스키시, 가고시마현, 891-0513, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 4,
+            "representative": "/photos/kagoshima-2026-05/places/20260516-05.jpg",
+            "originalName": "20260516_203909.jpg",
+            "startTime": "2026:05:16 20:32:42",
+            "endTime": "2026:05:16 21:22:37",
+            "latitude": 31.594594,
+            "longitude": 130.54732,
+            "mapUrl": "https://www.google.com/maps?q=31.594594,130.54732",
+            "resolvedName": "Shiroyama hotel Kagoshima",
+            "area": "Jousei, 가고시마시",
+            "address": "Shiroyama hotel Kagoshima, 創夢トンネル, Shinsyoin-cho, Jousei, 가고시마시, 가고시마현, 892-8677, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2026.05.17",
+        "title": "2026.05.17 GPS route",
+        "places": [],
+        "note": "Grouped 2 geotagged photos into 0 representative places.",
+        "placeGroups": []
+      },
+      {
+        "day": "2026.05.18",
+        "title": "2026.05.18 GPS route",
+        "places": [],
+        "note": "Grouped 3 geotagged photos into 0 representative places.",
+        "placeGroups": []
+      }
+    ]
+  },
+  {
+    "slug": "kyoto-nara-2025-02",
+    "name": "교토 나라 여행 (25.02.08~25.02.11)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2025.02.08",
+        "title": "2025.02.08 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5",
+          "Place 6",
+          "Place 7"
+        ],
+        "note": "Grouped 56 geotagged photos into 7 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 3,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-01.jpg",
+            "originalName": "1739007529620-2.jpg",
+            "startTime": "2025:02:08 01:28:32",
+            "endTime": "2025:02:08 10:49:24",
+            "latitude": 34.646187,
+            "longitude": 135.502818,
+            "mapUrl": "https://www.google.com/maps?q=34.646187,135.502818",
+            "resolvedName": "Sakai Street",
+            "area": "Taishi 2-chome, 오사카시",
+            "address": "Sakai Street, Taishi 2-chome, Nishinari Ward, 오사카시, 오사카부, 557-0001, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-02.jpg",
+            "originalName": "1739007529620-6.jpg",
+            "startTime": "2025:02:08 12:18:37",
+            "endTime": "2025:02:08 12:18:37",
+            "latitude": 34.760842,
+            "longitude": 135.534836,
+            "mapUrl": "https://www.google.com/maps?q=34.760842,135.534836",
+            "resolvedName": "大阪府済生会吹田病院",
+            "area": "스이타시",
+            "address": "大阪府済生会吹田病院, 스이타시, 오사카부, 564-0013, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 3,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-03.jpg",
+            "originalName": "1739007529620-8.jpg",
+            "startTime": "2025:02:08 13:37:43",
+            "endTime": "2025:02:08 14:23:40",
+            "latitude": 35.022672,
+            "longitude": 135.745183,
+            "mapUrl": "https://www.google.com/maps?q=35.022672,135.745183",
+            "resolvedName": "Shimocyojamachi-dori",
+            "area": "Nishitatsumicho, 교토시",
+            "address": "Shimocyojamachi-dori, Nishitatsumicho, 가미교구, 교토시, 교토부, 602-8177, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 5,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-04.jpg",
+            "originalName": "1739007529620-12.jpg",
+            "startTime": "2025:02:08 14:44:39",
+            "endTime": "2025:02:08 15:26:55",
+            "latitude": 35.020022,
+            "longitude": 135.75633,
+            "mapUrl": "https://www.google.com/maps?q=35.020022,135.75633",
+            "resolvedName": "Shimodachiuri-dori",
+            "area": "Higashitachiuricho, 교토시",
+            "address": "天に星　地に花　人に愛, Shimodachiuri-dori, Higashitachiuricho, 가미교구, 교토시, 교토부, 602-8031, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 18,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-05.jpg",
+            "originalName": "1739007529620-24.jpg",
+            "startTime": "2025:02:08 16:17:51",
+            "endTime": "2025:02:08 16:43:55",
+            "latitude": 35.026659,
+            "longitude": 135.798195,
+            "mapUrl": "https://www.google.com/maps?q=35.026659,135.798195",
+            "resolvedName": "지쇼지",
+            "area": "Ginkakujichō, 교토시",
+            "address": "지쇼지, Ginkakujichō, 사쿄구, 교토시, 교토부, 606-8402, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 6",
+            "photoCount": 1,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-06.jpg",
+            "originalName": "1739022129009-4.jpg",
+            "startTime": "2025:02:08 17:24:39",
+            "endTime": "2025:02:08 17:24:39",
+            "latitude": 35.017372,
+            "longitude": 135.7807,
+            "mapUrl": "https://www.google.com/maps?q=35.017372,135.7807",
+            "resolvedName": "Kyoto Handicraft Center",
+            "area": "Shogoin-Sannocho, 교토시",
+            "address": "Kyoto Handicraft Center, 17, Marutamachi Street, Shogoin-Sannocho, 吉田上大路町, 사쿄구, 교토시, 교토부, 606-8341, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 7",
+            "photoCount": 25,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250208-07.jpg",
+            "originalName": "1739022129009-19.jpg",
+            "startTime": "2025:02:08 17:40:26",
+            "endTime": "2025:02:08 21:35:38",
+            "latitude": 35.005272,
+            "longitude": 135.767549,
+            "mapUrl": "https://www.google.com/maps?q=35.005272,135.767549",
+            "resolvedName": "パッサージオ（吉本ビル）",
+            "area": "나카교구, 교토시",
+            "address": "パッサージオ（吉本ビル）, 나카교구, 교토시, 교토부, 604-8046, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.02.09",
+        "title": "2025.02.09 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5"
+        ],
+        "note": "Grouped 71 geotagged photos into 5 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 1,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250209-01.jpg",
+            "originalName": "1739063705264.jpg",
+            "startTime": "2025:02:09 00:26:42",
+            "endTime": "2025:02:09 00:26:42",
+            "latitude": 35.022728,
+            "longitude": 135.741256,
+            "mapUrl": "https://www.google.com/maps?q=35.022728,135.741256",
+            "resolvedName": "Rokkenmachi-dori",
+            "area": "Yonbancho, 교토시",
+            "address": "Rokkenmachi-dori, Yonbancho, 가미교구, 교토시, 교토부, 602-8275, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 35,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250209-02.jpg",
+            "originalName": "1739115777929-23.jpg",
+            "startTime": "2025:02:09 15:16:33",
+            "endTime": "2025:02:09 15:51:40",
+            "latitude": 34.994737,
+            "longitude": 135.784319,
+            "mapUrl": "https://www.google.com/maps?q=34.994737,135.784319",
+            "resolvedName": "Tokiwa Bridge",
+            "area": "Kiyomizu 1-chōme, 교토시",
+            "address": "Tokiwa Bridge, Kiyomizu 1-chōme, 辰巳町, 히가시야마구, 교토시, 교토부, 605-0862, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 21,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250209-03.jpg",
+            "originalName": "1739115753757-21.jpg",
+            "startTime": "2025:02:09 16:32:29",
+            "endTime": "2025:02:09 17:32:25",
+            "latitude": 34.968396,
+            "longitude": 135.776064,
+            "mapUrl": "https://www.google.com/maps?q=34.968396,135.776064",
+            "resolvedName": "Jyukkoku-bashi Bridge",
+            "area": "Fukakusa-Kaidoguchicho, 교토시",
+            "address": "お山参詣道／神苑, Jyukkoku-bashi Bridge, Fukakusa-Kaidoguchicho, 후시미구, 교토시, 교토부, 612-0807, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 8,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250209-04.jpg",
+            "originalName": "1739115726762-13.jpg",
+            "startTime": "2025:02:09 18:18:13",
+            "endTime": "2025:02:09 21:27:14",
+            "latitude": 34.988594,
+            "longitude": 135.762142,
+            "mapUrl": "https://www.google.com/maps?q=34.988594,135.762142",
+            "resolvedName": "Ainomachi street",
+            "area": "Horizumecho, 교토시",
+            "address": "Ainomachi street, Horizumecho, 시모교구, 교토시, 교토부, 600-8213, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 6,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250209-05.jpg",
+            "originalName": "1739115726762-20.jpg",
+            "startTime": "2025:02:09 21:53:25",
+            "endTime": "2025:02:09 22:05:29",
+            "latitude": 35.003508,
+            "longitude": 135.776893,
+            "mapUrl": "https://www.google.com/maps?q=35.003508,135.776893",
+            "resolvedName": "Tsuruha",
+            "area": "Giommachi-Minamigawa, 교토시",
+            "address": "Tsuruha, Higashiōji Street, Giommachi-Minamigawa, 辰巳町, 히가시야마구, 교토시, 교토부, 605-0829, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.02.10",
+        "title": "2025.02.10 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5",
+          "Place 6"
+        ],
+        "note": "Grouped 108 geotagged photos into 6 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 4,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250210-01.jpg",
+            "originalName": "1739197777982-2.jpg",
+            "startTime": "2025:02:10 01:27:35",
+            "endTime": "2025:02:10 01:27:46",
+            "latitude": 35.022794,
+            "longitude": 135.741268,
+            "mapUrl": "https://www.google.com/maps?q=35.022794,135.741268",
+            "resolvedName": "Rokubancho",
+            "area": "Rokubancho, 교토시",
+            "address": "Rokubancho, 가미교구, 교토시, 교토부, 602-8275, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 2,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250210-02.jpg",
+            "originalName": "1739197777982-5.jpg",
+            "startTime": "2025:02:10 12:04:26",
+            "endTime": "2025:02:10 12:28:26",
+            "latitude": 34.979439,
+            "longitude": 135.752121,
+            "mapUrl": "https://www.google.com/maps?q=34.979439,135.752121",
+            "resolvedName": "Kujō Street",
+            "area": "Nishikujo-Kawarajocho, 교토시",
+            "address": "Kujō Street, Nishikujo-Kawarajocho, 미나미구, 교토시, 교토부, 601-8438, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 3,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250210-03.jpg",
+            "originalName": "1739197777982-8.jpg",
+            "startTime": "2025:02:10 13:17:22",
+            "endTime": "2025:02:10 13:59:38",
+            "latitude": 34.686322,
+            "longitude": 135.807474,
+            "mapUrl": "https://www.google.com/maps?q=34.686322,135.807474",
+            "resolvedName": "Omiyacho 6-chome",
+            "area": "Omiyacho 6-chome, 나라시",
+            "address": "Omiyacho 6-chome, 나라시, 나라현, 630-8144, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 80,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250210-04.jpg",
+            "originalName": "1739197848435-24.jpg",
+            "startTime": "2025:02:10 14:55:03",
+            "endTime": "2025:02:10 17:23:10",
+            "latitude": 34.682226,
+            "longitude": 135.842792,
+            "mapUrl": "https://www.google.com/maps?q=34.682226,135.842792",
+            "resolvedName": "Kasuganochō",
+            "area": "Kasuganochō, 나라시",
+            "address": "가스가타이샤, Kasuganochō, 나라시, 나라현, 630-8212, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 14,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250210-05.jpg",
+            "originalName": "1757601348209.jpg",
+            "startTime": "2025:02:10 17:48:01",
+            "endTime": "2025:02:10 21:13:30",
+            "latitude": 34.682794,
+            "longitude": 135.819276,
+            "mapUrl": "https://www.google.com/maps?q=34.682794,135.819276",
+            "resolvedName": "コインランドリー セレパーク奈良大宮店",
+            "area": "Aburasaka-jikatacho, 나라시",
+            "address": "コインランドリー セレパーク奈良大宮店, Sanjō Dōri, Aburasaka-jikatacho, 나라시, 나라현, 630-8122, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 6",
+            "photoCount": 5,
+            "representative": "/photos/kyoto-nara-2025-02/places/20250210-06.jpg",
+            "originalName": "1739197907685-23.jpg",
+            "startTime": "2025:02:10 21:24:07",
+            "endTime": "2025:02:10 23:14:50",
+            "latitude": 34.687238,
+            "longitude": 135.805578,
+            "mapUrl": "https://www.google.com/maps?q=34.687238,135.805578",
+            "resolvedName": "Nara Bypass",
+            "area": "Sakyo 6-chome, 나라시",
+            "address": "Nara Bypass, Sakyo 6-chome, 나라시, 나라현, 631-8001, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "kitakyushu-2026-03",
+    "name": "기타큐슈 여행 (26.03.14~26.03.16)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2026.03.14",
+        "title": "2026.03.14 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2"
+        ],
+        "note": "Grouped 4 geotagged photos into 2 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 1,
+            "representative": "/photos/kitakyushu-2026-03/places/20260314-01.jpg",
+            "originalName": "20260314_160911.jpg",
+            "startTime": "2026:03:14 16:09:11",
+            "endTime": "2026:03:14 16:09:11",
+            "latitude": 37.470316,
+            "longitude": 126.428854,
+            "mapUrl": "https://www.google.com/maps?q=37.470316,126.428854",
+            "resolvedName": "공항제2터미널고가도로",
+            "area": "운서동, 인천광역시",
+            "address": "208, 272, 공항제2터미널고가도로, 운서동, 중구, 인천광역시, 22382, 대한민국",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 3,
+            "representative": "/photos/kitakyushu-2026-03/places/20260314-02.jpg",
+            "originalName": "20260314_214524.jpg",
+            "startTime": "2026:03:14 21:26:08",
+            "endTime": "2026:03:14 21:45:31",
+            "latitude": 33.922109,
+            "longitude": 130.919169,
+            "mapUrl": "https://www.google.com/maps?q=33.922109,130.919169",
+            "resolvedName": "彦島山中町一丁目",
+            "area": "彦島山中町一丁目, 시모노세키시",
+            "address": "彦島山中町一丁目, 彦島桜ケ丘町, 시모노세키시, 야마구치현, 750-0086, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2026.03.15",
+        "title": "2026.03.15 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2"
+        ],
+        "note": "Grouped 4 geotagged photos into 2 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 3,
+            "representative": "/photos/kitakyushu-2026-03/places/20260315-01.jpg",
+            "originalName": "20260315_130732.jpg",
+            "startTime": "2026:03:15 13:04:14",
+            "endTime": "2026:03:15 13:07:34",
+            "latitude": 33.947589,
+            "longitude": 130.964056,
+            "mapUrl": "https://www.google.com/maps?q=33.947589,130.964056",
+            "resolvedName": "Higashihonmachi 1-chome",
+            "area": "Higashihonmachi 1-chome, 기타큐슈시",
+            "address": "Higashihonmachi 1-chome, Minatomachi, 모지 구, 기타큐슈시, 후쿠오카현, 801-0862, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/kitakyushu-2026-03/places/20260315-02.jpg",
+            "originalName": "20260315_221514.jpg",
+            "startTime": "2026:03:15 22:15:14",
+            "endTime": "2026:03:15 22:15:14",
+            "latitude": 33.879213,
+            "longitude": 130.8844,
+            "mapUrl": "https://www.google.com/maps?q=33.879213,130.8844",
+            "resolvedName": "Nakatsuguchi 2-chome",
+            "area": "Nakatsuguchi 2-chome, 기타큐슈시",
+            "address": "Nakatsuguchi 2-chome, Furusenbamachi, 쿠라키타 구, 기타큐슈시, 후쿠오카현, 802-0081, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2026.03.16",
+        "title": "2026.03.16 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3"
+        ],
+        "note": "Grouped 6 geotagged photos into 3 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 4,
+            "representative": "/photos/kitakyushu-2026-03/places/20260316-01.jpg",
+            "originalName": "20260316_113912.jpg",
+            "startTime": "2026:03:16 00:17:12",
+            "endTime": "2026:03:16 14:58:21",
+            "latitude": 33.883109,
+            "longitude": 130.876878,
+            "mapUrl": "https://www.google.com/maps?q=33.883109,130.876878",
+            "resolvedName": "秋月街道",
+            "area": "Uomachi 3-chome, 기타큐슈시",
+            "address": "秋月街道, Uomachi 3-chome, Senbamachi, 쿠라키타 구, 기타큐슈시, 후쿠오카현, 802-0007, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/kitakyushu-2026-03/places/20260316-02.jpg",
+            "originalName": "20260316_174819.jpg",
+            "startTime": "2026:03:16 17:48:19",
+            "endTime": "2026:03:16 17:48:19",
+            "latitude": 33.839427,
+            "longitude": 131.032104,
+            "mapUrl": "https://www.google.com/maps?q=33.839427,131.032104",
+            "resolvedName": "南展望デッキ",
+            "area": "Kokura-Minami Ward, 기타큐슈시",
+            "address": "南展望デッキ, 市道空港北町1号線, Kuko-kitamachi, Kokura-Minami Ward, 기타큐슈시, 후쿠오카현, 800-0306, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 1,
+            "representative": "/photos/kitakyushu-2026-03/places/20260316-03.jpg",
+            "originalName": "20260316_230104.jpg",
+            "startTime": "2026:03:16 23:01:04",
+            "endTime": "2026:03:16 23:01:04",
+            "latitude": 37.471681,
+            "longitude": 127.087529,
+            "mapUrl": "https://www.google.com/maps?q=37.471681,127.087529",
+            "resolvedName": "CU 자곡힐스테이트점",
+            "area": "세곡동, 서울특별시",
+            "address": "CU 자곡힐스테이트점, 21, 자곡로3길, 자곡동, 세곡동, 강남구, 서울특별시, 06374, 대한민국",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nagoya-shizuoka-2025-04",
+    "name": "나고야 시즈오카 여행 (25.04.12~25.04.15)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2025.04.13",
+        "title": "2025.04.13 GPS route",
+        "places": [],
+        "note": "Grouped 20 geotagged photos into 0 representative places.",
+        "placeGroups": []
+      },
+      {
+        "day": "2025.04.14",
+        "title": "2025.04.14 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5",
+          "Place 6",
+          "Place 7",
+          "Place 8"
+        ],
+        "note": "Grouped 155 geotagged photos into 8 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 6,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-01.jpg",
+            "originalName": "1744625336845-4.jpg",
+            "startTime": "2025:04:14 08:44:03",
+            "endTime": "2025:04:14 08:45:50",
+            "latitude": 35.171071,
+            "longitude": 136.908021,
+            "mapUrl": "https://www.google.com/maps?q=35.171071,136.908021",
+            "resolvedName": "Hisaya-odori",
+            "area": "Shinsakaemachi 1-chome, 나고야시",
+            "address": "Hisaya-odori, Shinsakaemachi 1-chome, Shinsakaemachi, 나카구, 나고야시, 아이치현, 460-0005, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 2,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-02.jpg",
+            "originalName": "1744625336845-16.jpg",
+            "startTime": "2025:04:14 10:37:53",
+            "endTime": "2025:04:14 10:44:23",
+            "latitude": 34.971615,
+            "longitude": 138.389384,
+            "mapUrl": "https://www.google.com/maps?q=34.971615,138.389384",
+            "resolvedName": "Ishida-kaido",
+            "area": "稲川二丁目, 시즈오카시",
+            "address": "静岡駅, Ishida-kaido, 稲川二丁目, 南町, 스루가구, 시즈오카시, 시즈오카현, 422-8550, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 2,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-03.jpg",
+            "originalName": "1744625336845-19.jpg",
+            "startTime": "2025:04:14 11:39:25",
+            "endTime": "2025:04:14 11:39:26",
+            "latitude": 35.149934,
+            "longitude": 138.630007,
+            "mapUrl": "https://www.google.com/maps?q=35.149934,138.630007",
+            "resolvedName": "Matsutomicho",
+            "area": "Matsutomicho, 후지시",
+            "address": "Matsutomicho, Shichogawaraminami, 후지시, 시즈오카현, 416-0909, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 2,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-04.jpg",
+            "originalName": "1744625336845-27.jpg",
+            "startTime": "2025:04:14 13:00:45",
+            "endTime": "2025:04:14 13:00:49",
+            "latitude": 35.260266,
+            "longitude": 138.614615,
+            "mapUrl": "https://www.google.com/maps?q=35.260266,138.614615",
+            "resolvedName": "外神",
+            "area": "外神, 후지노미야시",
+            "address": "外神, 후지노미야시, 시즈오카현, 418-0007, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 31,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-05.jpg",
+            "originalName": "1744625622898-20.jpg",
+            "startTime": "2025:04:14 14:07:44",
+            "endTime": "2025:04:14 15:23:48",
+            "latitude": 35.341401,
+            "longitude": 138.560144,
+            "mapUrl": "https://www.google.com/maps?q=35.341401,138.560144",
+            "resolvedName": "Tanuki Lake Campground",
+            "area": "후지노미야시",
+            "address": "Tanuki Lake Campground, Tokai Nature Trail, 후지노미야시, 미나미코마군, 시즈오카현, 418-0107, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 6",
+            "photoCount": 65,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-06.jpg",
+            "originalName": "1744625637052-30.jpg",
+            "startTime": "2025:04:14 15:25:58",
+            "endTime": "2025:04:14 16:37:58",
+            "latitude": 35.342183,
+            "longitude": 138.559631,
+            "mapUrl": "https://www.google.com/maps?q=35.342183,138.559631",
+            "resolvedName": "Tanuki Lake Campground",
+            "area": "후지노미야시",
+            "address": "Tanuki Lake Campground, Tokai Nature Trail, 후지노미야시, 미나미코마군, 시즈오카현, 418-0107, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 7",
+            "photoCount": 3,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-07.jpg",
+            "originalName": "1744626041628-17.jpg",
+            "startTime": "2025:04:14 16:41:17",
+            "endTime": "2025:04:14 16:48:23",
+            "latitude": 35.343316,
+            "longitude": 138.560564,
+            "mapUrl": "https://www.google.com/maps?q=35.343316,138.560564",
+            "resolvedName": "Tanuki Lake Campground",
+            "area": "후지노미야시",
+            "address": "Tanuki Lake Campground, Tokai Nature Trail, 후지노미야시, 미나미코마군, 시즈오카현, 418-0107, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 8",
+            "photoCount": 10,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250414-08.jpg",
+            "originalName": "1744626041628-24.jpg",
+            "startTime": "2025:04:14 16:52:10",
+            "endTime": "2025:04:14 17:19:07",
+            "latitude": 35.341883,
+            "longitude": 138.561455,
+            "mapUrl": "https://www.google.com/maps?q=35.341883,138.561455",
+            "resolvedName": "후지노미야시, 시즈오카현, 418-0107, 일본",
+            "area": "후지노미야시",
+            "address": "후지노미야시, 시즈오카현, 418-0107, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.04.15",
+        "title": "2025.04.15 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4"
+        ],
+        "note": "Grouped 29 geotagged photos into 4 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 20,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250415-01.jpg",
+            "originalName": "1744698982120-14.jpg",
+            "startTime": "2025:04:15 08:44:19",
+            "endTime": "2025:04:15 11:36:08",
+            "latitude": 35.22426,
+            "longitude": 138.611474,
+            "mapUrl": "https://www.google.com/maps?q=35.22426,138.611474",
+            "resolvedName": "Ōmiyachō",
+            "area": "Ōmiyachō, 후지노미야시",
+            "address": "Ōmiyachō, 후지노미야시, 시즈오카현, 418-0066, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250415-02.jpg",
+            "originalName": "1744699028850-1.jpg",
+            "startTime": "2025:04:15 12:04:56",
+            "endTime": "2025:04:15 12:04:56",
+            "latitude": 35.155986,
+            "longitude": 138.639458,
+            "mapUrl": "https://www.google.com/maps?q=35.155986,138.639458",
+            "resolvedName": "Yunoki",
+            "area": "Yunoki, 후지시",
+            "address": "Yunoki, Hashishita, 후지시, 시즈오카현, 416-0908, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 7,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250415-03.jpg",
+            "originalName": "1744699028850-5.jpg",
+            "startTime": "2025:04:15 13:01:00",
+            "endTime": "2025:04:15 14:03:39",
+            "latitude": 34.971052,
+            "longitude": 138.387591,
+            "mapUrl": "https://www.google.com/maps?q=34.971052,138.387591",
+            "resolvedName": "National Highway Route 1",
+            "area": "南安倍一丁目, 시즈오카시",
+            "address": "静岡駅, National Highway Route 1, 南安倍一丁目, 西門町, 아오이구, 시즈오카시, 시즈오카현, 420-8602, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 1,
+            "representative": "/photos/nagoya-shizuoka-2025-04/places/20250415-04.jpg",
+            "originalName": "1744699028850-10.jpg",
+            "startTime": "2025:04:15 14:09:20",
+            "endTime": "2025:04:15 14:09:20",
+            "latitude": 34.95913,
+            "longitude": 138.374189,
+            "mapUrl": "https://www.google.com/maps?q=34.95913,138.374189",
+            "resolvedName": "南安倍三丁目",
+            "area": "南安倍三丁目, 시즈오카시",
+            "address": "南安倍三丁目, 緑が丘町, 스루가구, 시즈오카시, 시즈오카현, 422-8550, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sapporo-2025-08",
+    "name": "삿포로 여행 (25.08.25~25.08.28)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2025.08.25",
+        "title": "2025.08.25 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5",
+          "Place 6",
+          "Place 7",
+          "Place 8"
+        ],
+        "note": "Grouped 18 geotagged photos into 8 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250825-01.jpg",
+            "originalName": "20250825_053455.jpg",
+            "startTime": "2025:08:25 05:34:55",
+            "endTime": "2025:08:25 05:34:55",
+            "latitude": 37.465058,
+            "longitude": 127.094822,
+            "mapUrl": "https://www.google.com/maps?q=37.465058,127.094822",
+            "resolvedName": "헌릉로",
+            "area": "은곡마을, 서울특별시",
+            "address": "헌릉로, 은곡마을, 세곡동, 강남구, 서울특별시, 06375, 대한민국",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 3,
+            "representative": "/photos/sapporo-2025-08/places/20250825-02.jpg",
+            "originalName": "20250825_090329.jpg",
+            "startTime": "2025:08:25 07:46:24",
+            "endTime": "2025:08:25 09:05:40",
+            "latitude": 37.453274,
+            "longitude": 126.450696,
+            "mapUrl": "https://www.google.com/maps?q=37.453274,126.450696",
+            "resolvedName": "공항대로",
+            "area": "운서동, 인천광역시",
+            "address": "22, 272, 공항대로, 운서동, 중구, 인천광역시, 22382, 대한민국",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250825-03.jpg",
+            "originalName": "20250825_095926.jpg",
+            "startTime": "2025:08:25 09:59:26",
+            "endTime": "2025:08:25 09:59:26",
+            "latitude": 37.62931,
+            "longitude": 128.280466,
+            "mapUrl": "https://www.google.com/maps?q=37.62931,128.280466",
+            "resolvedName": "봉평면",
+            "area": "봉평면",
+            "address": "봉평면, 평창군, 강원특별자치도, 대한민국",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 4,
+            "representative": "/photos/sapporo-2025-08/places/20250825-04.jpg",
+            "originalName": "20250825_153543.jpg",
+            "startTime": "2025:08:25 15:11:46",
+            "endTime": "2025:08:25 16:32:07",
+            "latitude": 43.057893,
+            "longitude": 141.354416,
+            "mapUrl": "https://www.google.com/maps?q=43.057893,141.354416",
+            "resolvedName": "Minami-2-jo-Nishi 3-chome",
+            "area": "Minami-2-jo-Nishi 3-chome, 삿포로시",
+            "address": "Minami-2-jo-Nishi 3-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-8502, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250825-05.jpg",
+            "originalName": "20250825_173523.jpg",
+            "startTime": "2025:08:25 17:35:23",
+            "endTime": "2025:08:25 17:35:23",
+            "latitude": 43.072443,
+            "longitude": 141.367245,
+            "mapUrl": "https://www.google.com/maps?q=43.072443,141.367245",
+            "resolvedName": "Kita8jo dori",
+            "area": "Kita-7-jo-Higashi 9-chome, 삿포로시",
+            "address": "Kita8jo dori, Kita-7-jo-Higashi 9-chome, Higashi Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 065-8633, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 6",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250825-06.jpg",
+            "originalName": "20250825_192635.jpg",
+            "startTime": "2025:08:25 19:26:36",
+            "endTime": "2025:08:25 19:26:36",
+            "latitude": 43.022232,
+            "longitude": 141.322643,
+            "mapUrl": "https://www.google.com/maps?q=43.022232,141.322643",
+            "resolvedName": "幸せの鐘",
+            "area": "Minami Ward, 삿포로시",
+            "address": "幸せの鐘, Mt.Moiwa Kanko Road, Moiwayama, Minami Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0942, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 7",
+            "photoCount": 2,
+            "representative": "/photos/sapporo-2025-08/places/20250825-07.jpg",
+            "originalName": "20250825_203106.jpg",
+            "startTime": "2025:08:25 20:31:06",
+            "endTime": "2025:08:25 20:31:08",
+            "latitude": 43.04097,
+            "longitude": 141.343557,
+            "mapUrl": "https://www.google.com/maps?q=43.04097,141.343557",
+            "resolvedName": "National Highway Route 230",
+            "area": "Minami 13-jo Nishi 11-chome, 삿포로시",
+            "address": "National Highway Route 230, Minami 13-jo Nishi 11-chome, 南14条西11, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0914, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 8",
+            "photoCount": 5,
+            "representative": "/photos/sapporo-2025-08/places/20250825-08.jpg",
+            "originalName": "20250825_215959.jpg",
+            "startTime": "2025:08:25 21:22:36",
+            "endTime": "2025:08:25 23:28:30",
+            "latitude": 43.053222,
+            "longitude": 141.353104,
+            "mapUrl": "https://www.google.com/maps?q=43.053222,141.353104",
+            "resolvedName": "Minami-6-jo-Nishi 4-chome",
+            "area": "Minami-6-jo-Nishi 4-chome, 삿포로시",
+            "address": "Minami-6-jo-Nishi 4-chome, 南6条西4, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0806, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.08.26",
+        "title": "2025.08.26 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5",
+          "Place 6"
+        ],
+        "note": "Grouped 11 geotagged photos into 6 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 2,
+            "representative": "/photos/sapporo-2025-08/places/20250826-01.jpg",
+            "originalName": "20250826_064816.jpg",
+            "startTime": "2025:08:26 06:48:16",
+            "endTime": "2025:08:26 07:05:23",
+            "latitude": 43.055842,
+            "longitude": 141.351241,
+            "mapUrl": "https://www.google.com/maps?q=43.055842,141.351241",
+            "resolvedName": "Minami-3-jo-Nishi 5-chome",
+            "area": "Minami-3-jo-Nishi 5-chome, 삿포로시",
+            "address": "Minami-3-jo-Nishi 5-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-0063, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250826-02.jpg",
+            "originalName": "20250826_082107.jpg",
+            "startTime": "2025:08:26 08:21:07",
+            "endTime": "2025:08:26 08:21:07",
+            "latitude": 43.194922,
+            "longitude": 141.800769,
+            "mapUrl": "https://www.google.com/maps?q=43.194922,141.800769",
+            "resolvedName": "도오자동차도",
+            "area": "東山七丁目, 이와미자와시",
+            "address": "Iwamizawa SA (Down), 도오자동차도, 東山七丁目, 이와미자와시, 소라치 종합진흥국, 홋카이도, 홋카이도 지방, 068-0825, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 2,
+            "representative": "/photos/sapporo-2025-08/places/20250826-03.jpg",
+            "originalName": "20250826_100709.jpg",
+            "startTime": "2025:08:26 10:07:09",
+            "endTime": "2025:08:26 10:52:05",
+            "latitude": 43.529016,
+            "longitude": 142.464517,
+            "mapUrl": "https://www.google.com/maps?q=43.529016,142.464517",
+            "resolvedName": "美沢美馬牛線",
+            "area": "美馬牛南一丁目, 비에이초",
+            "address": "美沢美馬牛線, 美馬牛南一丁目, 字北星, 비에이초, 가미카와군, 가미카와 종합진흥국, 홋카이도, 홋카이도 지방, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 2,
+            "representative": "/photos/sapporo-2025-08/places/20250826-04.jpg",
+            "originalName": "20250826_130257.jpg",
+            "startTime": "2025:08:26 13:02:57",
+            "endTime": "2025:08:26 13:04:52",
+            "latitude": 43.594725,
+            "longitude": 142.467369,
+            "mapUrl": "https://www.google.com/maps?q=43.594725,142.467369",
+            "resolvedName": "中町二丁目",
+            "area": "中町二丁目, 비에이초",
+            "address": "中町二丁目, 扇町, 비에이초, 가미카와군, 가미카와 종합진흥국, 홋카이도, 홋카이도 지방, 071-0215, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250826-05.jpg",
+            "originalName": "20250826_140348.jpg",
+            "startTime": "2025:08:26 14:03:49",
+            "endTime": "2025:08:26 14:03:49",
+            "latitude": 43.608385,
+            "longitude": 142.463622,
+            "mapUrl": "https://www.google.com/maps?q=43.608385,142.463622",
+            "resolvedName": "扇町",
+            "area": "扇町, 비에이초",
+            "address": "扇町, 비에이초, 가미카와군, 가미카와 종합진흥국, 홋카이도, 홋카이도 지방, 071-0215, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 6",
+            "photoCount": 3,
+            "representative": "/photos/sapporo-2025-08/places/20250826-06.jpg",
+            "originalName": "20250826_193140.jpg",
+            "startTime": "2025:08:26 19:09:28",
+            "endTime": "2025:08:26 20:02:54",
+            "latitude": 43.056847,
+            "longitude": 141.350679,
+            "mapUrl": "https://www.google.com/maps?q=43.056847,141.350679",
+            "resolvedName": "Satsudora",
+            "area": "Minami-3-jo-Nishi 5-chome, 삿포로시",
+            "address": "Satsudora, Minami-3-jo-Nishi 5-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-0063, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.08.27",
+        "title": "2025.08.27 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5"
+        ],
+        "note": "Grouped 20 geotagged photos into 5 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 6,
+            "representative": "/photos/sapporo-2025-08/places/20250827-01.jpg",
+            "originalName": "20250827_094133.jpg",
+            "startTime": "2025:08:27 09:38:53",
+            "endTime": "2025:08:27 11:36:54",
+            "latitude": 43.058923,
+            "longitude": 141.352671,
+            "mapUrl": "https://www.google.com/maps?q=43.058923,141.352671",
+            "resolvedName": "Sapporo Ekimae Dori",
+            "area": "Minami-1-jo-Nishi 3-chome, 삿포로시",
+            "address": "Sapporo Ekimae Dori, Minami-1-jo-Nishi 3-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-8502, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 2,
+            "representative": "/photos/sapporo-2025-08/places/20250827-02.jpg",
+            "originalName": "20250827_130832.jpg",
+            "startTime": "2025:08:27 13:08:32",
+            "endTime": "2025:08:27 14:16:27",
+            "latitude": 43.196436,
+            "longitude": 140.997967,
+            "mapUrl": "https://www.google.com/maps?q=43.196436,140.997967",
+            "resolvedName": "Daiichi Odori",
+            "area": "Inaho 2-chome, 오타루시",
+            "address": "Daiichi Odori, Inaho 2-chome, Inaho, 오타루시, 시리베시 종합진흥국, 홋카이도, 홋카이도 지방, 047-0032, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 7,
+            "representative": "/photos/sapporo-2025-08/places/20250827-03.jpg",
+            "originalName": "20250827_172136.jpg",
+            "startTime": "2025:08:27 17:13:13",
+            "endTime": "2025:08:27 17:22:54",
+            "latitude": 43.177792,
+            "longitude": 140.972244,
+            "mapUrl": "https://www.google.com/maps?q=43.177792,140.972244",
+            "resolvedName": "後志自動車道",
+            "area": "Mogami 2-chome, 오타루시",
+            "address": "後志自動車道, Mogami 2-chome, Mogami, 오타루시, 시리베시 종합진흥국, 홋카이도, 홋카이도 지방, 047-8501, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 1,
+            "representative": "/photos/sapporo-2025-08/places/20250827-04.jpg",
+            "originalName": "20250827_181313.jpg",
+            "startTime": "2025:08:27 18:13:14",
+            "endTime": "2025:08:27 18:13:14",
+            "latitude": 43.198685,
+            "longitude": 140.997315,
+            "mapUrl": "https://www.google.com/maps?q=43.198685,140.997315",
+            "resolvedName": "中央通",
+            "area": "Inaho 3-chome, 오타루시",
+            "address": "中央通, Inaho 3-chome, Ironai, 오타루시, 시리베시 종합진흥국, 홋카이도, 홋카이도 지방, 047-0032, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 4,
+            "representative": "/photos/sapporo-2025-08/places/20250827-05.jpg",
+            "originalName": "20250827_213236.jpg",
+            "startTime": "2025:08:27 20:28:28",
+            "endTime": "2025:08:27 22:22:03",
+            "latitude": 43.052669,
+            "longitude": 141.352564,
+            "mapUrl": "https://www.google.com/maps?q=43.052669,141.352564",
+            "resolvedName": "あいよ產地直送すすきの店",
+            "area": "Minami-6-jo-Nishi 4-chome, 삿포로시",
+            "address": "あいよ產地直送すすきの店, Hanakouji, Minami-6-jo-Nishi 4-chome, 南6条西4, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0806, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.08.28",
+        "title": "2025.08.28 GPS route",
+        "places": [],
+        "note": "Grouped 1 geotagged photos into 0 representative places.",
+        "placeGroups": []
+      }
+    ]
+  },
+  {
+    "slug": "hakodate-2025-10",
+    "name": "하코다테 여행 (25.10.18~25.10.21)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2025.10.18",
+        "title": "2025.10.18 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4"
+        ],
+        "note": "Grouped 53 geotagged photos into 4 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 2,
+            "representative": "/photos/hakodate-2025-10/places/20251018-01.jpg",
+            "originalName": "1760796114149.jpg",
+            "startTime": "2025:10:18 13:17:29",
+            "endTime": "2025:10:18 13:18:26",
+            "latitude": 37.457857,
+            "longitude": 126.448379,
+            "mapUrl": "https://www.google.com/maps?q=37.457857,126.448379",
+            "resolvedName": "공항대로",
+            "area": "운서동, 인천광역시",
+            "address": "272, 공항대로, 운서동, 중구, 인천광역시, 22382, 대한민국",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/hakodate-2025-10/places/20251018-02.jpg",
+            "originalName": "1760796114308.jpg",
+            "startTime": "2025:10:18 17:39:26",
+            "endTime": "2025:10:18 17:39:26",
+            "latitude": 41.777503,
+            "longitude": 140.808136,
+            "mapUrl": "https://www.google.com/maps?q=41.777503,140.808136",
+            "resolvedName": "函館空港線",
+            "area": "Yunokawacho 3-chome, 하코다테시",
+            "address": "函館空港線, Yunokawacho 3-chome, Takamatsucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 042-0952, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 20,
+            "representative": "/photos/hakodate-2025-10/places/20251018-03.jpg",
+            "originalName": "1760796114541.jpg",
+            "startTime": "2025:10:18 17:59:43",
+            "endTime": "2025:10:18 18:58:04",
+            "latitude": 41.766653,
+            "longitude": 140.707525,
+            "mapUrl": "https://www.google.com/maps?q=41.766653,140.707525",
+            "resolvedName": "Yayoicho",
+            "area": "Yayoicho, 하코다테시",
+            "address": "Yayoicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0056, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 30,
+            "representative": "/photos/hakodate-2025-10/places/20251018-04.jpg",
+            "originalName": "1760796093995.jpg",
+            "startTime": "2025:10:18 19:26:11",
+            "endTime": "2025:10:18 22:44:15",
+            "latitude": 41.766566,
+            "longitude": 140.707673,
+            "mapUrl": "https://www.google.com/maps?q=41.766566,140.707673",
+            "resolvedName": "Yayoicho",
+            "area": "Yayoicho, 하코다테시",
+            "address": "Yayoicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0056, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.10.19",
+        "title": "2025.10.19 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4",
+          "Place 5",
+          "Place 6",
+          "Place 7"
+        ],
+        "note": "Grouped 93 geotagged photos into 7 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 9,
+            "representative": "/photos/hakodate-2025-10/places/20251019-01.jpg",
+            "originalName": "1760844558950.jpg",
+            "startTime": "2025:10:19 00:26:01",
+            "endTime": "2025:10:19 10:12:51",
+            "latitude": 41.76566,
+            "longitude": 140.70642,
+            "mapUrl": "https://www.google.com/maps?q=41.76566,140.70642",
+            "resolvedName": "Funamicho",
+            "area": "Funamicho, 하코다테시",
+            "address": "Funamicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0055, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 15,
+            "representative": "/photos/hakodate-2025-10/places/20251019-02.jpg",
+            "originalName": "1760844559785.jpg",
+            "startTime": "2025:10:19 10:42:16",
+            "endTime": "2025:10:19 12:20:38",
+            "latitude": 41.773112,
+            "longitude": 140.725873,
+            "mapUrl": "https://www.google.com/maps?q=41.773112,140.725873",
+            "resolvedName": "函館市 若松町駐車場",
+            "area": "Shinonomecho, 하코다테시",
+            "address": "函館市 若松町駐車場, 13, Shinonomecho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0036, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 46,
+            "representative": "/photos/hakodate-2025-10/places/20251019-03.jpg",
+            "originalName": "1760861832291.jpg",
+            "startTime": "2025:10:19 13:20:55",
+            "endTime": "2025:10:19 15:05:45",
+            "latitude": 41.98536,
+            "longitude": 140.671651,
+            "mapUrl": "https://www.google.com/maps?q=41.98536,140.671651",
+            "resolvedName": "東大島橋",
+            "area": "나나에초",
+            "address": "東大島橋, 나나에초, 가메다군, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 041-1354, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 2,
+            "representative": "/photos/hakodate-2025-10/places/20251019-04.jpg",
+            "originalName": "20251019_161440.jpg",
+            "startTime": "2025:10:19 16:14:40",
+            "endTime": "2025:10:19 16:14:41",
+            "latitude": 41.803448,
+            "longitude": 140.734555,
+            "mapUrl": "https://www.google.com/maps?q=41.803448,140.734555",
+            "resolvedName": "National Highway Route 5",
+            "area": "Showa 2-chome, 하코다테시",
+            "address": "National Highway Route 5, Showa 2-chome, Kameda-Honcho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 041-0812, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 5",
+            "photoCount": 7,
+            "representative": "/photos/hakodate-2025-10/places/20251019-05.jpg",
+            "originalName": "1760881003677.jpg",
+            "startTime": "2025:10:19 16:41:48",
+            "endTime": "2025:10:19 17:06:11",
+            "latitude": 41.795173,
+            "longitude": 140.753992,
+            "mapUrl": "https://www.google.com/maps?q=41.795173,140.753992",
+            "resolvedName": "코엔센",
+            "area": "Goryokakucho, 하코다테시",
+            "address": "코엔센, Goryokakucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0001, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 6",
+            "photoCount": 9,
+            "representative": "/photos/hakodate-2025-10/places/20251019-06.jpg",
+            "originalName": "1760881004282.jpg",
+            "startTime": "2025:10:19 18:20:02",
+            "endTime": "2025:10:19 21:35:30",
+            "latitude": 41.771997,
+            "longitude": 140.729396,
+            "mapUrl": "https://www.google.com/maps?q=41.771997,140.729396",
+            "resolvedName": "다카사고 거리",
+            "area": "Onawacho, 하코다테시",
+            "address": "다카사고 거리, Onawacho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0062, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 7",
+            "photoCount": 5,
+            "representative": "/photos/hakodate-2025-10/places/20251019-07.jpg",
+            "originalName": "1760881267082.jpg",
+            "startTime": "2025:10:19 21:54:50",
+            "endTime": "2025:10:19 21:55:29",
+            "latitude": 41.764957,
+            "longitude": 140.712967,
+            "mapUrl": "https://www.google.com/maps?q=41.764957,140.712967",
+            "resolvedName": "하치만자카 거리",
+            "area": "Motomachi, 하코다테시",
+            "address": "하치만자카 거리, Motomachi, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0054, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.10.20",
+        "title": "2025.10.20 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4"
+        ],
+        "note": "Grouped 111 geotagged photos into 4 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 56,
+            "representative": "/photos/hakodate-2025-10/places/20251020-01.jpg",
+            "originalName": "20251020_112836.jpg",
+            "startTime": "2025:10:20 10:49:52",
+            "endTime": "2025:10:20 13:25:06",
+            "latitude": 41.755679,
+            "longitude": 140.716005,
+            "mapUrl": "https://www.google.com/maps?q=41.755679,140.716005",
+            "resolvedName": "스미요시히로지 도로",
+            "area": "Aoyagicho, 하코다테시",
+            "address": "ドウダンツツジ, 스미요시히로지 도로, Aoyagicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0044, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 26,
+            "representative": "/photos/hakodate-2025-10/places/20251020-02.jpg",
+            "originalName": "1760967006060.jpg",
+            "startTime": "2025:10:20 13:38:56",
+            "endTime": "2025:10:20 14:15:28",
+            "latitude": 41.745533,
+            "longitude": 140.720838,
+            "mapUrl": "https://www.google.com/maps?q=41.745533,140.720838",
+            "resolvedName": "Sumiyoshicho",
+            "area": "Sumiyoshicho, 하코다테시",
+            "address": "Sumiyoshicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0045, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 25,
+            "representative": "/photos/hakodate-2025-10/places/20251020-03.jpg",
+            "originalName": "1760968015238.jpg",
+            "startTime": "2025:10:20 14:36:27",
+            "endTime": "2025:10:20 17:50:06",
+            "latitude": 41.757856,
+            "longitude": 140.706321,
+            "mapUrl": "https://www.google.com/maps?q=41.757856,140.706321",
+            "resolvedName": "薬師山コース",
+            "area": "Hakodateyama, 하코다테시",
+            "address": "薬師山コース, Hakodateyama, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0054, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 4,
+            "representative": "/photos/hakodate-2025-10/places/20251020-04.jpg",
+            "originalName": "1760968087715.jpg",
+            "startTime": "2025:10:20 20:27:19",
+            "endTime": "2025:10:20 21:45:02",
+            "latitude": 41.812803,
+            "longitude": 140.762242,
+            "mapUrl": "https://www.google.com/maps?q=41.812803,140.762242",
+            "resolvedName": "函館上磯線",
+            "area": "Kamiyama 2-chome, 하코다테시",
+            "address": "函館上磯線, Kamiyama 2-chome, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 041-0832, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.10.21",
+        "title": "2025.10.21 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2",
+          "Place 3",
+          "Place 4"
+        ],
+        "note": "Grouped 15 geotagged photos into 4 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 5,
+            "representative": "/photos/hakodate-2025-10/places/20251021-01.jpg",
+            "originalName": "1761034019614.jpg",
+            "startTime": "2025:10:21 09:31:55",
+            "endTime": "2025:10:21 10:48:04",
+            "latitude": 41.767093,
+            "longitude": 140.704566,
+            "mapUrl": "https://www.google.com/maps?q=41.767093,140.704566",
+            "resolvedName": "Funamicho",
+            "area": "Funamicho, 하코다테시",
+            "address": "Funamicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0055, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 8,
+            "representative": "/photos/hakodate-2025-10/places/20251021-02.jpg",
+            "originalName": "1761034015715.jpg",
+            "startTime": "2025:10:21 12:00:10",
+            "endTime": "2025:10:21 13:03:56",
+            "latitude": 41.766995,
+            "longitude": 140.716798,
+            "mapUrl": "https://www.google.com/maps?q=41.766995,140.716798",
+            "resolvedName": "Suehirocho",
+            "area": "Suehirocho, 하코다테시",
+            "address": "Suehirocho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0053, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 3",
+            "photoCount": 1,
+            "representative": "/photos/hakodate-2025-10/places/20251021-03.jpg",
+            "originalName": "1761034015913.jpg",
+            "startTime": "2025:10:21 14:34:30",
+            "endTime": "2025:10:21 14:34:30",
+            "latitude": 41.771689,
+            "longitude": 140.727386,
+            "mapUrl": "https://www.google.com/maps?q=41.771689,140.727386",
+            "resolvedName": "National Highway Route 279",
+            "area": "Wakamatsucho, 하코다테시",
+            "address": "National Highway Route 279, Wakamatsucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0063, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 4",
+            "photoCount": 1,
+            "representative": "/photos/hakodate-2025-10/places/20251021-04.jpg",
+            "originalName": "1761034020158.jpg",
+            "startTime": "2025:10:21 16:14:56",
+            "endTime": "2025:10:21 16:14:56",
+            "latitude": 41.775783,
+            "longitude": 140.814392,
+            "mapUrl": "https://www.google.com/maps?q=41.775783,140.814392",
+            "resolvedName": "函館空港線",
+            "area": "Takamatsucho, 하코다테시",
+            "address": "搭乗口3, 函館空港線, Takamatsucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 042-0952, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hiroshima-2025-12",
+    "name": "히로시마 여행 (25.12.13~25.12.16)",
+    "placeRadiusKm": 1,
+    "days": [
+      {
+        "day": "2025.12.13",
+        "title": "2025.12.13 GPS route",
+        "places": [],
+        "note": "Grouped 8 geotagged photos into 0 representative places.",
+        "placeGroups": []
+      },
+      {
+        "day": "2025.12.14",
+        "title": "2025.12.14 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2"
+        ],
+        "note": "Grouped 25 geotagged photos into 2 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 24,
+            "representative": "/photos/hiroshima-2025-12/places/20251214-01.jpg",
+            "originalName": "1765702073586.jpg",
+            "startTime": "2025:12:14 13:49:29",
+            "endTime": "2025:12:14 15:33:04",
+            "latitude": 34.296574,
+            "longitude": 132.319408,
+            "mapUrl": "https://www.google.com/maps?q=34.296574,132.319408",
+            "resolvedName": "揚水橋",
+            "area": "Miyajima, 하쓰카이치시",
+            "address": "揚水橋, Miyajima, 하쓰카이치시, 히로시마현, 739-0557, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 1,
+            "representative": "/photos/hiroshima-2025-12/places/20251214-02.jpg",
+            "originalName": "20251214_210118.jpg",
+            "startTime": "2025:12:14 21:01:18",
+            "endTime": "2025:12:14 21:01:18",
+            "latitude": 34.393873,
+            "longitude": 132.456478,
+            "mapUrl": "https://www.google.com/maps?q=34.393873,132.456478",
+            "resolvedName": "Mister Donut",
+            "area": "Kamiyacho 2-chome, 히로시마시",
+            "address": "Mister Donut, Hondori, Kamiyacho 2-chome, Naka Ward, 히로시마시, 히로시마현, 730-0031, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.12.15",
+        "title": "2025.12.15 GPS route",
+        "places": [
+          "Place 1",
+          "Place 2"
+        ],
+        "note": "Grouped 29 geotagged photos into 2 representative places.",
+        "placeGroups": [
+          {
+            "label": "Place 1",
+            "photoCount": 1,
+            "representative": "/photos/hiroshima-2025-12/places/20251215-01.jpg",
+            "originalName": "20251215_120142.jpg",
+            "startTime": "2025:12:15 12:01:42",
+            "endTime": "2025:12:15 12:01:42",
+            "latitude": 34.394698,
+            "longitude": 132.456016,
+            "mapUrl": "https://www.google.com/maps?q=34.394698,132.456016",
+            "resolvedName": "Matsuya",
+            "area": "Kamiyacho 2-chome, 히로시마시",
+            "address": "Matsuya, Hondori, Kamiyacho 2-chome, Naka Ward, 히로시마시, 히로시마현, 730-0031, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          },
+          {
+            "label": "Place 2",
+            "photoCount": 28,
+            "representative": "/photos/hiroshima-2025-12/places/20251215-02.jpg",
+            "originalName": "1765793344787.jpg",
+            "startTime": "2025:12:15 15:12:29",
+            "endTime": "2025:12:15 17:23:52",
+            "latitude": 34.408858,
+            "longitude": 133.200482,
+            "mapUrl": "https://www.google.com/maps?q=34.408858,133.200482",
+            "resolvedName": "National Highway Route 2",
+            "area": "Toyohimotomachi, 오노미치시",
+            "address": "National Highway Route 2, Toyohimotomachi, Ozakicho, 오노미치시, 히로시마현, 722-8799, 일본",
+            "geocodeSource": "OpenStreetMap Nominatim"
+          }
+        ]
+      },
+      {
+        "day": "2025.12.16",
+        "title": "2025.12.16 GPS route",
+        "places": [],
+        "note": "Grouped 12 geotagged photos into 0 representative places.",
+        "placeGroups": []
+      }
+    ]
+  }
 ]

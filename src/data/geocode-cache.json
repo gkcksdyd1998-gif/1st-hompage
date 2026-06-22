@@ -1,0 +1,506 @@
+{
+  "31.58291,130.54826": {
+    "resolvedName": "Chuo",
+    "area": "Chuo, 가고시마시",
+    "address": "Uenosono-cho, Chuo, 가고시마시, 가고시마현, 892-8677, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "31.59667,130.56275": {
+    "resolvedName": "鹿児島港臨港道路",
+    "area": "Chuo, 가고시마시",
+    "address": "鹿児島港臨港道路, Ogawa-cho, Chuo, 가고시마시, 가고시마현, 892-8677, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "31.22951,130.65184": {
+    "resolvedName": "下里湊宮ヶ浜線",
+    "area": "Yunohama 5-chome, 이부스키시",
+    "address": "下里湊宮ヶ浜線, Yunohama 5-chome, Yunohama, 이부스키시, 가고시마현, 891-0406, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "31.15949,130.58812": {
+    "resolvedName": "龍宮神社",
+    "area": "Yamagawa-Okachogamizu, 이부스키시",
+    "address": "龍宮神社, 長崎鼻公園開聞線, Yamagawa-Okachogamizu, 이부스키시, 가고시마현, 891-0513, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "31.59459,130.54732": {
+    "resolvedName": "Shiroyama hotel Kagoshima",
+    "area": "Jousei, 가고시마시",
+    "address": "Shiroyama hotel Kagoshima, 創夢トンネル, Shinsyoin-cho, Jousei, 가고시마시, 가고시마현, 892-8677, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.64619,135.50282": {
+    "resolvedName": "Sakai Street",
+    "area": "Taishi 2-chome, 오사카시",
+    "address": "Sakai Street, Taishi 2-chome, Nishinari Ward, 오사카시, 오사카부, 557-0001, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.76084,135.53484": {
+    "resolvedName": "大阪府済生会吹田病院",
+    "area": "스이타시",
+    "address": "大阪府済生会吹田病院, 스이타시, 오사카부, 564-0013, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.02267,135.74518": {
+    "resolvedName": "Shimocyojamachi-dori",
+    "area": "Nishitatsumicho, 교토시",
+    "address": "Shimocyojamachi-dori, Nishitatsumicho, 가미교구, 교토시, 교토부, 602-8177, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.02002,135.75633": {
+    "resolvedName": "Shimodachiuri-dori",
+    "area": "Higashitachiuricho, 교토시",
+    "address": "天に星　地に花　人に愛, Shimodachiuri-dori, Higashitachiuricho, 가미교구, 교토시, 교토부, 602-8031, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.02666,135.79819": {
+    "resolvedName": "지쇼지",
+    "area": "Ginkakujichō, 교토시",
+    "address": "지쇼지, Ginkakujichō, 사쿄구, 교토시, 교토부, 606-8402, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.01737,135.78070": {
+    "resolvedName": "Kyoto Handicraft Center",
+    "area": "Shogoin-Sannocho, 교토시",
+    "address": "Kyoto Handicraft Center, 17, Marutamachi Street, Shogoin-Sannocho, 吉田上大路町, 사쿄구, 교토시, 교토부, 606-8341, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.00527,135.76755": {
+    "resolvedName": "パッサージオ（吉本ビル）",
+    "area": "나카교구, 교토시",
+    "address": "パッサージオ（吉本ビル）, 나카교구, 교토시, 교토부, 604-8046, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.02273,135.74126": {
+    "resolvedName": "Rokkenmachi-dori",
+    "area": "Yonbancho, 교토시",
+    "address": "Rokkenmachi-dori, Yonbancho, 가미교구, 교토시, 교토부, 602-8275, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.99474,135.78432": {
+    "resolvedName": "Tokiwa Bridge",
+    "area": "Kiyomizu 1-chōme, 교토시",
+    "address": "Tokiwa Bridge, Kiyomizu 1-chōme, 辰巳町, 히가시야마구, 교토시, 교토부, 605-0862, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.96840,135.77606": {
+    "resolvedName": "Jyukkoku-bashi Bridge",
+    "area": "Fukakusa-Kaidoguchicho, 교토시",
+    "address": "お山参詣道／神苑, Jyukkoku-bashi Bridge, Fukakusa-Kaidoguchicho, 후시미구, 교토시, 교토부, 612-0807, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.98859,135.76214": {
+    "resolvedName": "Ainomachi street",
+    "area": "Horizumecho, 교토시",
+    "address": "Ainomachi street, Horizumecho, 시모교구, 교토시, 교토부, 600-8213, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.00351,135.77689": {
+    "resolvedName": "Tsuruha",
+    "area": "Giommachi-Minamigawa, 교토시",
+    "address": "Tsuruha, Higashiōji Street, Giommachi-Minamigawa, 辰巳町, 히가시야마구, 교토시, 교토부, 605-0829, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.02279,135.74127": {
+    "resolvedName": "Rokubancho",
+    "area": "Rokubancho, 교토시",
+    "address": "Rokubancho, 가미교구, 교토시, 교토부, 602-8275, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.97944,135.75212": {
+    "resolvedName": "Kujō Street",
+    "area": "Nishikujo-Kawarajocho, 교토시",
+    "address": "Kujō Street, Nishikujo-Kawarajocho, 미나미구, 교토시, 교토부, 601-8438, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.68632,135.80747": {
+    "resolvedName": "Omiyacho 6-chome",
+    "area": "Omiyacho 6-chome, 나라시",
+    "address": "Omiyacho 6-chome, 나라시, 나라현, 630-8144, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.68223,135.84279": {
+    "resolvedName": "Kasuganochō",
+    "area": "Kasuganochō, 나라시",
+    "address": "가스가타이샤, Kasuganochō, 나라시, 나라현, 630-8212, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.68279,135.81928": {
+    "resolvedName": "コインランドリー セレパーク奈良大宮店",
+    "area": "Aburasaka-jikatacho, 나라시",
+    "address": "コインランドリー セレパーク奈良大宮店, Sanjō Dōri, Aburasaka-jikatacho, 나라시, 나라현, 630-8122, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.68724,135.80558": {
+    "resolvedName": "Nara Bypass",
+    "area": "Sakyo 6-chome, 나라시",
+    "address": "Nara Bypass, Sakyo 6-chome, 나라시, 나라현, 631-8001, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "37.47032,126.42885": {
+    "resolvedName": "공항제2터미널고가도로",
+    "area": "운서동, 인천광역시",
+    "address": "208, 272, 공항제2터미널고가도로, 운서동, 중구, 인천광역시, 22382, 대한민국",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "33.92211,130.91917": {
+    "resolvedName": "彦島山中町一丁目",
+    "area": "彦島山中町一丁目, 시모노세키시",
+    "address": "彦島山中町一丁目, 彦島桜ケ丘町, 시모노세키시, 야마구치현, 750-0086, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "33.94759,130.96406": {
+    "resolvedName": "Higashihonmachi 1-chome",
+    "area": "Higashihonmachi 1-chome, 기타큐슈시",
+    "address": "Higashihonmachi 1-chome, Minatomachi, 모지 구, 기타큐슈시, 후쿠오카현, 801-0862, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "33.87921,130.88440": {
+    "resolvedName": "Nakatsuguchi 2-chome",
+    "area": "Nakatsuguchi 2-chome, 기타큐슈시",
+    "address": "Nakatsuguchi 2-chome, Furusenbamachi, 쿠라키타 구, 기타큐슈시, 후쿠오카현, 802-0081, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "33.88311,130.87688": {
+    "resolvedName": "秋月街道",
+    "area": "Uomachi 3-chome, 기타큐슈시",
+    "address": "秋月街道, Uomachi 3-chome, Senbamachi, 쿠라키타 구, 기타큐슈시, 후쿠오카현, 802-0007, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "33.83943,131.03210": {
+    "resolvedName": "南展望デッキ",
+    "area": "Kokura-Minami Ward, 기타큐슈시",
+    "address": "南展望デッキ, 市道空港北町1号線, Kuko-kitamachi, Kokura-Minami Ward, 기타큐슈시, 후쿠오카현, 800-0306, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "37.47168,127.08753": {
+    "resolvedName": "CU 자곡힐스테이트점",
+    "area": "세곡동, 서울특별시",
+    "address": "CU 자곡힐스테이트점, 21, 자곡로3길, 자곡동, 세곡동, 강남구, 서울특별시, 06374, 대한민국",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.17107,136.90802": {
+    "resolvedName": "Hisaya-odori",
+    "area": "Shinsakaemachi 1-chome, 나고야시",
+    "address": "Hisaya-odori, Shinsakaemachi 1-chome, Shinsakaemachi, 나카구, 나고야시, 아이치현, 460-0005, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.97161,138.38938": {
+    "resolvedName": "Ishida-kaido",
+    "area": "稲川二丁目, 시즈오카시",
+    "address": "静岡駅, Ishida-kaido, 稲川二丁目, 南町, 스루가구, 시즈오카시, 시즈오카현, 422-8550, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.14993,138.63001": {
+    "resolvedName": "Matsutomicho",
+    "area": "Matsutomicho, 후지시",
+    "address": "Matsutomicho, Shichogawaraminami, 후지시, 시즈오카현, 416-0909, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.26027,138.61461": {
+    "resolvedName": "外神",
+    "area": "外神, 후지노미야시",
+    "address": "外神, 후지노미야시, 시즈오카현, 418-0007, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.34140,138.56014": {
+    "resolvedName": "Tanuki Lake Campground",
+    "area": "후지노미야시",
+    "address": "Tanuki Lake Campground, Tokai Nature Trail, 후지노미야시, 미나미코마군, 시즈오카현, 418-0107, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.34218,138.55963": {
+    "resolvedName": "Tanuki Lake Campground",
+    "area": "후지노미야시",
+    "address": "Tanuki Lake Campground, Tokai Nature Trail, 후지노미야시, 미나미코마군, 시즈오카현, 418-0107, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.34332,138.56056": {
+    "resolvedName": "Tanuki Lake Campground",
+    "area": "후지노미야시",
+    "address": "Tanuki Lake Campground, Tokai Nature Trail, 후지노미야시, 미나미코마군, 시즈오카현, 418-0107, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.34188,138.56145": {
+    "resolvedName": "후지노미야시, 시즈오카현, 418-0107, 일본",
+    "area": "후지노미야시",
+    "address": "후지노미야시, 시즈오카현, 418-0107, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.22426,138.61147": {
+    "resolvedName": "Ōmiyachō",
+    "area": "Ōmiyachō, 후지노미야시",
+    "address": "Ōmiyachō, 후지노미야시, 시즈오카현, 418-0066, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "35.15599,138.63946": {
+    "resolvedName": "Yunoki",
+    "area": "Yunoki, 후지시",
+    "address": "Yunoki, Hashishita, 후지시, 시즈오카현, 416-0908, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.97105,138.38759": {
+    "resolvedName": "National Highway Route 1",
+    "area": "南安倍一丁目, 시즈오카시",
+    "address": "静岡駅, National Highway Route 1, 南安倍一丁目, 西門町, 아오이구, 시즈오카시, 시즈오카현, 420-8602, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.95913,138.37419": {
+    "resolvedName": "南安倍三丁目",
+    "area": "南安倍三丁目, 시즈오카시",
+    "address": "南安倍三丁目, 緑が丘町, 스루가구, 시즈오카시, 시즈오카현, 422-8550, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "37.46506,127.09482": {
+    "resolvedName": "헌릉로",
+    "area": "은곡마을, 서울특별시",
+    "address": "헌릉로, 은곡마을, 세곡동, 강남구, 서울특별시, 06375, 대한민국",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "37.45327,126.45070": {
+    "resolvedName": "공항대로",
+    "area": "운서동, 인천광역시",
+    "address": "22, 272, 공항대로, 운서동, 중구, 인천광역시, 22382, 대한민국",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "37.62931,128.28047": {
+    "resolvedName": "봉평면",
+    "area": "봉평면",
+    "address": "봉평면, 평창군, 강원특별자치도, 대한민국",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.05789,141.35442": {
+    "resolvedName": "Minami-2-jo-Nishi 3-chome",
+    "area": "Minami-2-jo-Nishi 3-chome, 삿포로시",
+    "address": "Minami-2-jo-Nishi 3-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-8502, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.07244,141.36724": {
+    "resolvedName": "Kita8jo dori",
+    "area": "Kita-7-jo-Higashi 9-chome, 삿포로시",
+    "address": "Kita8jo dori, Kita-7-jo-Higashi 9-chome, Higashi Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 065-8633, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.02223,141.32264": {
+    "resolvedName": "幸せの鐘",
+    "area": "Minami Ward, 삿포로시",
+    "address": "幸せの鐘, Mt.Moiwa Kanko Road, Moiwayama, Minami Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0942, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.04097,141.34356": {
+    "resolvedName": "National Highway Route 230",
+    "area": "Minami 13-jo Nishi 11-chome, 삿포로시",
+    "address": "National Highway Route 230, Minami 13-jo Nishi 11-chome, 南14条西11, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0914, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.05322,141.35310": {
+    "resolvedName": "Minami-6-jo-Nishi 4-chome",
+    "area": "Minami-6-jo-Nishi 4-chome, 삿포로시",
+    "address": "Minami-6-jo-Nishi 4-chome, 南6条西4, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0806, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.05584,141.35124": {
+    "resolvedName": "Minami-3-jo-Nishi 5-chome",
+    "area": "Minami-3-jo-Nishi 5-chome, 삿포로시",
+    "address": "Minami-3-jo-Nishi 5-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-0063, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.19492,141.80077": {
+    "resolvedName": "도오자동차도",
+    "area": "東山七丁目, 이와미자와시",
+    "address": "Iwamizawa SA (Down), 도오자동차도, 東山七丁目, 이와미자와시, 소라치 종합진흥국, 홋카이도, 홋카이도 지방, 068-0825, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.52902,142.46452": {
+    "resolvedName": "美沢美馬牛線",
+    "area": "美馬牛南一丁目, 비에이초",
+    "address": "美沢美馬牛線, 美馬牛南一丁目, 字北星, 비에이초, 가미카와군, 가미카와 종합진흥국, 홋카이도, 홋카이도 지방, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.59472,142.46737": {
+    "resolvedName": "中町二丁目",
+    "area": "中町二丁目, 비에이초",
+    "address": "中町二丁目, 扇町, 비에이초, 가미카와군, 가미카와 종합진흥국, 홋카이도, 홋카이도 지방, 071-0215, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.60838,142.46362": {
+    "resolvedName": "扇町",
+    "area": "扇町, 비에이초",
+    "address": "扇町, 비에이초, 가미카와군, 가미카와 종합진흥국, 홋카이도, 홋카이도 지방, 071-0215, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.05685,141.35068": {
+    "resolvedName": "Satsudora",
+    "area": "Minami-3-jo-Nishi 5-chome, 삿포로시",
+    "address": "Satsudora, Minami-3-jo-Nishi 5-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-0063, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.05892,141.35267": {
+    "resolvedName": "Sapporo Ekimae Dori",
+    "area": "Minami-1-jo-Nishi 3-chome, 삿포로시",
+    "address": "Sapporo Ekimae Dori, Minami-1-jo-Nishi 3-chome, Tanukikoji, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 060-8502, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.19644,140.99797": {
+    "resolvedName": "Daiichi Odori",
+    "area": "Inaho 2-chome, 오타루시",
+    "address": "Daiichi Odori, Inaho 2-chome, Inaho, 오타루시, 시리베시 종합진흥국, 홋카이도, 홋카이도 지방, 047-0032, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.17779,140.97224": {
+    "resolvedName": "後志自動車道",
+    "area": "Mogami 2-chome, 오타루시",
+    "address": "後志自動車道, Mogami 2-chome, Mogami, 오타루시, 시리베시 종합진흥국, 홋카이도, 홋카이도 지방, 047-8501, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.19868,140.99731": {
+    "resolvedName": "中央通",
+    "area": "Inaho 3-chome, 오타루시",
+    "address": "中央通, Inaho 3-chome, Ironai, 오타루시, 시리베시 종합진흥국, 홋카이도, 홋카이도 지방, 047-0032, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "43.05267,141.35256": {
+    "resolvedName": "あいよ產地直送すすきの店",
+    "area": "Minami-6-jo-Nishi 4-chome, 삿포로시",
+    "address": "あいよ產地直送すすきの店, Hanakouji, Minami-6-jo-Nishi 4-chome, 南6条西4, Chuo Ward, 삿포로시, 이시카리 진흥국, 홋카이도, 홋카이도 지방, 064-0806, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "37.45786,126.44838": {
+    "resolvedName": "공항대로",
+    "area": "운서동, 인천광역시",
+    "address": "272, 공항대로, 운서동, 중구, 인천광역시, 22382, 대한민국",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.77750,140.80814": {
+    "resolvedName": "函館空港線",
+    "area": "Yunokawacho 3-chome, 하코다테시",
+    "address": "函館空港線, Yunokawacho 3-chome, Takamatsucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 042-0952, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.76665,140.70753": {
+    "resolvedName": "Yayoicho",
+    "area": "Yayoicho, 하코다테시",
+    "address": "Yayoicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0056, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.76657,140.70767": {
+    "resolvedName": "Yayoicho",
+    "area": "Yayoicho, 하코다테시",
+    "address": "Yayoicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0056, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.76566,140.70642": {
+    "resolvedName": "Funamicho",
+    "area": "Funamicho, 하코다테시",
+    "address": "Funamicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0055, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.77311,140.72587": {
+    "resolvedName": "函館市 若松町駐車場",
+    "area": "Shinonomecho, 하코다테시",
+    "address": "函館市 若松町駐車場, 13, Shinonomecho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0036, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.98536,140.67165": {
+    "resolvedName": "東大島橋",
+    "area": "나나에초",
+    "address": "東大島橋, 나나에초, 가메다군, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 041-1354, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.80345,140.73456": {
+    "resolvedName": "National Highway Route 5",
+    "area": "Showa 2-chome, 하코다테시",
+    "address": "National Highway Route 5, Showa 2-chome, Kameda-Honcho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 041-0812, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.79517,140.75399": {
+    "resolvedName": "코엔센",
+    "area": "Goryokakucho, 하코다테시",
+    "address": "코엔센, Goryokakucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0001, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.77200,140.72940": {
+    "resolvedName": "다카사고 거리",
+    "area": "Onawacho, 하코다테시",
+    "address": "다카사고 거리, Onawacho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0062, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.76496,140.71297": {
+    "resolvedName": "하치만자카 거리",
+    "area": "Motomachi, 하코다테시",
+    "address": "하치만자카 거리, Motomachi, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0054, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.75568,140.71600": {
+    "resolvedName": "스미요시히로지 도로",
+    "area": "Aoyagicho, 하코다테시",
+    "address": "ドウダンツツジ, 스미요시히로지 도로, Aoyagicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0044, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.74553,140.72084": {
+    "resolvedName": "Sumiyoshicho",
+    "area": "Sumiyoshicho, 하코다테시",
+    "address": "Sumiyoshicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0045, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.75786,140.70632": {
+    "resolvedName": "薬師山コース",
+    "area": "Hakodateyama, 하코다테시",
+    "address": "薬師山コース, Hakodateyama, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0054, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.81280,140.76224": {
+    "resolvedName": "函館上磯線",
+    "area": "Kamiyama 2-chome, 하코다테시",
+    "address": "函館上磯線, Kamiyama 2-chome, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 041-0832, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.76709,140.70457": {
+    "resolvedName": "Funamicho",
+    "area": "Funamicho, 하코다테시",
+    "address": "Funamicho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0055, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.76700,140.71680": {
+    "resolvedName": "Suehirocho",
+    "area": "Suehirocho, 하코다테시",
+    "address": "Suehirocho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0053, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.77169,140.72739": {
+    "resolvedName": "National Highway Route 279",
+    "area": "Wakamatsucho, 하코다테시",
+    "address": "National Highway Route 279, Wakamatsucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 040-0063, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "41.77578,140.81439": {
+    "resolvedName": "函館空港線",
+    "area": "Takamatsucho, 하코다테시",
+    "address": "搭乗口3, 函館空港線, Takamatsucho, 하코다테시, 오시마 종합진흥국, 홋카이도, 홋카이도 지방, 042-0952, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.29657,132.31941": {
+    "resolvedName": "揚水橋",
+    "area": "Miyajima, 하쓰카이치시",
+    "address": "揚水橋, Miyajima, 하쓰카이치시, 히로시마현, 739-0557, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.39387,132.45648": {
+    "resolvedName": "Mister Donut",
+    "area": "Kamiyacho 2-chome, 히로시마시",
+    "address": "Mister Donut, Hondori, Kamiyacho 2-chome, Naka Ward, 히로시마시, 히로시마현, 730-0031, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.39470,132.45602": {
+    "resolvedName": "Matsuya",
+    "area": "Kamiyacho 2-chome, 히로시마시",
+    "address": "Matsuya, Hondori, Kamiyacho 2-chome, Naka Ward, 히로시마시, 히로시마현, 730-0031, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  },
+  "34.40886,133.20048": {
+    "resolvedName": "National Highway Route 2",
+    "area": "Toyohimotomachi, 오노미치시",
+    "address": "National Highway Route 2, Toyohimotomachi, Ozakicho, 오노미치시, 히로시마현, 722-8799, 일본",
+    "geocodeSource": "OpenStreetMap Nominatim"
+  }
+}

@@ -30,6 +30,10 @@ export type PlaceGroup = {
   latitude: number;
   longitude: number;
   mapUrl: string;
+  resolvedName?: string;
+  area?: string;
+  address?: string;
+  geocodeSource?: string;
 };
 
 export type Trip = {

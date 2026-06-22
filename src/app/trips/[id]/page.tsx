@@ -127,6 +127,10 @@ export default async function TripPage({ params }: TripPageProps) {
                             <p className="font-semibold text-[#171717]">
                               장소 {index + 1}
                             </p>
+                            {place.resolvedName ? (
+                              <p>추정 위치: {place.resolvedName}</p>
+                            ) : null}
+                            {place.area ? <p>부근: {place.area}</p> : null}
                             <p>
                               {formatTakenAt(place.startTime)} -{" "}
                               {formatTimeOnly(place.endTime)}
@@ -377,6 +381,10 @@ function RouteEndpoint({ label, point }: { label: string; point: RoutePoint }) {
       <p className="mt-1">
         {point.latitude.toFixed(5)}, {point.longitude.toFixed(5)}
       </p>
+      {point.resolvedName ? (
+        <p className="mt-1">추정 위치: {point.resolvedName}</p>
+      ) : null}
+      {point.area ? <p className="mt-1">부근: {point.area}</p> : null}
       {point.mapUrl ? (
         <a
           href={point.mapUrl}

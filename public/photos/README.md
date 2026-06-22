@@ -22,6 +22,12 @@ It also groups all GPS-tagged photos by date and nearby coordinates, then writes
 `src/data/place-manifest.json`. The detail pages use that file to build the
 automatic itinerary and representative place cards.
 
+Run this after generating places to add human-readable nearby place names:
+
+```powershell
+node scripts\enrich-place-names.mjs
+```
+
 Recommended structure:
 
 ```text
