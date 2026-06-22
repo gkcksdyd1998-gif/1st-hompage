@@ -21,7 +21,8 @@ powershell.exe -ExecutionPolicy Bypass -File scripts\import-travel-photos.ps1 -Z
 
 3. `src/data/trips.ts`에서 여행 제목, 요약, 일정 메모를 다듬는다.
 4. 사진 안에 GPS EXIF가 남아 있으면 상세 페이지에 좌표와 지도 링크가 표시된다.
-5. 공개 사이트에 올려도 되는 얼굴 사진인지 확인한다.
+5. GPS 사진 전체를 날짜와 가까운 좌표 기준으로 묶어 대표 장소 사진과 자동 일정을 만든다.
+6. 공개 사이트에 올려도 되는 얼굴 사진인지 확인한다.
 
 ## 다음에 만들기 좋은 기능
 

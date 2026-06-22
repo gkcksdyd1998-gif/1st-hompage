@@ -1,10 +1,12 @@
 import photoManifest from "./photo-manifest.json";
+import placeManifest from "./place-manifest.json";
 
 export type TripDay = {
   day: string;
   title: string;
   places: string[];
   note: string;
+  placeGroups?: PlaceGroup[];
 };
 
 export type TripPhoto = {
@@ -16,6 +18,18 @@ export type TripPhoto = {
   latitude?: number;
   longitude?: number;
   mapUrl?: string;
+};
+
+export type PlaceGroup = {
+  label: string;
+  photoCount: number;
+  representative: string;
+  originalName: string;
+  startTime: string;
+  endTime: string;
+  latitude: number;
+  longitude: number;
+  mapUrl: string;
 };
 
 export type Trip = {
@@ -39,6 +53,11 @@ type PhotoManifestTrip = {
   photos: TripPhoto[];
 };
 
+type PlaceManifestTrip = {
+  slug: string;
+  days: Array<TripDay & { placeGroups?: PlaceGroup[] }>;
+};
+
 function makePhotos(slug: string, title: string, count = 12): TripPhoto[] {
   const manifestTrip = (photoManifest as PhotoManifestTrip[]).find(
     (item) => item.slug === slug,
@@ -59,6 +78,25 @@ function makePhotos(slug: string, title: string, count = 12): TripPhoto[] {
   });
 }
 
+function makeDays(slug: string, fallbackDays: TripDay[]): TripDay[] {
+  const manifestTrip = (placeManifest as PlaceManifestTrip[]).find(
+    (item) => item.slug === slug,
+  );
+
+  if (!manifestTrip?.days.length) {
+    return fallbackDays;
+  }
+
+  return manifestTrip.days.map((day) => ({
+    day: day.day,
+    title: `${day.day} GPS 기반 일정`,
+    places:
+      day.placeGroups?.map((_, index) => `장소 ${index + 1}`) ?? day.places,
+    note: `GPS 사진을 가까운 위치끼리 묶어 대표 장소 ${day.placeGroups?.length ?? day.places.length}곳으로 정리했습니다.`,
+    placeGroups: day.placeGroups,
+  }));
+}
+
 export const trips: Trip[] = [
   {
     id: "kyoto-nara-2025-02",
@@ -73,7 +111,7 @@ export const trips: Trip[] = [
     highlights: ["교토 골목", "나라공원", "사찰 산책"],
     route: ["Kansai Airport", "Kyoto", "Nara", "Kyoto"],
     photoCount: 1112,
-    days: [
+    days: makeDays("kyoto-nara-2025-02", [
       {
         day: "Day 1",
         title: "간사이 도착과 교토 이동",
@@ -86,7 +124,7 @@ export const trips: Trip[] = [
         places: ["Kyoto", "Nara"],
         note: "교토의 골목과 나라의 공원을 중심으로 사진을 정리하면 좋은 구간.",
       },
-    ],
+    ]),
     photos: makePhotos("kyoto-nara-2025-02", "교토 나라 여행"),
   },
   {
@@ -102,7 +140,7 @@ export const trips: Trip[] = [
     highlights: ["나고야 시내", "시즈오카 풍경", "전철 이동"],
     route: ["Nagoya", "Shizuoka", "Nagoya"],
     photoCount: 807,
-    days: [
+    days: makeDays("nagoya-shizuoka-2025-04", [
       {
         day: "Day 1",
         title: "나고야 도착",
@@ -115,7 +153,7 @@ export const trips: Trip[] = [
         places: ["Shizuoka", "Nagoya"],
         note: "시즈오카 쪽 풍경과 이동 경로 사진을 묶어두면 좋은 일정.",
       },
-    ],
+    ]),
     photos: makePhotos("nagoya-shizuoka-2025-04", "나고야 시즈오카 여행"),
   },
   {
@@ -131,7 +169,7 @@ export const trips: Trip[] = [
     highlights: ["삿포로 거리", "여름 풍경", "음식 기록"],
     route: ["Sapporo"],
     photoCount: 341,
-    days: [
+    days: makeDays("sapporo-2025-08", [
       {
         day: "Day 1",
         title: "삿포로 도착",
@@ -144,7 +182,7 @@ export const trips: Trip[] = [
         places: ["Sapporo"],
         note: "여름 홋카이도의 거리와 음식을 한 묶음으로 정리하기 좋은 일정.",
       },
-    ],
+    ]),
     photos: makePhotos("sapporo-2025-08", "삿포로 여행"),
   },
   {
@@ -160,7 +198,7 @@ export const trips: Trip[] = [
     highlights: ["하코다테 야경", "항구 산책", "가을 거리"],
     route: ["Hakodate"],
     photoCount: 587,
-    days: [
+    days: makeDays("hakodate-2025-10", [
       {
         day: "Day 1",
         title: "하코다테 도착",
@@ -173,7 +211,7 @@ export const trips: Trip[] = [
         places: ["Hakodate"],
         note: "항구 도시 특유의 분위기와 밤 풍경을 중심으로 기억을 묶어두는 일정.",
       },
-    ],
+    ]),
     photos: makePhotos("hakodate-2025-10", "하코다테 여행"),
   },
   {
@@ -189,7 +227,7 @@ export const trips: Trip[] = [
     highlights: ["히로시마 시내", "겨울 산책", "연말 기록"],
     route: ["Hiroshima"],
     photoCount: 282,
-    days: [
+    days: makeDays("hiroshima-2025-12", [
       {
         day: "Day 1",
         title: "히로시마 도착",
@@ -202,7 +240,7 @@ export const trips: Trip[] = [
         places: ["Hiroshima"],
         note: "도시 산책과 연말 분위기를 사진으로 묶어두는 일정.",
       },
-    ],
+    ]),
     photos: makePhotos("hiroshima-2025-12", "히로시마 여행"),
   },
   {
@@ -218,7 +256,7 @@ export const trips: Trip[] = [
     highlights: ["기타큐슈 거리", "짧은 산책", "봄 여행"],
     route: ["Kitakyushu"],
     photoCount: 205,
-    days: [
+    days: makeDays("kitakyushu-2026-03", [
       {
         day: "Day 1",
         title: "기타큐슈 도착",
@@ -231,7 +269,7 @@ export const trips: Trip[] = [
         places: ["Kitakyushu"],
         note: "도시의 골목과 항구 쪽 분위기를 중심으로 묶어두면 좋은 일정.",
       },
-    ],
+    ]),
     photos: makePhotos("kitakyushu-2026-03", "기타큐슈 여행"),
   },
   {
@@ -247,7 +285,7 @@ export const trips: Trip[] = [
     highlights: ["가고시마 거리", "초여름 풍경", "도시 산책"],
     route: ["Kagoshima"],
     photoCount: 243,
-    days: [
+    days: makeDays("kagoshima-2026-05", [
       {
         day: "Day 1",
         title: "가고시마 도착",
@@ -260,7 +298,7 @@ export const trips: Trip[] = [
         places: ["Kagoshima"],
         note: "초여름 남쪽 도시의 분위기를 사진으로 정리하기 좋은 일정.",
       },
-    ],
+    ]),
     photos: makePhotos("kagoshima-2026-05", "가고시마 여행"),
   },
 ];

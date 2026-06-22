@@ -18,6 +18,10 @@ The import script prefers photos with GPS EXIF metadata. It also writes
 `src/data/photo-manifest.json`, which is used by the trip detail pages to show
 shooting time, coordinates, and map links.
 
+It also groups all GPS-tagged photos by date and nearby coordinates, then writes
+`src/data/place-manifest.json`. The detail pages use that file to build the
+automatic itinerary and representative place cards.
+
 Recommended structure:
 
 ```text

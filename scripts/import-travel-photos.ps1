@@ -6,7 +6,11 @@ param(
 
   [int]$PhotosPerTrip = 12,
 
-  [int]$MaxWidth = 1600
+  [int]$MaxWidth = 1600,
+
+  [double]$PlaceRadiusKm = 1.0,
+
+  [int]$MaxPlacesPerDay = 8
 )
 
 Add-Type -AssemblyName System.IO.Compression.FileSystem
@@ -40,6 +44,42 @@ function Save-JsonFile([object]$value, [string]$path) {
   $json = $value | ConvertTo-Json -Depth 6
   $encoding = New-Object System.Text.UTF8Encoding($false)
   [System.IO.File]::WriteAllText((Resolve-Path -LiteralPath (Split-Path $path -Parent)).Path + [System.IO.Path]::DirectorySeparatorChar + (Split-Path $path -Leaf), $json, $encoding)
+}
+
+function Get-DistanceKm([double]$lat1, [double]$lng1, [double]$lat2, [double]$lng2) {
+  $earthRadiusKm = 6371.0
+  $dLat = ($lat2 - $lat1) * [Math]::PI / 180
+  $dLng = ($lng2 - $lng1) * [Math]::PI / 180
+  $rLat1 = $lat1 * [Math]::PI / 180
+  $rLat2 = $lat2 * [Math]::PI / 180
+  $a = [Math]::Sin($dLat / 2) * [Math]::Sin($dLat / 2) +
+    [Math]::Cos($rLat1) * [Math]::Cos($rLat2) *
+    [Math]::Sin($dLng / 2) * [Math]::Sin($dLng / 2)
+  $c = 2 * [Math]::Atan2([Math]::Sqrt($a), [Math]::Sqrt(1 - $a))
+  return $earthRadiusKm * $c
+}
+
+function Get-DateKey($info) {
+  if ($info.TakenAt -match "^(\d{4}):(\d{2}):(\d{2})") {
+    return "$($matches[1]).$($matches[2]).$($matches[3])"
+  }
+
+  return "date-unknown"
+}
+
+function Select-Evenly([object[]]$sourceItems, [int]$count) {
+  $array = @($sourceItems)
+  if ($array.Count -le $count) {
+    return $array
+  }
+
+  $selected = @()
+  for ($i = 0; $i -lt $count; $i++) {
+    $index = [int][Math]::Round($i * (($array.Count - 1) / [double]($count - 1)))
+    $selected += $array[$index]
+  }
+
+  return $selected
 }
 
 function Convert-RationalToDouble([byte[]]$bytes, [int]$offset) {
@@ -178,14 +218,19 @@ try {
     Sort-Object Name
 
   $manifest = @()
+  $placeManifest = @()
 
   foreach ($group in $groups) {
     $tripName = $group.Name
     $slug = Convert-ToSlug $tripName
     $tripDir = Join-Path $OutputRoot $slug
+    $placeDir = Join-Path $tripDir "places"
     New-Item -ItemType Directory -Force $tripDir | Out-Null
+    New-Item -ItemType Directory -Force $placeDir | Out-Null
 
     Get-ChildItem $tripDir -Filter "*.jpg" -ErrorAction SilentlyContinue |
+      Remove-Item -Force
+    Get-ChildItem $placeDir -Filter "*.jpg" -ErrorAction SilentlyContinue |
       Remove-Item -Force
 
     $photoInfos = $group.Group | Sort-Object FullName | ForEach-Object { Get-PhotoInfo $_ }
@@ -236,6 +281,81 @@ try {
 
     Copy-Item -LiteralPath (Join-Path $tripDir "01.jpg") -Destination (Join-Path $tripDir "cover.jpg") -Force
 
+    $placeDays = @()
+    $gpsByDate = $gpsPhotoInfos |
+      Where-Object { $_.TakenAt } |
+      Sort-Object TakenAt |
+      Group-Object { Get-DateKey $_ } |
+      Sort-Object Name
+
+    foreach ($dateGroup in $gpsByDate) {
+      $clusters = New-Object System.Collections.Generic.List[object]
+      $orderedInfos = @($dateGroup.Group | Sort-Object TakenAt)
+
+      foreach ($info in $orderedInfos) {
+        if ($clusters.Count -eq 0) {
+          $clusters.Add([pscustomobject]@{
+            CenterLatitude = [double]$info.Latitude
+            CenterLongitude = [double]$info.Longitude
+            Items = @($info)
+          })
+          continue
+        }
+
+        $lastCluster = $clusters[$clusters.Count - 1]
+        $distance = Get-DistanceKm $lastCluster.CenterLatitude $lastCluster.CenterLongitude $info.Latitude $info.Longitude
+
+        if ($distance -le $PlaceRadiusKm) {
+          $items = @($lastCluster.Items) + $info
+          $lastCluster.Items = $items
+          $lastCluster.CenterLatitude = ($items | Measure-Object Latitude -Average).Average
+          $lastCluster.CenterLongitude = ($items | Measure-Object Longitude -Average).Average
+        } else {
+          $clusters.Add([pscustomobject]@{
+            CenterLatitude = [double]$info.Latitude
+            CenterLongitude = [double]$info.Longitude
+            Items = @($info)
+          })
+        }
+      }
+
+      $selectedClusters = Select-Evenly -sourceItems ($clusters.ToArray()) -count $MaxPlacesPerDay
+      $placeGroups = @()
+
+      for ($i = 0; $i -lt $selectedClusters.Count; $i++) {
+        $cluster = $selectedClusters[$i]
+        $clusterItems = @($cluster.Items | Sort-Object TakenAt)
+        $representative = $clusterItems[[int][Math]::Floor(($clusterItems.Count - 1) / 2)]
+        $placeFileName = "$($dateGroup.Name.Replace('.', ''))-{0:D2}.jpg" -f ($i + 1)
+        $placeDestination = Join-Path $placeDir $placeFileName
+        Save-ResizedJpeg $representative.Entry $placeDestination
+
+        $startTime = $clusterItems[0].TakenAt
+        $endTime = $clusterItems[$clusterItems.Count - 1].TakenAt
+        $label = "Place $($i + 1)"
+
+        $placeGroups += [ordered]@{
+          label = $label
+          photoCount = $clusterItems.Count
+          representative = "/photos/$slug/places/$placeFileName"
+          originalName = $representative.Entry.Name
+          startTime = $startTime
+          endTime = $endTime
+          latitude = [Math]::Round([double]$cluster.CenterLatitude, 6)
+          longitude = [Math]::Round([double]$cluster.CenterLongitude, 6)
+          mapUrl = "https://www.google.com/maps?q=$([Math]::Round([double]$cluster.CenterLatitude, 6)),$([Math]::Round([double]$cluster.CenterLongitude, 6))"
+        }
+      }
+
+      $placeDays += [ordered]@{
+        day = $dateGroup.Name
+        title = "$($dateGroup.Name) GPS route"
+        places = @($placeGroups | ForEach-Object { $_.label })
+        note = "Grouped $($orderedInfos.Count) geotagged photos into $($placeGroups.Count) representative places."
+        placeGroups = $placeGroups
+      }
+    }
+
     $manifest += [ordered]@{
       slug = $slug
       name = $tripName
@@ -245,12 +365,21 @@ try {
       cover = "/photos/$slug/cover.jpg"
       photos = $photos
     }
+
+    $placeManifest += [ordered]@{
+      slug = $slug
+      name = $tripName
+      placeRadiusKm = $PlaceRadiusKm
+      days = $placeDays
+    }
   }
 
   $manifestPath = Join-Path $OutputRoot "manifest.json"
   Save-JsonFile $manifest $manifestPath
   $dataManifestPath = Join-Path "src/data" "photo-manifest.json"
   Save-JsonFile $manifest $dataManifestPath
+  $placeManifestPath = Join-Path "src/data" "place-manifest.json"
+  Save-JsonFile $placeManifest $placeManifestPath
   $manifest | Select-Object slug, name, originalImageCount, gpsImageCount, importedImageCount
 } finally {
   $archive.Dispose()

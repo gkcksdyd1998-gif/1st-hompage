@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { trips, type TripPhoto } from "@/data/trips";
+import { trips, type PlaceGroup, type TripDay } from "@/data/trips";
 
 type TripPageProps = {
   params: Promise<{
@@ -9,9 +9,7 @@ type TripPageProps = {
   }>;
 };
 
-type RoutePoint = TripPhoto & {
-  latitude: number;
-  longitude: number;
+type RoutePoint = PlaceGroup & {
   x: number;
   y: number;
 };
@@ -79,7 +77,7 @@ export default async function TripPage({ params }: TripPageProps) {
 
       <section className="mx-auto grid max-w-6xl gap-8 px-5 py-10 sm:px-8 lg:grid-cols-[1fr_320px] lg:px-10">
         <div className="space-y-8">
-          <TripRouteMap photos={trip.photos} />
+          <TripRouteMap days={trip.days} />
 
           <section>
             <p className="text-sm font-semibold text-[#9a4f33]">Timeline</p>
@@ -109,6 +107,48 @@ export default async function TripPage({ params }: TripPageProps) {
                       </span>
                     ))}
                   </div>
+                  {day.placeGroups?.length ? (
+                    <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                      {day.placeGroups.map((place, index) => (
+                        <article
+                          key={`${day.day}-${place.label}-${index}`}
+                          className="overflow-hidden rounded-lg border border-[#ddd3c4] bg-[#f8f5ef]"
+                        >
+                          <div className="relative aspect-[4/3] w-full">
+                            <Image
+                              src={place.representative}
+                              alt={`${day.day} 장소 ${index + 1} 대표 사진`}
+                              fill
+                              sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
+                              className="object-cover"
+                            />
+                          </div>
+                          <div className="space-y-2 p-4 text-sm text-[#5d554c]">
+                            <p className="font-semibold text-[#171717]">
+                              장소 {index + 1}
+                            </p>
+                            <p>
+                              {formatTakenAt(place.startTime)} -{" "}
+                              {formatTimeOnly(place.endTime)}
+                            </p>
+                            <p>근처 GPS 사진 {place.photoCount}장</p>
+                            <p>
+                              {place.latitude.toFixed(5)},{" "}
+                              {place.longitude.toFixed(5)}
+                            </p>
+                            <a
+                              href={place.mapUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="inline-flex rounded-md bg-[#efe8dc] px-2.5 py-1 text-xs font-semibold text-[#594331] transition hover:bg-[#e0d2bf]"
+                            >
+                              지도에서 보기
+                            </a>
+                          </div>
+                        </article>
+                      ))}
+                    </div>
+                  ) : null}
                 </article>
               ))}
             </div>
@@ -211,21 +251,17 @@ export default async function TripPage({ params }: TripPageProps) {
   );
 }
 
-function TripRouteMap({ photos }: { photos: TripPhoto[] }) {
-  const sortedPhotos = photos
-    .filter(
-      (photo) =>
-        typeof photo.latitude === "number" &&
-        typeof photo.longitude === "number",
-    )
-    .sort((a, b) => (a.takenAt ?? "").localeCompare(b.takenAt ?? ""));
+function TripRouteMap({ days }: { days: TripDay[] }) {
+  const sortedPlaces = days
+    .flatMap((day) => day.placeGroups ?? [])
+    .sort((a, b) => a.startTime.localeCompare(b.startTime));
 
-  if (sortedPhotos.length === 0) {
+  if (sortedPlaces.length === 0) {
     return null;
   }
 
-  const latitudes = sortedPhotos.map((photo) => photo.latitude as number);
-  const longitudes = sortedPhotos.map((photo) => photo.longitude as number);
+  const latitudes = sortedPlaces.map((place) => place.latitude);
+  const longitudes = sortedPlaces.map((place) => place.longitude);
   const minLat = Math.min(...latitudes);
   const maxLat = Math.max(...latitudes);
   const minLng = Math.min(...longitudes);
@@ -236,19 +272,16 @@ function TripRouteMap({ photos }: { photos: TripPhoto[] }) {
   const width = 1000;
   const height = 620;
 
-  const points: RoutePoint[] = sortedPhotos.map((photo) => {
-    const longitude = photo.longitude as number;
-    const latitude = photo.latitude as number;
-
+  const points: RoutePoint[] = sortedPlaces.map((place) => {
     return {
-      ...photo,
-      latitude,
-      longitude,
-      x: padding + ((longitude - minLng) / lngSpan) * (width - padding * 2),
+      ...place,
+      x:
+        padding +
+        ((place.longitude - minLng) / lngSpan) * (width - padding * 2),
       y:
         height -
         padding -
-        ((latitude - minLat) / latSpan) * (height - padding * 2),
+        ((place.latitude - minLat) / latSpan) * (height - padding * 2),
     };
   });
 
@@ -268,7 +301,7 @@ function TripRouteMap({ photos }: { photos: TripPhoto[] }) {
           </h2>
         </div>
         <p className="text-sm font-semibold text-[#6f665c]">
-          {points.length}개 GPS 포인트
+          {points.length}개 대표 장소
         </p>
       </div>
 
@@ -304,7 +337,7 @@ function TripRouteMap({ photos }: { photos: TripPhoto[] }) {
             strokeWidth="8"
           />
           {points.map((point, index) => (
-            <g key={`${point.src}-${index}`}>
+            <g key={`${point.representative}-${index}`}>
               <circle
                 cx={point.x}
                 cy={point.y}
@@ -340,7 +373,7 @@ function RouteEndpoint({ label, point }: { label: string; point: RoutePoint }) {
   return (
     <div className="rounded-lg bg-[#f8f5ef] p-4">
       <p className="font-semibold text-[#171717]">{label}</p>
-      <p className="mt-1">{formatTakenAt(point.takenAt ?? "")}</p>
+      <p className="mt-1">{formatTakenAt(point.startTime)}</p>
       <p className="mt-1">
         {point.latitude.toFixed(5)}, {point.longitude.toFixed(5)}
       </p>
@@ -368,4 +401,16 @@ function formatTakenAt(value: string) {
   }
 
   return `${match[1]}.${match[2]}.${match[3]} ${match[4]}:${match[5]}`;
+}
+
+function formatTimeOnly(value: string) {
+  const match = value.match(
+    /^(\d{4}):(\d{2}):(\d{2})\s+(\d{2}):(\d{2}):(\d{2})$/,
+  );
+
+  if (!match) {
+    return value;
+  }
+
+  return `${match[4]}:${match[5]}`;
 }
