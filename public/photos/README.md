@@ -14,6 +14,10 @@ Run this from the project root to regenerate the gallery images:
 powershell.exe -ExecutionPolicy Bypass -File scripts\import-travel-photos.ps1 -ZipPath "C:\Users\82102\Downloads\일본여행.zip" -PhotosPerTrip 12 -MaxWidth 1600
 ```
 
+The import script prefers photos with GPS EXIF metadata. It also writes
+`src/data/photo-manifest.json`, which is used by the trip detail pages to show
+shooting time, coordinates, and map links.
+
 Recommended structure:
 
 ```text

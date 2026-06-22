@@ -108,8 +108,12 @@ export default async function TripPage({ params }: TripPageProps) {
           <section>
             <p className="text-sm font-semibold text-[#9a4f33]">Photos</p>
             <h2 className="mt-1 text-3xl font-semibold tracking-normal">
-              사진 모음
+              장소 기록 사진
             </h2>
+            <p className="mt-2 text-sm leading-6 text-[#6f665c]">
+              GPS EXIF가 남아 있는 사진을 우선으로 골랐고, 좌표가 있는 사진은
+              지도 링크를 함께 표시합니다.
+            </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {trip.photos.map((photo) => (
                 <figure
@@ -125,8 +129,36 @@ export default async function TripPage({ params }: TripPageProps) {
                       className="object-cover"
                     />
                   </div>
-                  <figcaption className="p-4 text-sm font-semibold text-[#5d554c]">
-                    {photo.caption}
+                  <figcaption className="space-y-2 p-4 text-sm text-[#5d554c]">
+                    <p className="font-semibold">{photo.caption}</p>
+                    {photo.takenAt ? (
+                      <p>촬영시간: {formatTakenAt(photo.takenAt)}</p>
+                    ) : null}
+                    {photo.latitude && photo.longitude ? (
+                      <p>
+                        좌표: {photo.latitude.toFixed(5)},{" "}
+                        {photo.longitude.toFixed(5)}
+                      </p>
+                    ) : null}
+                    {photo.mapUrl ? (
+                      <a
+                        href={photo.mapUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex rounded-md bg-[#efe8dc] px-2.5 py-1 text-xs font-semibold text-[#594331] transition hover:bg-[#e0d2bf]"
+                      >
+                        지도에서 보기
+                      </a>
+                    ) : (
+                      <p className="text-xs text-[#8a8177]">
+                        GPS 기록이 없는 사진
+                      </p>
+                    )}
+                    {photo.originalName ? (
+                      <p className="text-xs text-[#8a8177]">
+                        원본: {photo.originalName}
+                      </p>
+                    ) : null}
                   </figcaption>
                 </figure>
               ))}
@@ -168,4 +200,16 @@ export default async function TripPage({ params }: TripPageProps) {
       </section>
     </main>
   );
+}
+
+function formatTakenAt(value: string) {
+  const match = value.match(
+    /^(\d{4}):(\d{2}):(\d{2})\s+(\d{2}):(\d{2}):(\d{2})$/,
+  );
+
+  if (!match) {
+    return value;
+  }
+
+  return `${match[1]}.${match[2]}.${match[3]} ${match[4]}:${match[5]}`;
 }

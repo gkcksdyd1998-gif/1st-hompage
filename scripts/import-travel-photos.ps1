@@ -36,11 +36,107 @@ function Convert-ToSlug([string]$name) {
   return $slug
 }
 
+function Save-JsonFile([object]$value, [string]$path) {
+  $json = $value | ConvertTo-Json -Depth 6
+  $encoding = New-Object System.Text.UTF8Encoding($false)
+  [System.IO.File]::WriteAllText((Resolve-Path -LiteralPath (Split-Path $path -Parent)).Path + [System.IO.Path]::DirectorySeparatorChar + (Split-Path $path -Leaf), $json, $encoding)
+}
+
+function Convert-RationalToDouble([byte[]]$bytes, [int]$offset) {
+  $numerator = [BitConverter]::ToUInt32($bytes, $offset)
+  $denominator = [BitConverter]::ToUInt32($bytes, $offset + 4)
+
+  if ($denominator -eq 0) {
+    return 0
+  }
+
+  return $numerator / [double]$denominator
+}
+
+function Get-ExifText($image, [int]$id) {
+  if ($image.PropertyIdList -notcontains $id) {
+    return $null
+  }
+
+  $bytes = $image.GetPropertyItem($id).Value
+  return ([System.Text.Encoding]::ASCII.GetString($bytes)).Trim([char]0).Trim()
+}
+
+function Get-GpsCoordinate($image, [int]$coordinateId, [int]$refId) {
+  if (($image.PropertyIdList -notcontains $coordinateId) -or ($image.PropertyIdList -notcontains $refId)) {
+    return $null
+  }
+
+  $coordinateBytes = $image.GetPropertyItem($coordinateId).Value
+  $refBytes = $image.GetPropertyItem($refId).Value
+  $degrees = Convert-RationalToDouble $coordinateBytes 0
+  $minutes = Convert-RationalToDouble $coordinateBytes 8
+  $seconds = Convert-RationalToDouble $coordinateBytes 16
+  $value = $degrees + ($minutes / 60) + ($seconds / 3600)
+  $ref = ([System.Text.Encoding]::ASCII.GetString($refBytes)).Trim([char]0).Trim()
+
+  if ($ref -eq "S" -or $ref -eq "W") {
+    $value = -$value
+  }
+
+  return [Math]::Round($value, 6)
+}
+
+function Get-PhotoInfo($entry) {
+  $stream = $entry.Open()
+  try {
+    $image = [System.Drawing.Image]::FromStream($stream, $false, $false)
+    try {
+      $latitude = Get-GpsCoordinate $image 2 1
+      $longitude = Get-GpsCoordinate $image 4 3
+      $takenAt = Get-ExifText $image 0x9003
+
+      if (-not $takenAt) {
+        $takenAt = Get-ExifText $image 0x0132
+      }
+
+      return [pscustomobject]@{
+        Entry = $entry
+        HasGps = ($null -ne $latitude -and $null -ne $longitude)
+        Latitude = $latitude
+        Longitude = $longitude
+        TakenAt = $takenAt
+      }
+    } finally {
+      $image.Dispose()
+    }
+  } catch {
+    return [pscustomobject]@{
+      Entry = $entry
+      HasGps = $false
+      Latitude = $null
+      Longitude = $null
+      TakenAt = $null
+    }
+  } finally {
+    $stream.Dispose()
+  }
+}
+
 function Save-ResizedJpeg($entry, [string]$destination) {
   $stream = $entry.Open()
   try {
     $source = [System.Drawing.Image]::FromStream($stream)
     try {
+      if ($source.PropertyIdList -contains 0x0112) {
+        $orientation = [BitConverter]::ToUInt16($source.GetPropertyItem(0x0112).Value, 0)
+
+        switch ($orientation) {
+          2 { $source.RotateFlip([System.Drawing.RotateFlipType]::RotateNoneFlipX) }
+          3 { $source.RotateFlip([System.Drawing.RotateFlipType]::Rotate180FlipNone) }
+          4 { $source.RotateFlip([System.Drawing.RotateFlipType]::Rotate180FlipX) }
+          5 { $source.RotateFlip([System.Drawing.RotateFlipType]::Rotate90FlipX) }
+          6 { $source.RotateFlip([System.Drawing.RotateFlipType]::Rotate90FlipNone) }
+          7 { $source.RotateFlip([System.Drawing.RotateFlipType]::Rotate270FlipX) }
+          8 { $source.RotateFlip([System.Drawing.RotateFlipType]::Rotate270FlipNone) }
+        }
+      }
+
       $ratio = [Math]::Min(1.0, $MaxWidth / [double]$source.Width)
       $width = [Math]::Max(1, [int][Math]::Round($source.Width * $ratio))
       $height = [Math]::Max(1, [int][Math]::Round($source.Height * $ratio))
@@ -92,7 +188,9 @@ try {
     Get-ChildItem $tripDir -Filter "*.jpg" -ErrorAction SilentlyContinue |
       Remove-Item -Force
 
-    $entries = $group.Group | Sort-Object FullName
+    $photoInfos = $group.Group | Sort-Object FullName | ForEach-Object { Get-PhotoInfo $_ }
+    $gpsPhotoInfos = @($photoInfos | Where-Object { $_.HasGps })
+    $entries = if ($gpsPhotoInfos.Count -ge $PhotosPerTrip) { $gpsPhotoInfos } else { $photoInfos }
     if ($entries.Count -eq 0) {
       continue
     }
@@ -105,9 +203,9 @@ try {
     } else {
       for ($i = 0; $i -lt $PhotosPerTrip; $i++) {
         $index = [int][Math]::Round($i * (($entries.Count - 1) / [double]($PhotosPerTrip - 1)))
-        $entry = $entries[$index]
-        if (-not $selected.Contains($entry)) {
-          $selected.Add($entry)
+        $info = $entries[$index]
+        if (-not $selected.Contains($info)) {
+          $selected.Add($info)
         }
       }
     }
@@ -116,13 +214,24 @@ try {
     for ($i = 0; $i -lt $selected.Count; $i++) {
       $fileName = "{0:D2}.jpg" -f ($i + 1)
       $destination = Join-Path $tripDir $fileName
-      Save-ResizedJpeg $selected[$i] $destination
+      $info = $selected[$i]
+      Save-ResizedJpeg $info.Entry $destination
 
-      $photos += [ordered]@{
+      $photo = [ordered]@{
         src = "/photos/$slug/$fileName"
         alt = "$tripName photo $($i + 1)"
         caption = "$tripName #$($i + 1)"
+        originalName = $info.Entry.Name
+        takenAt = $info.TakenAt
       }
+
+      if ($info.HasGps) {
+        $photo.latitude = $info.Latitude
+        $photo.longitude = $info.Longitude
+        $photo.mapUrl = "https://www.google.com/maps?q=$($info.Latitude),$($info.Longitude)"
+      }
+
+      $photos += $photo
     }
 
     Copy-Item -LiteralPath (Join-Path $tripDir "01.jpg") -Destination (Join-Path $tripDir "cover.jpg") -Force
@@ -130,7 +239,8 @@ try {
     $manifest += [ordered]@{
       slug = $slug
       name = $tripName
-      originalImageCount = $entries.Count
+      originalImageCount = $photoInfos.Count
+      gpsImageCount = $gpsPhotoInfos.Count
       importedImageCount = $selected.Count
       cover = "/photos/$slug/cover.jpg"
       photos = $photos
@@ -138,8 +248,10 @@ try {
   }
 
   $manifestPath = Join-Path $OutputRoot "manifest.json"
-  $manifest | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
-  $manifest | Select-Object slug, name, originalImageCount, importedImageCount
+  Save-JsonFile $manifest $manifestPath
+  $dataManifestPath = Join-Path "src/data" "photo-manifest.json"
+  Save-JsonFile $manifest $dataManifestPath
+  $manifest | Select-Object slug, name, originalImageCount, gpsImageCount, importedImageCount
 } finally {
   $archive.Dispose()
 }

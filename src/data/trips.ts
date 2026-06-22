@@ -1,3 +1,5 @@
+import photoManifest from "./photo-manifest.json";
+
 export type TripDay = {
   day: string;
   title: string;
@@ -9,6 +11,11 @@ export type TripPhoto = {
   src: string;
   alt: string;
   caption: string;
+  originalName?: string;
+  takenAt?: string;
+  latitude?: number;
+  longitude?: number;
+  mapUrl?: string;
 };
 
 export type Trip = {
@@ -27,7 +34,20 @@ export type Trip = {
   photos: TripPhoto[];
 };
 
+type PhotoManifestTrip = {
+  slug: string;
+  photos: TripPhoto[];
+};
+
 function makePhotos(slug: string, title: string, count = 12): TripPhoto[] {
+  const manifestTrip = (photoManifest as PhotoManifestTrip[]).find(
+    (item) => item.slug === slug,
+  );
+
+  if (manifestTrip) {
+    return manifestTrip.photos;
+  }
+
   return Array.from({ length: count }, (_, index) => {
     const number = String(index + 1).padStart(2, "0");
 
