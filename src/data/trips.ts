@@ -283,7 +283,7 @@ export const trips: Trip[] = [
     dates: "2026.05.15 - 2026.05.18",
     cities: ["Kagoshima"],
     mood: "남쪽 도시, 초여름, 느긋한 여행",
-    cover: "/photos/kagoshima-2026-05/cover.jpg",
+    cover: "/photos/kagoshima-2026-05/places/20260516-02.jpg",
     summary:
       "2026년 5월의 가고시마 여행. 초여름 공기와 남쪽 도시의 장면을 모아둔 기록.",
     highlights: ["가고시마 거리", "초여름 풍경", "도시 산책"],
