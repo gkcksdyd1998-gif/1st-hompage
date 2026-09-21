@@ -45,7 +45,7 @@ export function TripExplorer({
 }) {
   const router = useRouter();
   const [day, setDay] = useState("all");
-  const [view, setView] = useState("story");
+  const [view, setView] = useState(() => trip.days.some(day => day.placeGroups?.length) ? "story" : "photos");
   const [selected, setSelected] = useState<string | null>(null);
   const [viewer, setViewer] = useState<{
     photos: ViewPhoto[];
@@ -171,7 +171,7 @@ export function TripExplorer({
               <Images size={17} /> 사진 <span>{photos.length}</span>
             </button>
           </div>
-          <span className="quiet">{allPlaces.length}개 장소의 기억</span>
+          <span className="quiet">{allPlaces.length ? `${allPlaces.length}개 장소의 기억` : `${dates.length}일간의 사진 기록`}</span>
         </div>
         <div className="day-tabs" aria-label="날짜 선택">
           <button
@@ -197,7 +197,29 @@ export function TripExplorer({
             </button>
           ))}
         </div>
-        {view === "story" ? (
+        {trip.locationNote && <p className="location-note">{trip.locationNote}</p>}
+        {view === "story" && !allPlaces.length ? (
+          <div className="photo-itinerary">
+            {trip.days.filter(item => day === "all" || item.day === day).map(item => {
+              const dayPhotos = trip.photos.filter(photo => photo.takenAt?.slice(0, 10).replaceAll(":", ".") === item.day);
+              const representative = dayPhotos[0];
+              return (
+                <article className="photo-day" key={item.day}>
+                  {representative && <button className="place-image" aria-label={`${item.title} 사진 확대`} onClick={() => setViewer({ photos, index: photos.findIndex(photo => photo.src === representative.src) })}>
+                    <Image src={representative.src} alt={representative.alt} fill sizes="(max-width: 600px) 100vw, 360px" />
+                    <span><Maximize2 size={17} /></span>
+                  </button>}
+                  <div>
+                    <p className="eyebrow">DAY {dates.indexOf(item.day) + 1} · {item.day}</p>
+                    <h2>{item.title}</h2>
+                    <p>{item.note}</p>
+                    <button className="back-link" onClick={() => { setDay(item.day); setView("photos"); }}><Camera size={16} /> 사진 {dayPhotos.length}장 <ArrowUpRight size={15} /></button>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        ) : view === "story" ? (
           <div className="story-layout">
             <div className="timeline">
               <div className="timeline-heading">

@@ -1,912 +1,1426 @@
 [
-    {
-        "slug":  "kagoshima-2026-05",
-        "name":  "가고시마 여행 (26.05.15~26.05.18)",
-        "originalImageCount":  243,
-        "gpsImageCount":  22,
-        "importedImageCount":  12,
-        "cover":  "/photos/kagoshima-2026-05/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/kagoshima-2026-05/01.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 1",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #1",
-                           "originalName":  "20260516_102408.jpg",
-                           "takenAt":  "2026:05:16 10:24:08",
-                           "latitude":  31.582611,
-                           "longitude":  130.546481,
-                           "mapUrl":  "https://www.google.com/maps?q=31.582611,130.546481"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/02.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 2",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #2",
-                           "originalName":  "20260516_103135.jpg",
-                           "takenAt":  "2026:05:16 10:31:35",
-                           "latitude":  31.582628,
-                           "longitude":  130.546449,
-                           "mapUrl":  "https://www.google.com/maps?q=31.582628,130.546449"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/03.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 3",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #3",
-                           "originalName":  "20260516_103140.jpg",
-                           "takenAt":  "2026:05:16 10:31:40",
-                           "latitude":  31.582628,
-                           "longitude":  130.546449,
-                           "mapUrl":  "https://www.google.com/maps?q=31.582628,130.546449"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/04.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 4",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #4",
-                           "originalName":  "20260516_104516.jpg",
-                           "takenAt":  "2026:05:16 10:45:16",
-                           "latitude":  31.583608,
-                           "longitude":  130.55279,
-                           "mapUrl":  "https://www.google.com/maps?q=31.583608,130.55279"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/05.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 5",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #5",
-                           "originalName":  "20260516_105334.jpg",
-                           "takenAt":  "2026:05:16 10:53:34",
-                           "latitude":  31.596687,
-                           "longitude":  130.562785,
-                           "mapUrl":  "https://www.google.com/maps?q=31.596687,130.562785"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/06.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 6",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #6",
-                           "originalName":  "20260516_174011.jpg",
-                           "takenAt":  "2026:05:16 17:40:11",
-                           "latitude":  31.229366,
-                           "longitude":  130.651821,
-                           "mapUrl":  "https://www.google.com/maps?q=31.229366,130.651821"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/07.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 7",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #7",
-                           "originalName":  "20260516_174017.jpg",
-                           "takenAt":  "2026:05:16 17:40:17",
-                           "latitude":  31.229363,
-                           "longitude":  130.651829,
-                           "mapUrl":  "https://www.google.com/maps?q=31.229363,130.651829"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/08.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 8",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #8",
-                           "originalName":  "20260516_203241.jpg",
-                           "takenAt":  "2026:05:16 20:32:42",
-                           "latitude":  31.59459,
-                           "longitude":  130.547313,
-                           "mapUrl":  "https://www.google.com/maps?q=31.59459,130.547313"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/09.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 9",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #9",
-                           "originalName":  "20260516_205138.jpg",
-                           "takenAt":  "2026:05:16 20:51:38",
-                           "latitude":  31.594601,
-                           "longitude":  130.547327,
-                           "mapUrl":  "https://www.google.com/maps?q=31.594601,130.547327"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/10.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 10",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #10",
-                           "originalName":  "20260517_080021.jpg",
-                           "takenAt":  "2026:05:17 08:00:22",
-                           "latitude":  31.595119,
-                           "longitude":  130.547842,
-                           "mapUrl":  "https://www.google.com/maps?q=31.595119,130.547842"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/11.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 11",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #11",
-                           "originalName":  "20260518_103046.jpg",
-                           "takenAt":  "2026:05:18 10:30:45",
-                           "latitude":  31.583595,
-                           "longitude":  130.542416,
-                           "mapUrl":  "https://www.google.com/maps?q=31.583595,130.542416"
-                       },
-                       {
-                           "src":  "/photos/kagoshima-2026-05/12.jpg",
-                           "alt":  "가고시마 여행 (26.05.15~26.05.18) photo 12",
-                           "caption":  "가고시마 여행 (26.05.15~26.05.18) #12",
-                           "originalName":  "20260518_151430.jpg",
-                           "takenAt":  "2026:05:18 15:14:31",
-                           "latitude":  31.58459,
-                           "longitude":  130.54279,
-                           "mapUrl":  "https://www.google.com/maps?q=31.58459,130.54279"
-                       }
-                   ]
-    },
-    {
-        "slug":  "kyoto-nara-2025-02",
-        "name":  "교토 나라 여행 (25.02.08~25.02.11)",
-        "originalImageCount":  1112,
-        "gpsImageCount":  235,
-        "importedImageCount":  12,
-        "cover":  "/photos/kyoto-nara-2025-02/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/01.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 1",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #1",
-                           "originalName":  "1739007382092-1.jpg",
-                           "takenAt":  "2025:02:08 16:36:10",
-                           "latitude":  35.026414,
-                           "longitude":  135.798128,
-                           "mapUrl":  "https://www.google.com/maps?q=35.026414,135.798128"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/02.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 2",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #2",
-                           "originalName":  "1739007529620-28.jpg",
-                           "takenAt":  "2025:02:08 16:35:00",
-                           "latitude":  35.026425,
-                           "longitude":  135.798142,
-                           "mapUrl":  "https://www.google.com/maps?q=35.026425,135.798142"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/03.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 3",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #3",
-                           "originalName":  "1739022129009-25.jpg",
-                           "takenAt":  "2025:02:08 19:04:00",
-                           "latitude":  35.004783,
-                           "longitude":  135.766814,
-                           "mapUrl":  "https://www.google.com/maps?q=35.004783,135.766814"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/04.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 4",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #4",
-                           "originalName":  "1739115726762-17.jpg",
-                           "takenAt":  "2025:02:09 21:27:14",
-                           "latitude":  34.990256,
-                           "longitude":  135.767622,
-                           "mapUrl":  "https://www.google.com/maps?q=34.990256,135.767622"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/05.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 5",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #5",
-                           "originalName":  "1739115753757-19.jpg",
-                           "takenAt":  "2025:02:09 16:48:49",
-                           "latitude":  34.967217,
-                           "longitude":  135.773697,
-                           "mapUrl":  "https://www.google.com/maps?q=34.967217,135.773697"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/06.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 6",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #6",
-                           "originalName":  "1739115777929-13.jpg",
-                           "takenAt":  "2025:02:09 15:20:40",
-                           "latitude":  34.995006,
-                           "longitude":  135.783736,
-                           "mapUrl":  "https://www.google.com/maps?q=34.995006,135.783736"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/07.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 7",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #7",
-                           "originalName":  "1739197777982-10.jpg",
-                           "takenAt":  "2025:02:10 14:55:03",
-                           "latitude":  34.682497,
-                           "longitude":  135.836167,
-                           "mapUrl":  "https://www.google.com/maps?q=34.682497,135.836167"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/08.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 8",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #8",
-                           "originalName":  "1739197777982-4.jpg",
-                           "takenAt":  "2025:02:10 01:27:46",
-                           "latitude":  35.02285,
-                           "longitude":  135.741272,
-                           "mapUrl":  "https://www.google.com/maps?q=35.02285,135.741272"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/09.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 9",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #9",
-                           "originalName":  "1739197848435-26.jpg",
-                           "takenAt":  "2025:02:10 16:47:46",
-                           "latitude":  34.680436,
-                           "longitude":  135.848817,
-                           "mapUrl":  "https://www.google.com/maps?q=34.680436,135.848817"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/10.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 10",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #10",
-                           "originalName":  "1739197884149-19.jpg",
-                           "takenAt":  "2025:02:10 17:12:10",
-                           "latitude":  34.681656,
-                           "longitude":  135.840714,
-                           "mapUrl":  "https://www.google.com/maps?q=34.681656,135.840714"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/11.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 11",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #11",
-                           "originalName":  "1739197907685-13.jpg",
-                           "takenAt":  "2025:02:10 19:43:40",
-                           "latitude":  34.681956,
-                           "longitude":  135.821197,
-                           "mapUrl":  "https://www.google.com/maps?q=34.681956,135.821197"
-                       },
-                       {
-                           "src":  "/photos/kyoto-nara-2025-02/12.jpg",
-                           "alt":  "교토 나라 여행 (25.02.08~25.02.11) photo 12",
-                           "caption":  "교토 나라 여행 (25.02.08~25.02.11) #12",
-                           "originalName":  "1757601348288.jpg",
-                           "takenAt":  "2025:02:10 20:31:15",
-                           "latitude":  34.681919,
-                           "longitude":  135.820114,
-                           "mapUrl":  "https://www.google.com/maps?q=34.681919,135.820114"
-                       }
-                   ]
-    },
-    {
-        "slug":  "kitakyushu-2026-03",
-        "name":  "기타큐슈 여행 (26.03.14~26.03.16)",
-        "originalImageCount":  205,
-        "gpsImageCount":  14,
-        "importedImageCount":  12,
-        "cover":  "/photos/kitakyushu-2026-03/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/01.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 1",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #1",
-                           "originalName":  "20260314_160911.jpg",
-                           "takenAt":  "2026:03:14 16:09:11",
-                           "latitude":  37.470316,
-                           "longitude":  126.428854,
-                           "mapUrl":  "https://www.google.com/maps?q=37.470316,126.428854"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/02.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 2",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #2",
-                           "originalName":  "20260314_212607.jpg",
-                           "takenAt":  "2026:03:14 21:26:08",
-                           "latitude":  33.921887,
-                           "longitude":  130.919354,
-                           "mapUrl":  "https://www.google.com/maps?q=33.921887,130.919354"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/03.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 3",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #3",
-                           "originalName":  "20260314_214524.jpg",
-                           "takenAt":  "2026:03:14 21:45:24",
-                           "latitude":  33.92222,
-                           "longitude":  130.919077,
-                           "mapUrl":  "https://www.google.com/maps?q=33.92222,130.919077"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/04.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 4",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #4",
-                           "originalName":  "20260315_130414.jpg",
-                           "takenAt":  "2026:03:15 13:04:14",
-                           "latitude":  33.947949,
-                           "longitude":  130.963444,
-                           "mapUrl":  "https://www.google.com/maps?q=33.947949,130.963444"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/05.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 5",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #5",
-                           "originalName":  "20260315_130732.jpg",
-                           "takenAt":  "2026:03:15 13:07:32",
-                           "latitude":  33.947407,
-                           "longitude":  130.964365,
-                           "mapUrl":  "https://www.google.com/maps?q=33.947407,130.964365"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/06.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 6",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #6",
-                           "originalName":  "20260315_130734.jpg",
-                           "takenAt":  "2026:03:15 13:07:34",
-                           "latitude":  33.947411,
-                           "longitude":  130.96436,
-                           "mapUrl":  "https://www.google.com/maps?q=33.947411,130.96436"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/07.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 7",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #7",
-                           "originalName":  "20260315_221514.jpg",
-                           "takenAt":  "2026:03:15 22:15:14",
-                           "latitude":  33.879213,
-                           "longitude":  130.8844,
-                           "mapUrl":  "https://www.google.com/maps?q=33.879213,130.8844"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/08.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 8",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #8",
-                           "originalName":  "20260316_001712.jpg",
-                           "takenAt":  "2026:03:16 00:17:12",
-                           "latitude":  33.886679,
-                           "longitude":  130.872028,
-                           "mapUrl":  "https://www.google.com/maps?q=33.886679,130.872028"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/09.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 9",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #9",
-                           "originalName":  "20260316_113912.jpg",
-                           "takenAt":  "2026:03:16 11:39:12",
-                           "latitude":  33.882726,
-                           "longitude":  130.880922,
-                           "mapUrl":  "https://www.google.com/maps?q=33.882726,130.880922"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/10.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 10",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #10",
-                           "originalName":  "20260316_145821.jpg",
-                           "takenAt":  "2026:03:16 14:58:21",
-                           "latitude":  33.881416,
-                           "longitude":  130.870367,
-                           "mapUrl":  "https://www.google.com/maps?q=33.881416,130.870367"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/11.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 11",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #11",
-                           "originalName":  "20260316_174819.jpg",
-                           "takenAt":  "2026:03:16 17:48:19",
-                           "latitude":  33.839427,
-                           "longitude":  131.032104,
-                           "mapUrl":  "https://www.google.com/maps?q=33.839427,131.032104"
-                       },
-                       {
-                           "src":  "/photos/kitakyushu-2026-03/12.jpg",
-                           "alt":  "기타큐슈 여행 (26.03.14~26.03.16) photo 12",
-                           "caption":  "기타큐슈 여행 (26.03.14~26.03.16) #12",
-                           "originalName":  "20260316_230104.jpg",
-                           "takenAt":  "2026:03:16 23:01:04",
-                           "latitude":  37.471681,
-                           "longitude":  127.087529,
-                           "mapUrl":  "https://www.google.com/maps?q=37.471681,127.087529"
-                       }
-                   ]
-    },
-    {
-        "slug":  "nagoya-shizuoka-2025-04",
-        "name":  "나고야 시즈오카 여행 (25.04.12~25.04.15)",
-        "originalImageCount":  807,
-        "gpsImageCount":  204,
-        "importedImageCount":  12,
-        "cover":  "/photos/nagoya-shizuoka-2025-04/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/01.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 1",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #1",
-                           "originalName":  "1744625336845-10.jpg",
-                           "takenAt":  "2025:04:14 09:27:02",
-                           "latitude":  35.170168,
-                           "longitude":  136.880862,
-                           "mapUrl":  "https://www.google.com/maps?q=35.170168,136.880862"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/02.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 2",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #2",
-                           "originalName":  "1744625336845-3.jpg",
-                           "takenAt":  "2025:04:14 08:44:15",
-                           "latitude":  35.170948,
-                           "longitude":  136.90742,
-                           "mapUrl":  "https://www.google.com/maps?q=35.170948,136.90742"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/03.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 3",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #3",
-                           "originalName":  "1744625499813-24.jpg",
-                           "takenAt":  "2025:04:14 14:07:44",
-                           "latitude":  35.341891,
-                           "longitude":  138.561443,
-                           "mapUrl":  "https://www.google.com/maps?q=35.341891,138.561443"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/04.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 4",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #4",
-                           "originalName":  "1744625622898-19.jpg",
-                           "takenAt":  "2025:04:14 14:17:24",
-                           "latitude":  35.34138,
-                           "longitude":  138.560211,
-                           "mapUrl":  "https://www.google.com/maps?q=35.34138,138.560211"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/05.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 5",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #5",
-                           "originalName":  "1744625629570-20.jpg",
-                           "takenAt":  "2025:04:14 15:29:49",
-                           "latitude":  35.342378,
-                           "longitude":  138.559218,
-                           "mapUrl":  "https://www.google.com/maps?q=35.342378,138.559218"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/06.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 6",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #6",
-                           "originalName":  "1744625637052-16.jpg",
-                           "takenAt":  "2025:04:14 15:47:29",
-                           "latitude":  35.341813,
-                           "longitude":  138.56183,
-                           "mapUrl":  "https://www.google.com/maps?q=35.341813,138.56183"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/07.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 7",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #7",
-                           "originalName":  "1744625980847-15.jpg",
-                           "takenAt":  "2025:04:14 16:07:28",
-                           "latitude":  35.341817,
-                           "longitude":  138.56183,
-                           "mapUrl":  "https://www.google.com/maps?q=35.341817,138.56183"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/08.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 8",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #8",
-                           "originalName":  "1744626041628-12.jpg",
-                           "takenAt":  "2025:04:14 16:37:53",
-                           "latitude":  35.342084,
-                           "longitude":  138.564295,
-                           "mapUrl":  "https://www.google.com/maps?q=35.342084,138.564295"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/09.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 9",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #9",
-                           "originalName":  "1744626041628-3.jpg",
-                           "takenAt":  "2025:04:14 16:19:15",
-                           "latitude":  35.342378,
-                           "longitude":  138.559218,
-                           "mapUrl":  "https://www.google.com/maps?q=35.342378,138.559218"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/10.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 10",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #10",
-                           "originalName":  "1744698982120-27.jpg",
-                           "takenAt":  "2025:04:15 11:12:37",
-                           "latitude":  35.222432,
-                           "longitude":  138.609079,
-                           "mapUrl":  "https://www.google.com/maps?q=35.222432,138.609079"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/11.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 11",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #11",
-                           "originalName":  "1744794853415-10.jpg",
-                           "takenAt":  "2025:04:13 12:22:34",
-                           "latitude":  35.185242,
-                           "longitude":  136.900069,
-                           "mapUrl":  "https://www.google.com/maps?q=35.185242,136.900069"
-                       },
-                       {
-                           "src":  "/photos/nagoya-shizuoka-2025-04/12.jpg",
-                           "alt":  "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 12",
-                           "caption":  "나고야 시즈오카 여행 (25.04.12~25.04.15) #12",
-                           "originalName":  "1744794853415-9.jpg",
-                           "takenAt":  "2025:04:13 12:22:28",
-                           "latitude":  35.185303,
-                           "longitude":  136.899994,
-                           "mapUrl":  "https://www.google.com/maps?q=35.185303,136.899994"
-                       }
-                   ]
-    },
-    {
-        "slug":  "sapporo-2025-08",
-        "name":  "삿포로 여행 (25.08.25~25.08.28)",
-        "originalImageCount":  341,
-        "gpsImageCount":  50,
-        "importedImageCount":  12,
-        "cover":  "/photos/sapporo-2025-08/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/sapporo-2025-08/01.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 1",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #1",
-                           "originalName":  "20250825_053455.jpg",
-                           "takenAt":  "2025:08:25 05:34:55",
-                           "latitude":  37.465058,
-                           "longitude":  127.094822,
-                           "mapUrl":  "https://www.google.com/maps?q=37.465058,127.094822"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/02.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 2",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #2",
-                           "originalName":  "20250825_095926.jpg",
-                           "takenAt":  "2025:08:25 09:59:26",
-                           "latitude":  37.62931,
-                           "longitude":  128.280466,
-                           "mapUrl":  "https://www.google.com/maps?q=37.62931,128.280466"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/03.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 3",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #3",
-                           "originalName":  "20250825_173523.jpg",
-                           "takenAt":  "2025:08:25 17:35:23",
-                           "latitude":  43.072443,
-                           "longitude":  141.367245,
-                           "mapUrl":  "https://www.google.com/maps?q=43.072443,141.367245"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/04.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 4",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #4",
-                           "originalName":  "20250825_212236.jpg",
-                           "takenAt":  "2025:08:25 21:22:36",
-                           "latitude":  43.053347,
-                           "longitude":  141.354081,
-                           "mapUrl":  "https://www.google.com/maps?q=43.053347,141.354081"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/05.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 5",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #5",
-                           "originalName":  "20250826_064816.jpg",
-                           "takenAt":  "2025:08:26 06:48:16",
-                           "latitude":  43.051509,
-                           "longitude":  141.352053,
-                           "mapUrl":  "https://www.google.com/maps?q=43.051509,141.352053"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/06.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 6",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #6",
-                           "originalName":  "20250826_105205.jpg",
-                           "takenAt":  "2025:08:26 10:52:05",
-                           "latitude":  43.528768,
-                           "longitude":  142.465005,
-                           "mapUrl":  "https://www.google.com/maps?q=43.528768,142.465005"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/07.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 7",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #7",
-                           "originalName":  "20250826_193140.jpg",
-                           "takenAt":  "2025:08:26 19:31:41",
-                           "latitude":  43.056866,
-                           "longitude":  141.351312,
-                           "mapUrl":  "https://www.google.com/maps?q=43.056866,141.351312"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/08.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 8",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #8",
-                           "originalName":  "20250827_094133.jpg",
-                           "takenAt":  "2025:08:27 09:41:33",
-                           "latitude":  43.060512,
-                           "longitude":  141.352311,
-                           "mapUrl":  "https://www.google.com/maps?q=43.060512,141.352311"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/09.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 9",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #9",
-                           "originalName":  "20250827_141628.jpg",
-                           "takenAt":  "2025:08:27 14:16:27",
-                           "latitude":  43.195896,
-                           "longitude":  141.002081,
-                           "mapUrl":  "https://www.google.com/maps?q=43.195896,141.002081"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/10.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 10",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #10",
-                           "originalName":  "20250827_172136.jpg",
-                           "takenAt":  "2025:08:27 17:21:36",
-                           "latitude":  43.17766,
-                           "longitude":  140.971572,
-                           "mapUrl":  "https://www.google.com/maps?q=43.17766,140.971572"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/11.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 11",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #11",
-                           "originalName":  "20250827_202828.jpg",
-                           "takenAt":  "2025:08:27 20:28:28",
-                           "latitude":  43.051952,
-                           "longitude":  141.351923,
-                           "mapUrl":  "https://www.google.com/maps?q=43.051952,141.351923"
-                       },
-                       {
-                           "src":  "/photos/sapporo-2025-08/12.jpg",
-                           "alt":  "삿포로 여행 (25.08.25~25.08.28) photo 12",
-                           "caption":  "삿포로 여행 (25.08.25~25.08.28) #12",
-                           "originalName":  "20250828_094639.jpg",
-                           "takenAt":  "2025:08:28 09:46:39",
-                           "latitude":  43.067779,
-                           "longitude":  141.351448,
-                           "mapUrl":  "https://www.google.com/maps?q=43.067779,141.351448"
-                       }
-                   ]
-    },
-    {
-        "slug":  "hakodate-2025-10",
-        "name":  "하코다테 여행 (25.10.18~25.10.21)",
-        "originalImageCount":  587,
-        "gpsImageCount":  272,
-        "importedImageCount":  12,
-        "cover":  "/photos/hakodate-2025-10/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/hakodate-2025-10/01.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 1",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #1",
-                           "originalName":  "1760796063557.jpg",
-                           "takenAt":  "2025:10:18 22:29:04",
-                           "latitude":  41.766308,
-                           "longitude":  140.702042,
-                           "mapUrl":  "https://www.google.com/maps?q=41.766308,140.702042"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/02.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 2",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #2",
-                           "originalName":  "1760796094048.jpg",
-                           "takenAt":  "2025:10:18 21:58:29",
-                           "latitude":  41.772311,
-                           "longitude":  140.705644,
-                           "mapUrl":  "https://www.google.com/maps?q=41.772311,140.705644"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/03.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 3",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #3",
-                           "originalName":  "1760796114773.jpg",
-                           "takenAt":  "2025:10:18 18:46:28",
-                           "latitude":  41.766719,
-                           "longitude":  140.716278,
-                           "mapUrl":  "https://www.google.com/maps?q=41.766719,140.716278"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/04.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 4",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #4",
-                           "originalName":  "1760861831444.jpg",
-                           "takenAt":  "2025:10:19 13:20:55",
-                           "latitude":  41.981428,
-                           "longitude":  140.670914,
-                           "mapUrl":  "https://www.google.com/maps?q=41.981428,140.670914"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/05.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 5",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #5",
-                           "originalName":  "1760861991040.jpg",
-                           "takenAt":  "2025:10:19 13:59:36",
-                           "latitude":  41.984969,
-                           "longitude":  140.674072,
-                           "mapUrl":  "https://www.google.com/maps?q=41.984969,140.674072"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/06.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 6",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #6",
-                           "originalName":  "1760881003605.jpg",
-                           "takenAt":  "2025:10:19 16:54:04",
-                           "latitude":  41.794475,
-                           "longitude":  140.753786,
-                           "mapUrl":  "https://www.google.com/maps?q=41.794475,140.753786"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/07.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 7",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #7",
-                           "originalName":  "1760967005572.jpg",
-                           "takenAt":  "2025:10:20 13:48:15",
-                           "latitude":  41.745442,
-                           "longitude":  140.720689,
-                           "mapUrl":  "https://www.google.com/maps?q=41.745442,140.720689"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/08.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 8",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #8",
-                           "originalName":  "1760968014674.jpg",
-                           "takenAt":  "2025:10:20 14:15:28",
-                           "latitude":  41.747836,
-                           "longitude":  140.719178,
-                           "mapUrl":  "https://www.google.com/maps?q=41.747836,140.719178"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/09.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 9",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #9",
-                           "originalName":  "1760968077409.jpg",
-                           "takenAt":  "2025:10:20 11:33:33",
-                           "latitude":  41.755639,
-                           "longitude":  140.716308,
-                           "mapUrl":  "https://www.google.com/maps?q=41.755639,140.716308"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/10.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 10",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #10",
-                           "originalName":  "1761034015262.jpg",
-                           "takenAt":  "2025:10:21 09:57:52",
-                           "latitude":  41.766289,
-                           "longitude":  140.703444,
-                           "mapUrl":  "https://www.google.com/maps?q=41.766289,140.703444"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/11.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 11",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #11",
-                           "originalName":  "20251020_112038.jpg",
-                           "takenAt":  "2025:10:20 11:20:38",
-                           "latitude":  41.75623,
-                           "longitude":  140.716347,
-                           "mapUrl":  "https://www.google.com/maps?q=41.75623,140.716347"
-                       },
-                       {
-                           "src":  "/photos/hakodate-2025-10/12.jpg",
-                           "alt":  "하코다테 여행 (25.10.18~25.10.21) photo 12",
-                           "caption":  "하코다테 여행 (25.10.18~25.10.21) #12",
-                           "originalName":  "20251021_123439.jpg",
-                           "takenAt":  "2025:10:21 12:34:40",
-                           "latitude":  41.767144,
-                           "longitude":  140.716894,
-                           "mapUrl":  "https://www.google.com/maps?q=41.767144,140.716894"
-                       }
-                   ]
-    },
-    {
-        "slug":  "hiroshima-2025-12",
-        "name":  "히로시마 여행 (25.12.13~25.12.16)",
-        "originalImageCount":  282,
-        "gpsImageCount":  75,
-        "importedImageCount":  12,
-        "cover":  "/photos/hiroshima-2025-12/cover.jpg",
-        "photos":  [
-                       {
-                           "src":  "/photos/hiroshima-2025-12/01.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 1",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #1",
-                           "originalName":  "1765639043105.jpg",
-                           "takenAt":  "2025:12:13 21:54:54",
-                           "latitude":  34.392922,
-                           "longitude":  132.460236,
-                           "mapUrl":  "https://www.google.com/maps?q=34.392922,132.460236"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/02.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 2",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #2",
-                           "originalName":  "1765702072171.jpg",
-                           "takenAt":  "2025:12:14 15:02:15",
-                           "latitude":  34.293142,
-                           "longitude":  132.318803,
-                           "mapUrl":  "https://www.google.com/maps?q=34.293142,132.318803"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/03.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 3",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #3",
-                           "originalName":  "1765702073039.jpg",
-                           "takenAt":  "2025:12:14 14:51:30",
-                           "latitude":  34.296375,
-                           "longitude":  132.319092,
-                           "mapUrl":  "https://www.google.com/maps?q=34.296375,132.319092"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/04.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 4",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #4",
-                           "originalName":  "1765702073773.jpg",
-                           "takenAt":  "2025:12:14 14:29:58",
-                           "latitude":  34.297092,
-                           "longitude":  132.319078,
-                           "mapUrl":  "https://www.google.com/maps?q=34.297092,132.319078"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/05.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 5",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #5",
-                           "originalName":  "1765702074513.jpg",
-                           "takenAt":  "2025:12:14 14:23:46",
-                           "latitude":  34.297778,
-                           "longitude":  132.320175,
-                           "mapUrl":  "https://www.google.com/maps?q=34.297778,132.320175"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/06.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 6",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #6",
-                           "originalName":  "1765793344059.jpg",
-                           "takenAt":  "2025:12:15 17:23:38",
-                           "latitude":  34.406208,
-                           "longitude":  133.196031,
-                           "mapUrl":  "https://www.google.com/maps?q=34.406208,133.196031"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/07.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 7",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #7",
-                           "originalName":  "1765793344617.jpg",
-                           "takenAt":  "2025:12:15 17:15:21",
-                           "latitude":  34.408764,
-                           "longitude":  133.201033,
-                           "mapUrl":  "https://www.google.com/maps?q=34.408764,133.201033"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/08.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 8",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #8",
-                           "originalName":  "1765793345200.jpg",
-                           "takenAt":  "2025:12:15 17:15:16",
-                           "latitude":  34.408764,
-                           "longitude":  133.201033,
-                           "mapUrl":  "https://www.google.com/maps?q=34.408764,133.201033"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/09.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 9",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #9",
-                           "originalName":  "1765793345762.jpg",
-                           "takenAt":  "2025:12:15 16:59:29",
-                           "latitude":  34.412717,
-                           "longitude":  133.205794,
-                           "mapUrl":  "https://www.google.com/maps?q=34.412717,133.205794"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/10.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 10",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #10",
-                           "originalName":  "20251215_120142.jpg",
-                           "takenAt":  "2025:12:15 12:01:42",
-                           "latitude":  34.394698,
-                           "longitude":  132.456016,
-                           "mapUrl":  "https://www.google.com/maps?q=34.394698,132.456016"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/11.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 11",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #11",
-                           "originalName":  "20251216_123952.jpg",
-                           "takenAt":  "2025:12:16 12:39:52",
-                           "latitude":  34.393432,
-                           "longitude":  132.461342,
-                           "mapUrl":  "https://www.google.com/maps?q=34.393432,132.461342"
-                       },
-                       {
-                           "src":  "/photos/hiroshima-2025-12/12.jpg",
-                           "alt":  "히로시마 여행 (25.12.13~25.12.16) photo 12",
-                           "caption":  "히로시마 여행 (25.12.13~25.12.16) #12",
-                           "originalName":  "IMG_20251216_212431_782.jpg",
-                           "takenAt":  null,
-                           "latitude":  34.296944,
-                           "longitude":  132.318889,
-                           "mapUrl":  "https://www.google.com/maps?q=34.296944,132.318889"
-                       }
-                   ]
-    }
+  {
+    "slug": "kagoshima-2026-05",
+    "name": "가고시마 여행 (26.05.15~26.05.18)",
+    "originalImageCount": 243,
+    "gpsImageCount": 22,
+    "importedImageCount": 12,
+    "cover": "/photos/kagoshima-2026-05/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/kagoshima-2026-05/01.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 1",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #1",
+        "originalName": "20260516_102408.jpg",
+        "takenAt": "2026:05:16 10:24:08",
+        "latitude": 31.582611,
+        "longitude": 130.546481,
+        "mapUrl": "https://www.google.com/maps?q=31.582611,130.546481"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/02.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 2",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #2",
+        "originalName": "20260516_103135.jpg",
+        "takenAt": "2026:05:16 10:31:35",
+        "latitude": 31.582628,
+        "longitude": 130.546449,
+        "mapUrl": "https://www.google.com/maps?q=31.582628,130.546449"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/03.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 3",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #3",
+        "originalName": "20260516_103140.jpg",
+        "takenAt": "2026:05:16 10:31:40",
+        "latitude": 31.582628,
+        "longitude": 130.546449,
+        "mapUrl": "https://www.google.com/maps?q=31.582628,130.546449"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/04.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 4",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #4",
+        "originalName": "20260516_104516.jpg",
+        "takenAt": "2026:05:16 10:45:16",
+        "latitude": 31.583608,
+        "longitude": 130.55279,
+        "mapUrl": "https://www.google.com/maps?q=31.583608,130.55279"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/05.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 5",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #5",
+        "originalName": "20260516_105334.jpg",
+        "takenAt": "2026:05:16 10:53:34",
+        "latitude": 31.596687,
+        "longitude": 130.562785,
+        "mapUrl": "https://www.google.com/maps?q=31.596687,130.562785"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/06.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 6",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #6",
+        "originalName": "20260516_174011.jpg",
+        "takenAt": "2026:05:16 17:40:11",
+        "latitude": 31.229366,
+        "longitude": 130.651821,
+        "mapUrl": "https://www.google.com/maps?q=31.229366,130.651821"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/07.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 7",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #7",
+        "originalName": "20260516_174017.jpg",
+        "takenAt": "2026:05:16 17:40:17",
+        "latitude": 31.229363,
+        "longitude": 130.651829,
+        "mapUrl": "https://www.google.com/maps?q=31.229363,130.651829"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/08.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 8",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #8",
+        "originalName": "20260516_203241.jpg",
+        "takenAt": "2026:05:16 20:32:42",
+        "latitude": 31.59459,
+        "longitude": 130.547313,
+        "mapUrl": "https://www.google.com/maps?q=31.59459,130.547313"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/09.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 9",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #9",
+        "originalName": "20260516_205138.jpg",
+        "takenAt": "2026:05:16 20:51:38",
+        "latitude": 31.594601,
+        "longitude": 130.547327,
+        "mapUrl": "https://www.google.com/maps?q=31.594601,130.547327"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/10.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 10",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #10",
+        "originalName": "20260517_080021.jpg",
+        "takenAt": "2026:05:17 08:00:22",
+        "latitude": 31.595119,
+        "longitude": 130.547842,
+        "mapUrl": "https://www.google.com/maps?q=31.595119,130.547842"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/11.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 11",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #11",
+        "originalName": "20260518_103046.jpg",
+        "takenAt": "2026:05:18 10:30:45",
+        "latitude": 31.583595,
+        "longitude": 130.542416,
+        "mapUrl": "https://www.google.com/maps?q=31.583595,130.542416"
+      },
+      {
+        "src": "/photos/kagoshima-2026-05/12.jpg",
+        "alt": "가고시마 여행 (26.05.15~26.05.18) photo 12",
+        "caption": "가고시마 여행 (26.05.15~26.05.18) #12",
+        "originalName": "20260518_151430.jpg",
+        "takenAt": "2026:05:18 15:14:31",
+        "latitude": 31.58459,
+        "longitude": 130.54279,
+        "mapUrl": "https://www.google.com/maps?q=31.58459,130.54279"
+      }
+    ]
+  },
+  {
+    "slug": "kyoto-nara-2025-02",
+    "name": "교토 나라 여행 (25.02.08~25.02.11)",
+    "originalImageCount": 1112,
+    "gpsImageCount": 235,
+    "importedImageCount": 12,
+    "cover": "/photos/kyoto-nara-2025-02/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/kyoto-nara-2025-02/01.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 1",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #1",
+        "originalName": "1739007382092-1.jpg",
+        "takenAt": "2025:02:08 16:36:10",
+        "latitude": 35.026414,
+        "longitude": 135.798128,
+        "mapUrl": "https://www.google.com/maps?q=35.026414,135.798128"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/02.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 2",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #2",
+        "originalName": "1739007529620-28.jpg",
+        "takenAt": "2025:02:08 16:35:00",
+        "latitude": 35.026425,
+        "longitude": 135.798142,
+        "mapUrl": "https://www.google.com/maps?q=35.026425,135.798142"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/03.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 3",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #3",
+        "originalName": "1739022129009-25.jpg",
+        "takenAt": "2025:02:08 19:04:00",
+        "latitude": 35.004783,
+        "longitude": 135.766814,
+        "mapUrl": "https://www.google.com/maps?q=35.004783,135.766814"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/04.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 4",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #4",
+        "originalName": "1739115726762-17.jpg",
+        "takenAt": "2025:02:09 21:27:14",
+        "latitude": 34.990256,
+        "longitude": 135.767622,
+        "mapUrl": "https://www.google.com/maps?q=34.990256,135.767622"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/05.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 5",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #5",
+        "originalName": "1739115753757-19.jpg",
+        "takenAt": "2025:02:09 16:48:49",
+        "latitude": 34.967217,
+        "longitude": 135.773697,
+        "mapUrl": "https://www.google.com/maps?q=34.967217,135.773697"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/06.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 6",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #6",
+        "originalName": "1739115777929-13.jpg",
+        "takenAt": "2025:02:09 15:20:40",
+        "latitude": 34.995006,
+        "longitude": 135.783736,
+        "mapUrl": "https://www.google.com/maps?q=34.995006,135.783736"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/07.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 7",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #7",
+        "originalName": "1739197777982-10.jpg",
+        "takenAt": "2025:02:10 14:55:03",
+        "latitude": 34.682497,
+        "longitude": 135.836167,
+        "mapUrl": "https://www.google.com/maps?q=34.682497,135.836167"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/08.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 8",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #8",
+        "originalName": "1739197777982-4.jpg",
+        "takenAt": "2025:02:10 01:27:46",
+        "latitude": 35.02285,
+        "longitude": 135.741272,
+        "mapUrl": "https://www.google.com/maps?q=35.02285,135.741272"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/09.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 9",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #9",
+        "originalName": "1739197848435-26.jpg",
+        "takenAt": "2025:02:10 16:47:46",
+        "latitude": 34.680436,
+        "longitude": 135.848817,
+        "mapUrl": "https://www.google.com/maps?q=34.680436,135.848817"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/10.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 10",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #10",
+        "originalName": "1739197884149-19.jpg",
+        "takenAt": "2025:02:10 17:12:10",
+        "latitude": 34.681656,
+        "longitude": 135.840714,
+        "mapUrl": "https://www.google.com/maps?q=34.681656,135.840714"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/11.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 11",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #11",
+        "originalName": "1739197907685-13.jpg",
+        "takenAt": "2025:02:10 19:43:40",
+        "latitude": 34.681956,
+        "longitude": 135.821197,
+        "mapUrl": "https://www.google.com/maps?q=34.681956,135.821197"
+      },
+      {
+        "src": "/photos/kyoto-nara-2025-02/12.jpg",
+        "alt": "교토 나라 여행 (25.02.08~25.02.11) photo 12",
+        "caption": "교토 나라 여행 (25.02.08~25.02.11) #12",
+        "originalName": "1757601348288.jpg",
+        "takenAt": "2025:02:10 20:31:15",
+        "latitude": 34.681919,
+        "longitude": 135.820114,
+        "mapUrl": "https://www.google.com/maps?q=34.681919,135.820114"
+      }
+    ]
+  },
+  {
+    "slug": "kitakyushu-2026-03",
+    "name": "기타큐슈 여행 (26.03.14~26.03.16)",
+    "originalImageCount": 205,
+    "gpsImageCount": 14,
+    "importedImageCount": 12,
+    "cover": "/photos/kitakyushu-2026-03/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/kitakyushu-2026-03/01.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 1",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #1",
+        "originalName": "20260314_160911.jpg",
+        "takenAt": "2026:03:14 16:09:11",
+        "latitude": 37.470316,
+        "longitude": 126.428854,
+        "mapUrl": "https://www.google.com/maps?q=37.470316,126.428854"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/02.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 2",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #2",
+        "originalName": "20260314_212607.jpg",
+        "takenAt": "2026:03:14 21:26:08",
+        "latitude": 33.921887,
+        "longitude": 130.919354,
+        "mapUrl": "https://www.google.com/maps?q=33.921887,130.919354"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/03.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 3",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #3",
+        "originalName": "20260314_214524.jpg",
+        "takenAt": "2026:03:14 21:45:24",
+        "latitude": 33.92222,
+        "longitude": 130.919077,
+        "mapUrl": "https://www.google.com/maps?q=33.92222,130.919077"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/04.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 4",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #4",
+        "originalName": "20260315_130414.jpg",
+        "takenAt": "2026:03:15 13:04:14",
+        "latitude": 33.947949,
+        "longitude": 130.963444,
+        "mapUrl": "https://www.google.com/maps?q=33.947949,130.963444"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/05.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 5",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #5",
+        "originalName": "20260315_130732.jpg",
+        "takenAt": "2026:03:15 13:07:32",
+        "latitude": 33.947407,
+        "longitude": 130.964365,
+        "mapUrl": "https://www.google.com/maps?q=33.947407,130.964365"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/06.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 6",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #6",
+        "originalName": "20260315_130734.jpg",
+        "takenAt": "2026:03:15 13:07:34",
+        "latitude": 33.947411,
+        "longitude": 130.96436,
+        "mapUrl": "https://www.google.com/maps?q=33.947411,130.96436"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/07.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 7",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #7",
+        "originalName": "20260315_221514.jpg",
+        "takenAt": "2026:03:15 22:15:14",
+        "latitude": 33.879213,
+        "longitude": 130.8844,
+        "mapUrl": "https://www.google.com/maps?q=33.879213,130.8844"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/08.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 8",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #8",
+        "originalName": "20260316_001712.jpg",
+        "takenAt": "2026:03:16 00:17:12",
+        "latitude": 33.886679,
+        "longitude": 130.872028,
+        "mapUrl": "https://www.google.com/maps?q=33.886679,130.872028"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/09.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 9",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #9",
+        "originalName": "20260316_113912.jpg",
+        "takenAt": "2026:03:16 11:39:12",
+        "latitude": 33.882726,
+        "longitude": 130.880922,
+        "mapUrl": "https://www.google.com/maps?q=33.882726,130.880922"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/10.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 10",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #10",
+        "originalName": "20260316_145821.jpg",
+        "takenAt": "2026:03:16 14:58:21",
+        "latitude": 33.881416,
+        "longitude": 130.870367,
+        "mapUrl": "https://www.google.com/maps?q=33.881416,130.870367"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/11.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 11",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #11",
+        "originalName": "20260316_174819.jpg",
+        "takenAt": "2026:03:16 17:48:19",
+        "latitude": 33.839427,
+        "longitude": 131.032104,
+        "mapUrl": "https://www.google.com/maps?q=33.839427,131.032104"
+      },
+      {
+        "src": "/photos/kitakyushu-2026-03/12.jpg",
+        "alt": "기타큐슈 여행 (26.03.14~26.03.16) photo 12",
+        "caption": "기타큐슈 여행 (26.03.14~26.03.16) #12",
+        "originalName": "20260316_230104.jpg",
+        "takenAt": "2026:03:16 23:01:04",
+        "latitude": 37.471681,
+        "longitude": 127.087529,
+        "mapUrl": "https://www.google.com/maps?q=37.471681,127.087529"
+      }
+    ]
+  },
+  {
+    "slug": "nagoya-shizuoka-2025-04",
+    "name": "나고야 시즈오카 여행 (25.04.12~25.04.15)",
+    "originalImageCount": 807,
+    "gpsImageCount": 204,
+    "importedImageCount": 12,
+    "cover": "/photos/nagoya-shizuoka-2025-04/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/01.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 1",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #1",
+        "originalName": "1744625336845-10.jpg",
+        "takenAt": "2025:04:14 09:27:02",
+        "latitude": 35.170168,
+        "longitude": 136.880862,
+        "mapUrl": "https://www.google.com/maps?q=35.170168,136.880862"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/02.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 2",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #2",
+        "originalName": "1744625336845-3.jpg",
+        "takenAt": "2025:04:14 08:44:15",
+        "latitude": 35.170948,
+        "longitude": 136.90742,
+        "mapUrl": "https://www.google.com/maps?q=35.170948,136.90742"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/03.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 3",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #3",
+        "originalName": "1744625499813-24.jpg",
+        "takenAt": "2025:04:14 14:07:44",
+        "latitude": 35.341891,
+        "longitude": 138.561443,
+        "mapUrl": "https://www.google.com/maps?q=35.341891,138.561443"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/04.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 4",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #4",
+        "originalName": "1744625622898-19.jpg",
+        "takenAt": "2025:04:14 14:17:24",
+        "latitude": 35.34138,
+        "longitude": 138.560211,
+        "mapUrl": "https://www.google.com/maps?q=35.34138,138.560211"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/05.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 5",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #5",
+        "originalName": "1744625629570-20.jpg",
+        "takenAt": "2025:04:14 15:29:49",
+        "latitude": 35.342378,
+        "longitude": 138.559218,
+        "mapUrl": "https://www.google.com/maps?q=35.342378,138.559218"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/06.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 6",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #6",
+        "originalName": "1744625637052-16.jpg",
+        "takenAt": "2025:04:14 15:47:29",
+        "latitude": 35.341813,
+        "longitude": 138.56183,
+        "mapUrl": "https://www.google.com/maps?q=35.341813,138.56183"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/07.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 7",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #7",
+        "originalName": "1744625980847-15.jpg",
+        "takenAt": "2025:04:14 16:07:28",
+        "latitude": 35.341817,
+        "longitude": 138.56183,
+        "mapUrl": "https://www.google.com/maps?q=35.341817,138.56183"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/08.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 8",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #8",
+        "originalName": "1744626041628-12.jpg",
+        "takenAt": "2025:04:14 16:37:53",
+        "latitude": 35.342084,
+        "longitude": 138.564295,
+        "mapUrl": "https://www.google.com/maps?q=35.342084,138.564295"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/09.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 9",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #9",
+        "originalName": "1744626041628-3.jpg",
+        "takenAt": "2025:04:14 16:19:15",
+        "latitude": 35.342378,
+        "longitude": 138.559218,
+        "mapUrl": "https://www.google.com/maps?q=35.342378,138.559218"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/10.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 10",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #10",
+        "originalName": "1744698982120-27.jpg",
+        "takenAt": "2025:04:15 11:12:37",
+        "latitude": 35.222432,
+        "longitude": 138.609079,
+        "mapUrl": "https://www.google.com/maps?q=35.222432,138.609079"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/11.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 11",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #11",
+        "originalName": "1744794853415-10.jpg",
+        "takenAt": "2025:04:13 12:22:34",
+        "latitude": 35.185242,
+        "longitude": 136.900069,
+        "mapUrl": "https://www.google.com/maps?q=35.185242,136.900069"
+      },
+      {
+        "src": "/photos/nagoya-shizuoka-2025-04/12.jpg",
+        "alt": "나고야 시즈오카 여행 (25.04.12~25.04.15) photo 12",
+        "caption": "나고야 시즈오카 여행 (25.04.12~25.04.15) #12",
+        "originalName": "1744794853415-9.jpg",
+        "takenAt": "2025:04:13 12:22:28",
+        "latitude": 35.185303,
+        "longitude": 136.899994,
+        "mapUrl": "https://www.google.com/maps?q=35.185303,136.899994"
+      }
+    ]
+  },
+  {
+    "slug": "sapporo-2025-08",
+    "name": "삿포로 여행 (25.08.25~25.08.28)",
+    "originalImageCount": 341,
+    "gpsImageCount": 50,
+    "importedImageCount": 12,
+    "cover": "/photos/sapporo-2025-08/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/sapporo-2025-08/01.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 1",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #1",
+        "originalName": "20250825_053455.jpg",
+        "takenAt": "2025:08:25 05:34:55",
+        "latitude": 37.465058,
+        "longitude": 127.094822,
+        "mapUrl": "https://www.google.com/maps?q=37.465058,127.094822"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/02.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 2",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #2",
+        "originalName": "20250825_095926.jpg",
+        "takenAt": "2025:08:25 09:59:26",
+        "latitude": 37.62931,
+        "longitude": 128.280466,
+        "mapUrl": "https://www.google.com/maps?q=37.62931,128.280466"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/03.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 3",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #3",
+        "originalName": "20250825_173523.jpg",
+        "takenAt": "2025:08:25 17:35:23",
+        "latitude": 43.072443,
+        "longitude": 141.367245,
+        "mapUrl": "https://www.google.com/maps?q=43.072443,141.367245"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/04.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 4",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #4",
+        "originalName": "20250825_212236.jpg",
+        "takenAt": "2025:08:25 21:22:36",
+        "latitude": 43.053347,
+        "longitude": 141.354081,
+        "mapUrl": "https://www.google.com/maps?q=43.053347,141.354081"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/05.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 5",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #5",
+        "originalName": "20250826_064816.jpg",
+        "takenAt": "2025:08:26 06:48:16",
+        "latitude": 43.051509,
+        "longitude": 141.352053,
+        "mapUrl": "https://www.google.com/maps?q=43.051509,141.352053"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/06.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 6",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #6",
+        "originalName": "20250826_105205.jpg",
+        "takenAt": "2025:08:26 10:52:05",
+        "latitude": 43.528768,
+        "longitude": 142.465005,
+        "mapUrl": "https://www.google.com/maps?q=43.528768,142.465005"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/07.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 7",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #7",
+        "originalName": "20250826_193140.jpg",
+        "takenAt": "2025:08:26 19:31:41",
+        "latitude": 43.056866,
+        "longitude": 141.351312,
+        "mapUrl": "https://www.google.com/maps?q=43.056866,141.351312"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/08.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 8",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #8",
+        "originalName": "20250827_094133.jpg",
+        "takenAt": "2025:08:27 09:41:33",
+        "latitude": 43.060512,
+        "longitude": 141.352311,
+        "mapUrl": "https://www.google.com/maps?q=43.060512,141.352311"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/09.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 9",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #9",
+        "originalName": "20250827_141628.jpg",
+        "takenAt": "2025:08:27 14:16:27",
+        "latitude": 43.195896,
+        "longitude": 141.002081,
+        "mapUrl": "https://www.google.com/maps?q=43.195896,141.002081"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/10.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 10",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #10",
+        "originalName": "20250827_172136.jpg",
+        "takenAt": "2025:08:27 17:21:36",
+        "latitude": 43.17766,
+        "longitude": 140.971572,
+        "mapUrl": "https://www.google.com/maps?q=43.17766,140.971572"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/11.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 11",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #11",
+        "originalName": "20250827_202828.jpg",
+        "takenAt": "2025:08:27 20:28:28",
+        "latitude": 43.051952,
+        "longitude": 141.351923,
+        "mapUrl": "https://www.google.com/maps?q=43.051952,141.351923"
+      },
+      {
+        "src": "/photos/sapporo-2025-08/12.jpg",
+        "alt": "삿포로 여행 (25.08.25~25.08.28) photo 12",
+        "caption": "삿포로 여행 (25.08.25~25.08.28) #12",
+        "originalName": "20250828_094639.jpg",
+        "takenAt": "2025:08:28 09:46:39",
+        "latitude": 43.067779,
+        "longitude": 141.351448,
+        "mapUrl": "https://www.google.com/maps?q=43.067779,141.351448"
+      }
+    ]
+  },
+  {
+    "slug": "hakodate-2025-10",
+    "name": "하코다테 여행 (25.10.18~25.10.21)",
+    "originalImageCount": 587,
+    "gpsImageCount": 272,
+    "importedImageCount": 12,
+    "cover": "/photos/hakodate-2025-10/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/hakodate-2025-10/01.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 1",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #1",
+        "originalName": "1760796063557.jpg",
+        "takenAt": "2025:10:18 22:29:04",
+        "latitude": 41.766308,
+        "longitude": 140.702042,
+        "mapUrl": "https://www.google.com/maps?q=41.766308,140.702042"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/02.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 2",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #2",
+        "originalName": "1760796094048.jpg",
+        "takenAt": "2025:10:18 21:58:29",
+        "latitude": 41.772311,
+        "longitude": 140.705644,
+        "mapUrl": "https://www.google.com/maps?q=41.772311,140.705644"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/03.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 3",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #3",
+        "originalName": "1760796114773.jpg",
+        "takenAt": "2025:10:18 18:46:28",
+        "latitude": 41.766719,
+        "longitude": 140.716278,
+        "mapUrl": "https://www.google.com/maps?q=41.766719,140.716278"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/04.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 4",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #4",
+        "originalName": "1760861831444.jpg",
+        "takenAt": "2025:10:19 13:20:55",
+        "latitude": 41.981428,
+        "longitude": 140.670914,
+        "mapUrl": "https://www.google.com/maps?q=41.981428,140.670914"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/05.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 5",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #5",
+        "originalName": "1760861991040.jpg",
+        "takenAt": "2025:10:19 13:59:36",
+        "latitude": 41.984969,
+        "longitude": 140.674072,
+        "mapUrl": "https://www.google.com/maps?q=41.984969,140.674072"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/06.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 6",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #6",
+        "originalName": "1760881003605.jpg",
+        "takenAt": "2025:10:19 16:54:04",
+        "latitude": 41.794475,
+        "longitude": 140.753786,
+        "mapUrl": "https://www.google.com/maps?q=41.794475,140.753786"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/07.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 7",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #7",
+        "originalName": "1760967005572.jpg",
+        "takenAt": "2025:10:20 13:48:15",
+        "latitude": 41.745442,
+        "longitude": 140.720689,
+        "mapUrl": "https://www.google.com/maps?q=41.745442,140.720689"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/08.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 8",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #8",
+        "originalName": "1760968014674.jpg",
+        "takenAt": "2025:10:20 14:15:28",
+        "latitude": 41.747836,
+        "longitude": 140.719178,
+        "mapUrl": "https://www.google.com/maps?q=41.747836,140.719178"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/09.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 9",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #9",
+        "originalName": "1760968077409.jpg",
+        "takenAt": "2025:10:20 11:33:33",
+        "latitude": 41.755639,
+        "longitude": 140.716308,
+        "mapUrl": "https://www.google.com/maps?q=41.755639,140.716308"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/10.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 10",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #10",
+        "originalName": "1761034015262.jpg",
+        "takenAt": "2025:10:21 09:57:52",
+        "latitude": 41.766289,
+        "longitude": 140.703444,
+        "mapUrl": "https://www.google.com/maps?q=41.766289,140.703444"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/11.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 11",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #11",
+        "originalName": "20251020_112038.jpg",
+        "takenAt": "2025:10:20 11:20:38",
+        "latitude": 41.75623,
+        "longitude": 140.716347,
+        "mapUrl": "https://www.google.com/maps?q=41.75623,140.716347"
+      },
+      {
+        "src": "/photos/hakodate-2025-10/12.jpg",
+        "alt": "하코다테 여행 (25.10.18~25.10.21) photo 12",
+        "caption": "하코다테 여행 (25.10.18~25.10.21) #12",
+        "originalName": "20251021_123439.jpg",
+        "takenAt": "2025:10:21 12:34:40",
+        "latitude": 41.767144,
+        "longitude": 140.716894,
+        "mapUrl": "https://www.google.com/maps?q=41.767144,140.716894"
+      }
+    ]
+  },
+  {
+    "slug": "hiroshima-2025-12",
+    "name": "히로시마 여행 (25.12.13~25.12.16)",
+    "originalImageCount": 282,
+    "gpsImageCount": 75,
+    "importedImageCount": 12,
+    "cover": "/photos/hiroshima-2025-12/cover.jpg",
+    "photos": [
+      {
+        "src": "/photos/hiroshima-2025-12/01.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 1",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #1",
+        "originalName": "1765639043105.jpg",
+        "takenAt": "2025:12:13 21:54:54",
+        "latitude": 34.392922,
+        "longitude": 132.460236,
+        "mapUrl": "https://www.google.com/maps?q=34.392922,132.460236"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/02.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 2",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #2",
+        "originalName": "1765702072171.jpg",
+        "takenAt": "2025:12:14 15:02:15",
+        "latitude": 34.293142,
+        "longitude": 132.318803,
+        "mapUrl": "https://www.google.com/maps?q=34.293142,132.318803"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/03.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 3",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #3",
+        "originalName": "1765702073039.jpg",
+        "takenAt": "2025:12:14 14:51:30",
+        "latitude": 34.296375,
+        "longitude": 132.319092,
+        "mapUrl": "https://www.google.com/maps?q=34.296375,132.319092"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/04.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 4",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #4",
+        "originalName": "1765702073773.jpg",
+        "takenAt": "2025:12:14 14:29:58",
+        "latitude": 34.297092,
+        "longitude": 132.319078,
+        "mapUrl": "https://www.google.com/maps?q=34.297092,132.319078"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/05.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 5",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #5",
+        "originalName": "1765702074513.jpg",
+        "takenAt": "2025:12:14 14:23:46",
+        "latitude": 34.297778,
+        "longitude": 132.320175,
+        "mapUrl": "https://www.google.com/maps?q=34.297778,132.320175"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/06.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 6",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #6",
+        "originalName": "1765793344059.jpg",
+        "takenAt": "2025:12:15 17:23:38",
+        "latitude": 34.406208,
+        "longitude": 133.196031,
+        "mapUrl": "https://www.google.com/maps?q=34.406208,133.196031"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/07.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 7",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #7",
+        "originalName": "1765793344617.jpg",
+        "takenAt": "2025:12:15 17:15:21",
+        "latitude": 34.408764,
+        "longitude": 133.201033,
+        "mapUrl": "https://www.google.com/maps?q=34.408764,133.201033"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/08.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 8",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #8",
+        "originalName": "1765793345200.jpg",
+        "takenAt": "2025:12:15 17:15:16",
+        "latitude": 34.408764,
+        "longitude": 133.201033,
+        "mapUrl": "https://www.google.com/maps?q=34.408764,133.201033"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/09.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 9",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #9",
+        "originalName": "1765793345762.jpg",
+        "takenAt": "2025:12:15 16:59:29",
+        "latitude": 34.412717,
+        "longitude": 133.205794,
+        "mapUrl": "https://www.google.com/maps?q=34.412717,133.205794"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/10.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 10",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #10",
+        "originalName": "20251215_120142.jpg",
+        "takenAt": "2025:12:15 12:01:42",
+        "latitude": 34.394698,
+        "longitude": 132.456016,
+        "mapUrl": "https://www.google.com/maps?q=34.394698,132.456016"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/11.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 11",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #11",
+        "originalName": "20251216_123952.jpg",
+        "takenAt": "2025:12:16 12:39:52",
+        "latitude": 34.393432,
+        "longitude": 132.461342,
+        "mapUrl": "https://www.google.com/maps?q=34.393432,132.461342"
+      },
+      {
+        "src": "/photos/hiroshima-2025-12/12.jpg",
+        "alt": "히로시마 여행 (25.12.13~25.12.16) photo 12",
+        "caption": "히로시마 여행 (25.12.13~25.12.16) #12",
+        "originalName": "IMG_20251216_212431_782.jpg",
+        "takenAt": null,
+        "latitude": 34.296944,
+        "longitude": 132.318889,
+        "mapUrl": "https://www.google.com/maps?q=34.296944,132.318889"
+      }
+    ]
+  },
+  {
+    "slug": "fukuoka-nagasaki-yufuin-2026-08",
+    "name": "후쿠오카 · 나가사키 · 유후인 여행",
+    "originalImageCount": 386,
+    "gpsImageCount": 0,
+    "importedImageCount": 72,
+    "cover": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038235.jpg",
+    "photos": [
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037459.jpg",
+        "alt": "강물에 비친 네온",
+        "caption": "강물에 비친 네온",
+        "originalName": "1000037459.jpg",
+        "takenAt": "2026:08:08 20:34:22"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037461.jpg",
+        "alt": "강변 포장마차의 밤",
+        "caption": "강변 포장마차의 밤",
+        "originalName": "1000037461.jpg",
+        "takenAt": "2026:08:08 20:40:26"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038010.jpg",
+        "alt": "포장마차에서 먹은 한 그릇",
+        "caption": "포장마차에서 먹은 한 그릇",
+        "originalName": "1000038010.jpg",
+        "takenAt": "2026:08:08 20:57:28"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037477.jpg",
+        "alt": "밤의 번화가",
+        "caption": "밤의 번화가",
+        "originalName": "1000037477.jpg",
+        "takenAt": "2026:08:08 22:04:18"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037365.jpg",
+        "alt": "육교 위에서 본 거리",
+        "caption": "육교 위에서 본 거리",
+        "originalName": "1000037365.jpg",
+        "takenAt": "2026:08:09 09:28:05"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037373.jpg",
+        "alt": "고가 아래의 시장",
+        "caption": "고가 아래의 시장",
+        "originalName": "1000037373.jpg",
+        "takenAt": "2026:08:09 11:30:50"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037379.jpg",
+        "alt": "항구와 타워",
+        "caption": "항구와 타워",
+        "originalName": "1000037379.jpg",
+        "takenAt": "2026:08:09 12:32:19"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037385.jpg",
+        "alt": "푸른 수조 앞에서",
+        "caption": "푸른 수조 앞에서",
+        "originalName": "1000037385.jpg",
+        "takenAt": "2026:08:09 13:38:25"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037393.jpg",
+        "alt": "수족관의 펭귄",
+        "caption": "수족관의 펭귄",
+        "originalName": "1000037393.jpg",
+        "takenAt": "2026:08:09 13:44:58"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037417.jpg",
+        "alt": "물속을 헤엄치는 펭귄",
+        "caption": "물속을 헤엄치는 펭귄",
+        "originalName": "1000037417.jpg",
+        "takenAt": "2026:08:09 13:52:44"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037419.jpg",
+        "alt": "수조 속 바다거북",
+        "caption": "수조 속 바다거북",
+        "originalName": "1000037419.jpg",
+        "takenAt": "2026:08:09 14:12:53"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037996.jpg",
+        "alt": "물 위로 뛰어오른 돌고래",
+        "caption": "물 위로 뛰어오른 돌고래",
+        "originalName": "1000037996.jpg",
+        "takenAt": "2026:08:09 15:18:21"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037482.jpg",
+        "alt": "여행 중의 고기 한 상",
+        "caption": "여행 중의 고기 한 상",
+        "originalName": "1000037482.jpg",
+        "takenAt": "2026:08:09 18:13:34"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037991.jpg",
+        "alt": "불 켜진 도심",
+        "caption": "불 켜진 도심",
+        "originalName": "1000037991.jpg",
+        "takenAt": "2026:08:09 19:51:44"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037926.jpg",
+        "alt": "신사로 향하는 상점가",
+        "caption": "신사로 향하는 상점가",
+        "originalName": "1000037926.jpg",
+        "takenAt": "2026:08:10 10:15:18"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037934.jpg",
+        "alt": "신사의 붉은 문",
+        "caption": "신사의 붉은 문",
+        "originalName": "1000037934.jpg",
+        "takenAt": "2026:08:10 10:26:26"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037936.jpg",
+        "alt": "신사 앞 소 동상",
+        "caption": "신사 앞 소 동상",
+        "originalName": "1000037936.jpg",
+        "takenAt": "2026:08:10 10:28:14"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037954.jpg",
+        "alt": "숲속 붉은 도리이",
+        "caption": "숲속 붉은 도리이",
+        "originalName": "1000037954.jpg",
+        "takenAt": "2026:08:10 10:50:25"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037962.jpg",
+        "alt": "여름의 풍경 소리",
+        "caption": "여름의 풍경 소리",
+        "originalName": "1000037962.jpg",
+        "takenAt": "2026:08:10 11:50:44"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037964.jpg",
+        "alt": "기차를 기다리며",
+        "caption": "기차를 기다리며",
+        "originalName": "1000037964.jpg",
+        "takenAt": "2026:08:10 12:12:50"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037970.jpg",
+        "alt": "바닷가의 건물",
+        "caption": "바닷가의 건물",
+        "originalName": "1000037970.jpg",
+        "takenAt": "2026:08:10 13:29:39"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037972.jpg",
+        "alt": "해변과 타워",
+        "caption": "해변과 타워",
+        "originalName": "1000037972.jpg",
+        "takenAt": "2026:08:10 13:35:04"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037897.jpg",
+        "alt": "작은 동물과의 만남",
+        "caption": "작은 동물과의 만남",
+        "originalName": "1000037897.jpg",
+        "takenAt": "2026:08:10 16:06:49"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037899.jpg",
+        "alt": "뜨끈한 전골",
+        "caption": "뜨끈한 전골",
+        "originalName": "1000037899.jpg",
+        "takenAt": "2026:08:10 17:57:42"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037904.jpg",
+        "alt": "연꽃 연못의 저녁",
+        "caption": "연꽃 연못의 저녁",
+        "originalName": "1000037904.jpg",
+        "takenAt": "2026:08:10 19:00:49"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037906.jpg",
+        "alt": "등불이 이어진 길",
+        "caption": "등불이 이어진 길",
+        "originalName": "1000037906.jpg",
+        "takenAt": "2026:08:10 19:01:37"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037909.jpg",
+        "alt": "여름 축제의 풍경",
+        "caption": "여름 축제의 풍경",
+        "originalName": "1000037909.jpg",
+        "takenAt": "2026:08:10 19:06:09"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037916.jpg",
+        "alt": "해 질 무렵의 호수",
+        "caption": "해 질 무렵의 호수",
+        "originalName": "1000037916.jpg",
+        "takenAt": "2026:08:10 19:37:35"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037919.jpg",
+        "alt": "물 위의 붉은 정자",
+        "caption": "물 위의 붉은 정자",
+        "originalName": "1000037919.jpg",
+        "takenAt": "2026:08:10 19:56:00"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000037979.jpg",
+        "alt": "불 밝힌 신사의 밤",
+        "caption": "불 밝힌 신사의 밤",
+        "originalName": "1000037979.jpg",
+        "takenAt": "2026:08:10 20:34:06"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038029.jpg",
+        "alt": "나가사키에서의 한 끼",
+        "caption": "나가사키에서의 한 끼",
+        "originalName": "1000038029.jpg",
+        "takenAt": "2026:08:11 13:39:06"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038058.jpg",
+        "alt": "항구에 정박한 범선",
+        "caption": "항구에 정박한 범선",
+        "originalName": "1000038058.jpg",
+        "takenAt": "2026:08:11 14:37:26"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038060.jpg",
+        "alt": "옛 건물이 이어진 거리",
+        "caption": "옛 건물이 이어진 거리",
+        "originalName": "1000038060.jpg",
+        "takenAt": "2026:08:11 14:49:50"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038064.jpg",
+        "alt": "작게 재현된 옛 도시",
+        "caption": "작게 재현된 옛 도시",
+        "originalName": "1000038064.jpg",
+        "takenAt": "2026:08:11 15:21:45"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038070.jpg",
+        "alt": "운하를 따라 걷다",
+        "caption": "운하를 따라 걷다",
+        "originalName": "1000038070.jpg",
+        "takenAt": "2026:08:11 15:24:32"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038030.jpg",
+        "alt": "역 너머 언덕의 도시",
+        "caption": "역 너머 언덕의 도시",
+        "originalName": "1000038030.jpg",
+        "takenAt": "2026:08:11 16:21:17"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038090.jpg",
+        "alt": "노면전차가 지나는 거리",
+        "caption": "노면전차가 지나는 거리",
+        "originalName": "1000038090.jpg",
+        "takenAt": "2026:08:11 18:26:08"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038100.jpg",
+        "alt": "항구 공원의 오후",
+        "caption": "항구 공원의 오후",
+        "originalName": "1000038100.jpg",
+        "takenAt": "2026:08:11 18:51:43"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038108.jpg",
+        "alt": "해가 진 항구",
+        "caption": "해가 진 항구",
+        "originalName": "1000038108.jpg",
+        "takenAt": "2026:08:11 19:30:28"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038114.jpg",
+        "alt": "꽃과 항구의 야경",
+        "caption": "꽃과 항구의 야경",
+        "originalName": "1000038114.jpg",
+        "takenAt": "2026:08:11 20:32:36"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038122.jpg",
+        "alt": "차이나타운의 붉은 문",
+        "caption": "차이나타운의 붉은 문",
+        "originalName": "1000038122.jpg",
+        "takenAt": "2026:08:11 20:47:41"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038128.jpg",
+        "alt": "물에 비친 밤의 다리",
+        "caption": "물에 비친 밤의 다리",
+        "originalName": "1000038128.jpg",
+        "takenAt": "2026:08:11 21:06:37"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038161.jpg",
+        "alt": "맑은 날의 항구",
+        "caption": "맑은 날의 항구",
+        "originalName": "1000038161.jpg",
+        "takenAt": "2026:08:12 12:45:39"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038152.jpg",
+        "alt": "여행 중의 한 상",
+        "caption": "여행 중의 한 상",
+        "originalName": "1000038152.jpg",
+        "takenAt": "2026:08:12 13:04:48"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038167 (1).jpg",
+        "alt": "녹음 속 산책길",
+        "caption": "녹음 속 산책길",
+        "originalName": "1000038167 (1).jpg",
+        "takenAt": "2026:08:12 13:26:46"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038173 (1).jpg",
+        "alt": "붉은 벽돌이 있는 거리",
+        "caption": "붉은 벽돌이 있는 거리",
+        "originalName": "1000038173 (1).jpg",
+        "takenAt": "2026:08:12 13:37:49"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038189.jpg",
+        "alt": "카스텔라와 커피",
+        "caption": "카스텔라와 커피",
+        "originalName": "1000038189.jpg",
+        "takenAt": "2026:08:12 13:52:13"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038191 (1).jpg",
+        "alt": "담쟁이가 감싼 아치",
+        "caption": "담쟁이가 감싼 아치",
+        "originalName": "1000038191 (1).jpg",
+        "takenAt": "2026:08:12 14:09:07"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038201 (1).jpg",
+        "alt": "언덕에서 내려다본 항구",
+        "caption": "언덕에서 내려다본 항구",
+        "originalName": "1000038201 (1).jpg",
+        "takenAt": "2026:08:12 14:38:57"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038213.jpg",
+        "alt": "정원 너머 바다",
+        "caption": "정원 너머 바다",
+        "originalName": "1000038213.jpg",
+        "takenAt": "2026:08:12 14:48:43"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038227 (1).jpg",
+        "alt": "꽃밭과 항구 풍경",
+        "caption": "꽃밭과 항구 풍경",
+        "originalName": "1000038227 (1).jpg",
+        "takenAt": "2026:08:12 15:07:40"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038235.jpg",
+        "alt": "하늘과 바다 사이의 나가사키",
+        "caption": "하늘과 바다 사이의 나가사키",
+        "originalName": "1000038235.jpg",
+        "takenAt": "2026:08:12 15:36:42"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038249.jpg",
+        "alt": "색색의 종이로 남긴 마음",
+        "caption": "색색의 종이로 남긴 마음",
+        "originalName": "1000038249.jpg",
+        "takenAt": "2026:08:12 16:43:53"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038251.jpg",
+        "alt": "공원에서 만난 조각상",
+        "caption": "공원에서 만난 조각상",
+        "originalName": "1000038251.jpg",
+        "takenAt": "2026:08:12 16:44:21"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038257 (1).jpg",
+        "alt": "분수 너머 초록 풍경",
+        "caption": "분수 너머 초록 풍경",
+        "originalName": "1000038257 (1).jpg",
+        "takenAt": "2026:08:12 17:10:35"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038155.jpg",
+        "alt": "철판 위의 한 끼",
+        "caption": "철판 위의 한 끼",
+        "originalName": "1000038155.jpg",
+        "takenAt": "2026:08:12 20:32:00"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038159.jpg",
+        "alt": "밤의 나가사키역",
+        "caption": "밤의 나가사키역",
+        "originalName": "1000038159.jpg",
+        "takenAt": "2026:08:12 21:43:21"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038271.jpg",
+        "alt": "안개 낀 산과 들판",
+        "caption": "안개 낀 산과 들판",
+        "originalName": "1000038271.jpg",
+        "takenAt": "2026:08:13 18:01:02"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038276.jpg",
+        "alt": "작은 여름 축제의 밤",
+        "caption": "작은 여름 축제의 밤",
+        "originalName": "1000038276.jpg",
+        "takenAt": "2026:08:13 19:29:35"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038286.jpg",
+        "alt": "산을 향해 열린 거리",
+        "caption": "산을 향해 열린 거리",
+        "originalName": "1000038286.jpg",
+        "takenAt": "2026:08:14 09:47:00"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038290.jpg",
+        "alt": "개울 너머의 산",
+        "caption": "개울 너머의 산",
+        "originalName": "1000038290.jpg",
+        "takenAt": "2026:08:14 09:52:42"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038304.jpg",
+        "alt": "물길을 따라 걷다",
+        "caption": "물길을 따라 걷다",
+        "originalName": "1000038304.jpg",
+        "takenAt": "2026:08:14 11:01:08"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038312.jpg",
+        "alt": "호수에 비친 풍경",
+        "caption": "호수에 비친 풍경",
+        "originalName": "1000038312.jpg",
+        "takenAt": "2026:08:14 11:10:26"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038320.jpg",
+        "alt": "호숫가의 도리이",
+        "caption": "호숫가의 도리이",
+        "originalName": "1000038320.jpg",
+        "takenAt": "2026:08:14 11:21:45"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038334.jpg",
+        "alt": "꽃이 있는 작은 골목",
+        "caption": "꽃이 있는 작은 골목",
+        "originalName": "1000038334.jpg",
+        "takenAt": "2026:08:14 11:50:16"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038340.jpg",
+        "alt": "자동차 전시의 한 장면",
+        "caption": "자동차 전시의 한 장면",
+        "originalName": "1000038340.jpg",
+        "takenAt": "2026:08:14 11:57:18"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038358.jpg",
+        "alt": "초록이 드리운 쇼핑몰",
+        "caption": "초록이 드리운 쇼핑몰",
+        "originalName": "1000038358.jpg",
+        "takenAt": "2026:08:14 17:03:03"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038364.jpg",
+        "alt": "도시 속 신사",
+        "caption": "도시 속 신사",
+        "originalName": "1000038364.jpg",
+        "takenAt": "2026:08:14 18:02:26"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038376.jpg",
+        "alt": "여름밤 축제",
+        "caption": "여름밤 축제",
+        "originalName": "1000038376.jpg",
+        "takenAt": "2026:08:14 21:29:50"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038380.jpg",
+        "alt": "푸른빛으로 물든 건물",
+        "caption": "푸른빛으로 물든 건물",
+        "originalName": "1000038380.jpg",
+        "takenAt": "2026:08:14 21:50:29"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038386.jpg",
+        "alt": "새벽의 강변",
+        "caption": "새벽의 강변",
+        "originalName": "1000038386.jpg",
+        "takenAt": "2026:08:15 00:37:22"
+      },
+      {
+        "src": "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038390.jpg",
+        "alt": "아직 잠들지 않은 거리",
+        "caption": "아직 잠들지 않은 거리",
+        "originalName": "1000038390.jpg",
+        "takenAt": "2026:08:15 00:38:55"
+      }
+    ]
+  }
 ]

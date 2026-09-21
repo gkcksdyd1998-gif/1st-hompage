@@ -1039,6 +1039,16 @@ select {
     font-size: 9px;
   }
 }
+.trip-title-row h1, .trip-card h3, .featured-copy h2 { word-break: keep-all; overflow-wrap: break-word; }
+.photo-itinerary { margin-top: 28px; }
+.photo-day { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 28px; padding: 28px 0; border-bottom: 1px solid #dce2de; align-items: center; }
+.photo-day .place-image { width: 100%; aspect-ratio: 3 / 2; }
+.photo-day h2 { font-size: 22px; margin: 12px 0; overflow-wrap: anywhere; }
+.photo-day p:not(.eyebrow) { color: #626a65; line-height: 1.8; margin-bottom: 20px; }
+@media (max-width: 600px) {
+  .photo-day { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .photo-day h2 { font-size: 20px; }
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

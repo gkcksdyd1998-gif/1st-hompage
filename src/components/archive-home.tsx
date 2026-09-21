@@ -172,7 +172,7 @@ export function ArchiveHome({ trips }: { trips: Trip[] }) {
                 <p className="trip-mood">{trip.mood}</p>
                 <div className="trip-meta">
                   <span>
-                    <MapPin size={14} /> 장소 {places.length}곳
+                    <MapPin size={14} /> {places.length ? `장소 ${places.length}곳` : "날짜별 사진 여행기"}
                   </span>
                   <span>
                     <Camera size={14} /> 기록 사진{" "}

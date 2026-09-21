@@ -4,9 +4,9 @@ test("travel search, filters, and single-click navigation", async ({
   page,
 }) => {
   await page.goto("/");
-  await expect(page.locator(".trip-card")).toHaveCount(7);
+  await expect(page.locator(".trip-card")).toHaveCount(8);
   await page.getByRole("button", { name: "2026", exact: true }).click();
-  await expect(page.locator(".trip-card")).toHaveCount(2);
+  await expect(page.locator(".trip-card")).toHaveCount(3);
   await page.getByRole("button", { name: "전체", exact: true }).click();
   await page
     .getByRole("textbox", { name: "여행 및 장소 검색" })
@@ -19,8 +19,8 @@ test("travel search, filters, and single-click navigation", async ({
   await page
     .getByRole("button", { name: "전체 여행 보기", exact: true })
     .click();
-  await expect(page.locator(".trip-card")).toHaveCount(7);
-  await page.locator(".trip-card").first().click();
+  await expect(page.locator(".trip-card")).toHaveCount(8);
+  await page.locator('.trip-card[href="/trips/kagoshima-2026-05"]').click();
   await expect(page).toHaveURL(/trips\/kagoshima/);
   await expect(page.locator(".leaflet-marker-icon")).not.toHaveCount(0);
 });
@@ -50,6 +50,23 @@ test("day filters, map selection, photo viewer and keyboard focus", async ({
   await expect(trigger).toBeFocused();
 });
 
+test("Kyushu photo trip has eight dated itineraries without a false GPS map", async ({ page }) => {
+  await page.goto("/trips/fukuoka-nagasaki-yufuin-2026-08");
+  await expect(page.locator(".gallery-photo")).toHaveCount(72);
+  await expect(page.locator(".day-tabs button")).toHaveCount(9);
+  await expect(page.getByText(/유효한 GPS가 없어/)).toBeVisible();
+  await page.getByRole("button", { name: "DAY 8 08/15" }).click();
+  await expect(page.locator(".gallery-photo")).toHaveCount(2);
+  await page.locator(".gallery-photo").first().click();
+  await expect(page.getByRole("dialog")).toBeVisible();
+  await page.keyboard.press("Escape");
+  await page.getByRole("button", { name: "여정", exact: true }).click();
+  await expect(page.locator(".photo-day")).toHaveCount(1);
+  await page.getByRole("button", { name: "전체 일정" }).click();
+  await expect(page.locator(".photo-day")).toHaveCount(8);
+  await expect(page.locator(".leaflet-container")).toHaveCount(0);
+});
+
 for (const width of [390, 1440]) {
   test(`responsive layout and loaded images at ${width}px`, async ({
     page,
@@ -57,7 +74,7 @@ for (const width of [390, 1440]) {
     await page.setViewportSize({ width, height: 950 });
     const errors: string[] = [];
     page.on("pageerror", (error) => errors.push(error.message));
-    for (const path of ["/", "/trips/kagoshima-2026-05"]) {
+    for (const path of ["/", "/trips/kagoshima-2026-05", "/trips/fukuoka-nagasaki-yufuin-2026-08"]) {
       await page.goto(path);
       await page.locator(".featured img, .trip-panorama img").waitFor();
       await expect
@@ -70,7 +87,7 @@ for (const width of [390, 1440]) {
             ),
         )
         .toBe(true);
-      if (path !== "/") {
+      if (path.includes("kagoshima")) {
         await expect(page.locator(".leaflet-marker-icon")).not.toHaveCount(0);
         await page.locator(".map-heading").scrollIntoViewIfNeeded();
         await expect
@@ -83,7 +100,7 @@ for (const width of [390, 1440]) {
         ),
       ).toBe(true);
       await page.screenshot({
-        path: `test-results/${path === "/" ? "home" : "trip"}-${width}.png`,
+        path: `test-results/${path === "/" ? "home" : path.includes("kagoshima") ? "trip" : "kyushu"}-${width}.png`,
         fullPage: false,
       });
     }

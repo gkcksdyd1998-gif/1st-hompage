@@ -48,6 +48,7 @@ export type Trip = {
   highlights: string[];
   route: string[];
   photoCount: number;
+  locationNote?: string;
   days: TripDay[];
   photos: TripPhoto[];
 };
@@ -102,6 +103,31 @@ function makeDays(slug: string, fallbackDays: TripDay[]): TripDay[] {
 }
 
 export const trips: Trip[] = [
+  {
+    id: "fukuoka-nagasaki-yufuin-2026-08",
+    title: "후쿠오카 · 나가사키 · 유후인 여행",
+    year: "2026",
+    dates: "2026.08.08 - 2026.08.15",
+    cities: ["Fukuoka", "Nagasaki", "Yufuin"],
+    mood: "강변의 밤, 항구의 여름, 산과 호수를 걷던 8일",
+    cover: "/photos/fukuoka-nagasaki-yufuin-2026-08/1000038235.jpg",
+    summary: "후쿠오카의 여름밤에서 나가사키의 항구를 지나 유후인의 산과 호수까지. 사진 속 장면과 촬영 시각으로 다시 펼치는 규슈 여행.",
+    highlights: ["후쿠오카의 여름밤", "나가사키 항구", "유후인의 산과 호수"],
+    route: ["Fukuoka", "Nagasaki", "Yufuin", "Fukuoka"],
+    photoCount: 72,
+    locationNote: "전달된 사진에 유효한 GPS가 없어 촬영 날짜와 사진 속 장면으로 정리했습니다. 지역 구분은 사진과 여행 정보에 따른 추정입니다.",
+    days: [
+      { day: "2026.08.08", title: "후쿠오카 강변의 밤", places: ["후쿠오카"], note: "강물에 비친 네온과 포장마차, 늦은 밤의 거리에서 시작한 여행." },
+      { day: "2026.08.09", title: "항구와 수족관", places: ["후쿠오카"], note: "도시와 항구를 걷고, 푸른 수조와 돌고래의 움직임을 사진에 담은 날." },
+      { day: "2026.08.10", title: "신사와 바다, 여름 축제", places: ["후쿠오카", "다자이후 부근"], note: "숲속 도리이와 신사, 해변과 호수, 저녁의 등불까지 이어진 장면들." },
+      { day: "2026.08.11", title: "나가사키 항구와 시내", places: ["나가사키"], note: "정박한 범선과 옛 거리, 노면전차의 길을 지나 항구와 차이나타운의 밤으로." },
+      { day: "2026.08.12", title: "정원 너머 펼쳐진 나가사키", places: ["나가사키"], note: "언덕에서 내려다본 항구와 정원의 꽃, 카스텔라 한 조각과 공원의 산책길." },
+      { day: "2026.08.13", title: "유후인의 들판과 작은 축제", places: ["유후인 부근"], note: "안개 낀 산 아래 들판과 저녁 축제. 이날 남은 두 장의 여행 풍경." },
+      { day: "2026.08.14", title: "유후인 산책, 다시 후쿠오카의 밤", places: ["유후인", "후쿠오카"], note: "산이 보이는 개울과 호숫가, 꽃이 있는 골목을 걷고 다시 도시의 불빛 속으로." },
+      { day: "2026.08.15", title: "아직 잠들지 않은 강변", places: ["후쿠오카"], note: "자정이 지난 거리와 강변에 남긴 이번 여행의 마지막 사진들." },
+    ],
+    photos: makePhotos("fukuoka-nagasaki-yufuin-2026-08", "규슈의 여름"),
+  },
   {
     id: "kyoto-nara-2025-02",
     title: "교토 나라 여행",
