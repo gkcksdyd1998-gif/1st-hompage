@@ -1,84 +1,135 @@
-<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>한화오션 · 사업계획 스튜디오</title>
-<style>
-*{box-sizing:border-box}body{margin:0;background:#f4f6f8;color:#192e42;font:15px/1.55 Inter,system-ui,"Malgun Gothic",sans-serif}header{background:#122e42;color:white;padding:15px max(5vw,16px);display:flex;align-items:center;justify-content:space-between}.logo{font-size:19px;font-weight:750;letter-spacing:-1px}.mark{color:#fc9159;margin-right:9px}header small{color:#c6d5df}main{max-width:1350px;padding:35px 5vw 50px;margin:auto}h1,h2,p{margin:0}h1{font-size:clamp(26px,4vw,41px);letter-spacing:-2px}h2{font-size:18px;letter-spacing:-.7px}.intro,.row,.metric,.actions{display:flex;align-items:center;justify-content:space-between;gap:10px}.intro{margin-bottom:24px}.sub,small{color:#586d7b}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card,article,details{background:#fff;border:1px solid #d9e1e6;border-radius:12px;padding:20px}.card:first-child{background:#163c4c;color:white}.card:first-child small{color:#c4e1df}.card strong{display:block;font-size:clamp(23px,3vw,36px);letter-spacing:-1.2px;margin:6px 0}.card span{font-size:14px}.grid{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.65fr);gap:16px;margin:18px 0;align-items:start}.side{display:grid;gap:16px}.range{display:block;margin:18px 0}.range output{float:right;font-weight:650;color:#027669}.range input{width:100%;accent-color:#08786e}button,select,input{font:inherit}button,select{background:white;border:1px solid #ced9df;border-radius:7px;padding:7px 10px;cursor:pointer;color:#233c49}button:hover{background:#eef6f4}.actions{justify-content:flex-start;flex-wrap:wrap;margin:12px 0}.actions button{font-size:13px}.scroll{overflow-x:auto}table{border-collapse:collapse;font-size:13px;white-space:nowrap;width:100%;margin:13px 0}td,th{text-align:right;padding:10px 7px;border-bottom:1px solid #e3eaee}th{color:#627684;background:#f7f9fa}td:first-child,th:first-child{text-align:left}tfoot{font-weight:bold}.bar{height:12px;border-radius:4px;background:#f0f3f5;overflow:hidden;margin:4px 0 10px}.bar i{height:100%;display:block;background:#167e78}.bar.actual i{background:#aac5c4}.legend{font-size:12px;color:#516975}.legend b{color:#147d77}details{margin:12px 0;color:#425867}summary{cursor:pointer;font-weight:bold;color:#253d4b}details p{margin:8px 0}a{color:#087366}.rate{font-size:12px}.positive{color:#167767}.negative{color:#ac553d}hr{border:0;border-top:1px solid #dfe7ea;margin:18px 0}@media(max-width:830px){.grid{grid-template-columns:1fr}.intro{align-items:start;flex-direction:column}.kpis{gap:6px}.card{padding:10px}.card small{font-size:11px}main{padding:18px 12px}.card strong{font-size:21px}.row{flex-wrap:wrap}}
-</style>
-<header><div class="logo"><span class="mark">◒</span>사업계획 스튜디오</div><small>한화오션 · 042660</small></header>
-<main><div class="intro"><div><small>2025 연결 실적 → 2026 가상 계획</small><h1>한화오션 사업계획 시뮬레이터</h1><p class="sub">사업별 매출 가정이 연결 영업이익에 미치는 영향을 비교하세요.</p></div><button id="csv">계획 CSV 받기 ↓</button></div>
-<div class="kpis" id="kpis"></div><div class="grid"><article><h2>계획 가정</h2><div class="actions" id="presets"></div><small id="status" role="status"></small><hr><h2>사업별 매출 성장률</h2><div id="sliders"></div><hr><h2>비용 가정</h2><div id="costs"></div><label>판관비 배부 기준 <select id="basis"><option value="sales">매출 비례</option><option value="equal">부문 균등</option></select></label></article>
-<div class="side"><article><div class="row"><h2>사업별 매출 비교</h2><span class="legend">■ 2025 실적　<b>■ 2026 계획</b></span></div><p class="rate sub">사업을 끌어 놓거나 화살표로 비교 순서를 바꾸세요.</p><div id="chart"></div></article>
-<article><h2>연결 손익계산서</h2><div class="scroll" id="pnl"></div></article>
-<article><h2>사업별 배부 후 손익</h2><small>공통 원가율 및 판관비 배부 가정 적용 · 억 원</small><div class="scroll" id="segments"></div></article></div></div>
-<details><summary>공시 출처와 계산 기준</summary><p>기준 기간은 2025년 1월~12월입니다. 2026년 값과 시나리오 버튼의 변동률은 사용자가 수정하는 예시 가정입니다.</p><p>사업별 매출은 사업보고서 ‘Ⅱ. 사업의 내용 → 4. 매출 및 수주상황’의 백만원 수치를 사용합니다. 상선과 해양·특수선은 수출과 내수를 합산했습니다. 연결조정은 2025년 금액을 고정합니다. 부문 표 합계와 원 단위 연결 손익계산서의 반올림 차이는 연결조정에 포함합니다.</p><p>계획 매출 = 기준 매출 × (1 + 부문별 성장률). 계획 매출원가는 모든 부문과 연결조정에 같은 연결 원가율을 적용합니다. 계획 판관비는 2025년 판관비에 변동률을 적용하고 영업 부문에 배부합니다. 개별 사업의 이익은 이 가정에서 계산한 관리 추정치입니다.</p><p><a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000644" target="_blank" rel="noopener">DART · 제26기 정정 사업보고서</a>　<a href="https://kind.krx.co.kr/external/2026/03/04/001601/20260304003622/00660.htm" target="_blank" rel="noopener">KRX · 연결 손익계산서</a></p></details></main>
-<script>
-const actual={sales:12783512278323,cost:10943214281345,overhead:672707859050};
-const segments=[['상선',10523365],['해양 및 특수선',2030907],['E&I',819373],['기타',140694]].map(([name,millions])=>({name,sales:millions*1e6}));
-const adjustment=actual.sales-segments.reduce((total,item)=>total+item.sales,0);
-const presets={'실적 유지':[0,0,0,0,0,0],'성장 예시':[8,12,6,0,-0.5,3],'하방 예시':[-8,-4,-5,0,1.5,2]};
-const keys=['s0','s1','s2','s3','cost','overhead'];
-const labels=[...segments.map(s=>s.name),'매출원가율 변화','판관비 증감률'];
-const $=id=>document.getElementById(id);
-const units=value=>Math.round(value/1e8).toLocaleString('ko-KR');
-const pct=value=>value.toFixed(2)+'%';
-const profit=actual.sales-actual.cost-actual.overhead;
-function model(values,basis){
-  const costRate=actual.cost/actual.sales+values[4]/100;
-  const overhead=actual.overhead*(1+values[5]/100);
-  const planned=segments.map((s,i)=>s.sales*(1+values[i]/100));
-  const gross=planned.reduce((sum,n)=>sum+n,0);
-  const sales=gross+adjustment;
-  const rows=planned.map((revenue,i)=>{
-    const allocated=overhead*(basis==='equal'?1/planned.length:revenue/gross);
-    return [segments[i].name,revenue,allocated,revenue*(1-costRate)-allocated];
-  });
-  rows.push(['연결조정',adjustment,0,adjustment*(1-costRate)]);
-  return {sales,cost:sales*costRate,overhead,profit:sales*(1-costRate)-overhead,rows};
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>한화오션 · 사업계획 업무공간</title><style>
+*{box-sizing:border-box}body{margin:0;color:#193548;background:#f2f5f7;font:14px/1.55 Inter,system-ui,"Malgun Gothic",sans-serif}header{background:#102e40;color:white;padding:16px 4vw;display:flex;justify-content:space-between;align-items:center}header b{font-size:20px}header span{color:#bdd5db;font-size:12px}.shell{display:grid;grid-template-columns:192px minmax(0,1fr);min-height:92vh}nav{background:#143647;padding:25px 12px;color:#c4d8da}nav small{padding:10px}button,select,input{font:inherit;color:inherit}button,select,input{padding:8px 11px;background:white;border:1px solid #cdd8df;border-radius:6px}button{cursor:pointer}button:hover{border-color:#168a84}nav button{display:block;text-align:left;border:0;background:none;color:#d0e0e5;width:100%;margin:5px 0;padding:11px}.active,.primary{background:#087970;color:white}.main{padding:26px 3vw;min-width:0}h1,h2,p{margin:0}h1{font-size:29px;letter-spacing:-1px}h2{font-size:18px}.row,.actions,.filters{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.row{justify-content:space-between}.filters{margin:18px 0}.filters label,label small,.muted,small{font-size:12px;color:#546c78}.filters select{margin-left:5px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card,article{background:#fff;border:1px solid #dce4e9;border-radius:11px;padding:19px}.card:first-child{background:#124152;color:white}.card:first-child small{color:#c8e1df}.card b{font-size:26px;display:block;letter-spacing:-1px}.card em{font-size:12px;font-style:normal}article{margin:15px 0}.wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap;margin-top:12px}td,th{padding:10px 8px;border-bottom:1px solid #e1e8eb;text-align:right}th{background:#f4f7f8;font-weight:600;color:#5a707b}th:first-child,td:first-child{text-align:left}tfoot{font-weight:bold}.neg{color:#af4934}.tag{background:#e2f2ee;color:#16665c;border-radius:5px;padding:3px 7px;font-size:11px}.formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:14px 0}.formgrid input,.formgrid select{display:block;width:100%;margin-top:4px}.bar{background:#e8eded;height:7px;border-radius:5px;overflow:hidden}.bar i{display:block;height:100%;background:#158579}dialog{border:1px solid #b7cbd0;border-radius:12px;max-height:90vh;width:min(730px,96vw);padding:23px}dialog::backdrop{background:#15303d77}.hint{padding:10px 0;color:#516974}.link{border:0;background:none;color:#087970;padding:0;text-decoration:underline}.actions{margin-top:10px}iframe{background:white;width:100%;height:76vh;border:1px solid #d5dde2;border-radius:10px}.error{color:#a13d29}#notice{color:#16625b;min-height:18px}.tiny{font-size:11px}a{color:#097971}
+@media(max-width:900px){.shell{display:block}nav{display:flex;overflow:auto;padding:5px 10px}nav small{display:none}nav button{width:auto;white-space:nowrap;margin:0}.grid{grid-template-columns:1fr 1fr}.main{padding:16px}.card{padding:12px}header{padding:10px 14px}}
+</style></head><body><header><b>◒　한화오션 사업계획</b><span>FY 2026　·　관리회계 워크스페이스</span></header><div class="shell"><nav id="nav"></nav><div class="main"><div class="row"><div><small id="context"></small><h1 id="title"></h1></div><span class="tag">내부계획 예시 · 억 원</span></div><div id="filters"></div><div id="notice" role="status"></div><main id="body"></main></div></div>
+<dialog id="editor"><form id="form"><div id="fields"></div><p class="error" id="err" role="alert"></p><div class="actions"><button class="primary">저장</button><button type="button" id="cancel">취소</button></div></form></dialog><script>
+'use strict';
+const $=id=>document.getElementById(id), fmt=n=>n.toLocaleString('ko-KR',{maximumFractionDigits:1}), esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const clone=x=>JSON.parse(JSON.stringify(x)), sum=(rows,k)=>rows.reduce((s,r)=>s+r[k],0);
+const firms=['한화오션','한화오션에코텍','한화해양공정(산동)'], segments=['상선','해양 및 특수선','E&I','기타'];
+const tabs=['계획 총괄','프로젝트 계획','손익 분석','목표·배부 설정','시나리오 비교','기준계획 버전','공시 실적 분석'];
+const metrics={sales:'매출',mat:'재료비',labor:'노무비',sub:'외주비',other:'기타 제조원가',cost:'매출원가',gp:'매출총이익',sg:'배부 판관비',op:'영업이익'};
+const costKeys=['mat','labor','sub','other'];
+function seedProject(id,name,firm,seg,contract,opening,q,cost,internal=false){
+ return {id,name,firm,seg,contract,opening,q,cost,internal};
 }
-const inputs=keys.map((key,i)=>{
-  const label=document.createElement('label');label.className='range';
-  const unit=i===4?'%p':'%';
-  label.innerHTML=labels[i]+'<output id="out-'+key+'"></output><input type="range" aria-label="'+labels[i]+'" min="'+(i===4?-5:-30)+'" max="'+(i===4?5:30)+'" step="'+(i===4?.1:1)+'" value="0">';
-  $(i<4?'sliders':'costs').append(label);
-  const input=label.querySelector('input');input.oninput=()=>render('사용자 가정');return input;
-});
-function table(headers,rows,foot=[]){
-  const tr=row=>'<tr>'+row.map(cell=>'<td>'+cell+'</td>').join('')+'</tr>';
-  return '<table><thead><tr>'+headers.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.map(tr).join('')+'</tbody><tfoot>'+foot.map(tr).join('')+'</tfoot></table>';
+const seed={projects:[
+ seedProject(1,'LNG 운반선 시리즈 A',0,0,95000,12,[15,18,17,18],[43700,12500,17800,4600]),
+ seedProject(2,'대형 유조선 시리즈 B',0,0,59000,10,[13,17,20,19],[26300,8100,11000,3350]),
+ seedProject(3,'특수선 건조 패키지',0,1,32500,15,[13,14,15,16],[14900,6500,6800,1950]),
+ seedProject(4,'에너지 플랜트 EPC',0,2,14200,18,[12,13,15,16],[6400,2200,3600,950]),
+ seedProject(5,'선박 정비 패키지',0,3,2300,10,[14,16,18,18],[850,390,470,200]),
+ seedProject(6,'선박 블록 공급',1,0,6800,15,[16,19,20,18],[3200,1300,1050,510],true),
+ seedProject(7,'선체 가공 물량',2,0,4300,20,[15,18,16,19],[1900,890,650,380],true)
+],pool:6800,basis:'sales',salesTarget:135000,profitTarget:12500};
+const key='ocean-planning-workbook-v1';let db={plan:clone(seed),versions:[]},loadError='';
+try{const raw=localStorage.getItem(key);if(raw){const parsed=JSON.parse(raw);if(Array.isArray(parsed.plan?.projects)&&Array.isArray(parsed.versions))db=parsed;else throw Error()}}catch{loadError='저장된 계획을 읽을 수 없어 예시 계획을 표시합니다.'}
+let tab=0,firm='all',seg='all',period='all',group='firm',viewVersion='live',draft=null;
+const scenario={firm:'all',sales:0,mat:0,labor:0,sub:0,sg:0};
+const plan=()=>viewVersion==='live'?db.plan:db.versions.find(v=>v.id===viewVersion).plan;
+function save(next){try{localStorage.setItem(key,JSON.stringify(next));db=next;return true}catch{$('notice').textContent='브라우저 저장에 실패했습니다. 저장 공간과 권한을 확인하세요.';return false}}
+function totals(rows){return Object.fromEntries(Object.keys(metrics).map(k=>[k,sum(rows,k)]))}
+function ledger(p,assume={}){
+ const rows=p.projects.flatMap(project=>project.q.map((progress,j)=>{
+   const scoped=assume.firm==='all'||String(project.firm)===assume.firm;
+   const rate=k=>1+(scoped?(assume[k]||0):0)/100;
+   const sales=project.contract*progress/100*rate('sales');
+   const r={id:project.id,firm:project.firm,seg:project.seg,name:project.name,internal:project.internal,q:j,sales,sg:0};
+   costKeys.forEach((k,i)=>r[k]=project.cost[i]*progress/100*rate(k));
+   r.cost=costKeys.reduce((s,k)=>s+r[k],0);r.gp=r.sales-r.cost;return r;
+ }));
+ const pool=p.pool*(1+(assume.sg||0)/100);
+ for(let j=0;j<4;j++){
+   const quarter=rows.filter(r=>r.q===j),basis=p.basis;
+   const weights=quarter.map(r=>basis==='equal'?1:r[basis]),den=weights.reduce((a,b)=>a+b,0);
+   quarter.forEach((r,i)=>{r.sg=pool/4*(den?weights[i]/den:1/quarter.length);r.op=r.gp-r.sg});
+ }
+ return rows;
 }
-function values(){return inputs.map(input=>Number(input.value))}
-let order=[0,1,2,3];
-function moveSegment(from,to){
-  if(from===to || !order.includes(from) || !order.includes(to)) return;
-  const target=order.indexOf(to);order.splice(order.indexOf(from),1);order.splice(target,0,from);render(currentLabel);
+function scope(rows){return rows.filter(r=>(firm==='all'||String(r.firm)===firm)&&(seg==='all'||String(r.seg)===seg)&&(period==='all'||String(r.q)===period))}
+function elimination(rows){
+ const t=totals([]),v=sum(rows.filter(r=>r.internal),'sales');
+ t.sales=-v;t.cost=-v;t.sub=-v;return t;
 }
-let currentLabel='실적 유지';
-function render(label){
-  currentLabel=label;
-  const v=values(), m=model(v,$('basis').value);
-  $('status').textContent='현재 시나리오 · '+label;
-  keys.forEach((k,i)=>$('out-'+k).value=(v[i]>0?'+':'')+v[i]+(i===4?'%p':'%'));
-  $('kpis').innerHTML=[['계획 연결 매출',units(m.sales),'억 원',units(actual.sales)+'억 원'],['계획 영업이익',units(m.profit),'억 원',units(profit)+'억 원'],['계획 영업이익률',pct(100*m.profit/m.sales),'',pct(100*profit/actual.sales)]].map(([name,value,unit,base])=>'<div class="card"><div>'+name+'</div><strong>'+value+' <span>'+unit+'</span></strong><small>2025 실적 '+base+'</small></div>').join('');
-  const maximum=Math.max(...segments.map(s=>s.sales),...m.rows.map(r=>r[1]));
-  $('chart').innerHTML=order.map((i,pos)=>{
-    const s=segments[i];
-    return '<div draggable="true" data-segment="'+i+'"><div class="row"><b>⠿ '+s.name+'</b><small>'+units(s.sales)+' → '+units(m.rows[i][1])+'억 원 <button aria-label="'+s.name+' 위로" data-step="-1" '+(pos===0?'disabled':'')+'>↑</button> <button aria-label="'+s.name+' 아래로" data-step="1" '+(pos===3?'disabled':'')+'>↓</button></small></div><div class="bar actual"><i style="width:'+s.sales/maximum*100+'%"></i></div><div class="bar"><i style="width:'+m.rows[i][1]/maximum*100+'%"></i></div></div>';
-  }).join('');
-  for(const row of $('chart').children){
-    const id=Number(row.dataset.segment);
-    row.ondragstart=e=>e.dataTransfer.setData('application/x-segment',String(id));
-    row.ondragover=e=>e.preventDefault();
-    row.ondrop=e=>{e.preventDefault();const key=e.dataTransfer.getData('application/x-segment');if(key)moveSegment(Number(key),id)};
-    row.querySelectorAll('button').forEach(b=>b.onclick=()=>moveSegment(id,order[order.indexOf(id)+Number(b.dataset.step)]));
-  }
-  const accounts=[['매출액',actual.sales,m.sales],['매출원가',actual.cost,m.cost],['매출총이익',actual.sales-actual.cost,m.sales-m.cost],['판매비와관리비',actual.overhead,m.overhead],['영업이익',profit,m.profit]];
-  $('pnl').innerHTML=table(['억 원','2025 실적','2026 계획','증감'],accounts.map(([name,a,b])=>[name,units(a),units(b),units(b-a)]));
-  $('segments').innerHTML=table(['부문','계획 매출','판관비','계획 영업이익'],m.rows.map(([n,...nums])=>[n,...nums.map(units)]),[['연결 합계',units(m.sales),units(m.overhead),units(m.profit)]]);
+function report(rows){const t=totals(rows);if(firm==='all'){const e=elimination(rows);for(const k in t)t[k]+=e[k]}return t}
+function select(id,items,value){return '<select id="'+id+'">'+items.map(([v,n])=>'<option value="'+esc(v)+'" '+(String(v)===String(value)?'selected':'')+'>'+esc(n)+'</option>').join('')+'</select>'}
+const options=a=>a.map((x,i)=>[i,x]),all=(name,a)=>[['all',name],...options(a)];
+function table(headers,rows,foot=[]){const tr=r=>'<tr>'+r.map(v=>'<td>'+v+'</td>').join('')+'</tr>';return '<div class="wrap"><table><thead><tr>'+headers.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.map(tr).join('')+'</tbody><tfoot>'+foot.map(tr).join('')+'</tfoot></table></div>'}
+function cards(entries){return '<div class="grid">'+entries.map(([n,v,sub])=>'<div class="card"><small>'+n+'</small><b>'+v+'</b><em>'+sub+'</em></div>').join('')+'</div>'}
+function act(action,label,arg=''){return '<button data-act="'+action+'" data-arg="'+esc(arg)+'">'+label+'</button>'}
+function panel(title,content){return '<article><h2>'+title+'</h2>'+content+'</article>'}
+function render(){const p=plan(),r=scope(ledger(p)),t=report(r);$('nav').innerHTML='<small>사업계획 업무</small>'+tabs.map((n,i)=>'<button data-tab="'+i+'" class="'+(i===tab?'active':'')+'">'+n+'</button>').join('');
+ $('title').textContent=tabs[tab];$('context').textContent=tab===6?'2025년 공시 실적 기반 시뮬레이터':viewVersion==='live'?'2026년 작업계획 · 브라우저 저장':'저장 기준계획 · 읽기 전용';
+ const scoped=[0,1,2,4].includes(tab);
+ $('filters').innerHTML=tab===6?'':'<div class="filters">'+(tab!==5?'<label>계획 '+select('version',[['live','작업계획'],...db.versions.map(v=>[v.id,v.name])],viewVersion)+'</label>':'')+(scoped?'<label>법인 '+select('firm',all('전체 · 연결',firms),firm)+'</label><label>사업 '+select('seg',all('전체 사업',segments),seg)+'</label><label>기간 '+select('period',all('연간',['1분기','2분기','3분기','4분기']),period)+'</label>'+act('csv','손익 CSV'):'')+'</div>';
+ const sections=[overview,projects,analysis,settings,simulate,versions,disclosure];
+ $('body').innerHTML=sections[tab](p,r,t);
+ if(tab===6)$('disclosed').srcdoc=JSON.parse($('legacy').textContent);
+ for(const [id,set] of [['firm',v=>firm=v],['seg',v=>seg=v],['period',v=>period=v],['version',v=>viewVersion=v],['group',v=>group=v]]){
+ if($(id))$(id).onchange=e=>{set(e.target.value);render()}}
+ if(tab===4)bindSimulation();
 }
-Object.entries(presets).forEach(([name,v])=>{const b=document.createElement('button');b.textContent=name;b.onclick=()=>{inputs.forEach((input,i)=>input.value=v[i]);render(name)};$('presets').append(b)});
-$('basis').onchange=()=>render('사용자 가정');
-$('csv').onclick=()=>{
-  const v=values(),m=model(v,$('basis').value);
-  const lines=[['한화오션 2026 가상 사업계획','단위 원'],['부문','2025 매출','성장률(%)','계획 매출','배부 판관비','계획 영업이익'],...m.rows.map(([name,...nums],i)=>[name,segments[i]?.sales??adjustment,v[i]&&i<4?v[i]:0,...nums.map(Math.round)]),['합계',actual.sales,'',Math.round(m.sales),Math.round(m.overhead),Math.round(m.profit)],['원가율 변화(%p)',v[4]],['판관비 변화(%)',v[5]],['배부 기준',$('basis').selectedOptions[0].textContent]];
-  const url=URL.createObjectURL(new Blob(['\ufeff'+lines.map(row=>row.join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'}));
-  const link=document.createElement('a');link.href=url;link.download='한화오션_2026_가상계획.csv';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-};render('실적 유지');
-</script></html>
+function overview(p,r,t){
+ const global=reportFull(p), isAnnual=period==='all'&&firm==='all'&&seg==='all';
+ const list=[['매출',fmt(t.sales),isAnnual?'목표 차이 '+fmt(t.sales-p.salesTarget):'선택 범위 합계'],['매출원가',fmt(t.cost),'재료·노무·외주·기타'],['영업이익',fmt(t.op),isAnnual?'목표 차이 '+fmt(t.op-p.profitTarget):'판관비 배부 후'],['영업이익률',t.sales?(100*t.op/t.sales).toFixed(1)+'%':'—','계획 영업이익 ÷ 매출']];
+ const byQ=[0,1,2,3].filter(j=>period==='all'||String(j)===period).map(j=>{const a=report(r.filter(x=>x.q===j));return [(j+1)+'분기',fmt(a.sales),fmt(a.cost),fmt(a.sg),fmt(a.op)]});
+ return cards(list)+panel('분기별 계획',table(['기간','매출','매출원가','판관비','영업이익'],byQ))+panel('전사 연간 목표',table(['지표','목표','선택 버전 계획','차이'],[['연결 매출',fmt(p.salesTarget),fmt(global.sales),fmt(global.sales-p.salesTarget)],['영업이익',fmt(p.profitTarget),fmt(global.op),fmt(global.op-p.profitTarget)]]))+panel('계획 작성','<p class="hint">프로젝트별 계약액, 분기 공정률, 원가 예산을 입력한 뒤 기준계획을 저장하세요. 시나리오 비교에서 원가 상승이나 매출단가 변화를 시험할 수 있습니다.</p>'+act('goto','프로젝트 계획 열기',1));
+}
+function reportFull(p){const rows=ledger(p),t=totals(rows),e=elimination(rows);for(const k in t)t[k]+=e[k];return t}
+function projects(p,r){const ids=[...new Set(r.map(x=>x.id))];return panel('프로젝트 원장','<div class="row"><p class="hint">프로젝트명을 선택하면 계약·공정·원가 산출 근거를 확인할 수 있습니다.</p>'+(viewVersion==='live'?act('new','＋ 프로젝트 등록'):'')+'</div>'+table(['프로젝트','법인','사업','거래','계약액','기간 매출','기간 원가','영업이익'],ids.map(id=>{const a=p.projects.find(x=>x.id===id),t=totals(r.filter(x=>x.id===id));return [act('edit',esc(a.name),id),firms[a.firm],segments[a.seg],a.internal?'내부':'외부',fmt(a.contract),fmt(t.sales),fmt(t.cost),fmt(t.op)]})))}
+function analysis(p,r,t){
+ const dims={firm:'법인',seg:'사업',project:'프로젝트'};
+ const names=new Map();for(const x of r){const n=group==='firm'?firms[x.firm]:group==='seg'?segments[x.seg]:x.name;const key=group==='project'?x.id:n;if(!names.has(key))names.set(key,{n,items:[]});names.get(key).items.push(x)}
+ const keys=Object.keys(metrics);const row=(n,t)=>[n,...keys.map(k=>fmt(t[k]))];
+ return panel('관리 손익 명세','<div class="filters"><label>집계 단위 '+select('group',Object.entries(dims),group)+'</label></div>'+table(['구분',...Object.values(metrics)],[...Array.from(names.values(),b=>row(esc(b.n),totals(b.items))),...(firm==='all'?[row('내부거래 제거',elimination(r))]:[])],[row('합계',t)])+'<p class="hint">전체 법인 조회 시 내부 공급 매출과 대응 외주비를 같은 금액으로 제거합니다. 사업별 조회에서는 공급 사업에 제거액을 귀속합니다.</p>')}
+function settings(p){return panel('연간 목표 및 공통비',table(['항목','설정값'],[['목표 연결 매출',fmt(p.salesTarget)],['목표 영업이익',fmt(p.profitTarget)],['연간 판관비',fmt(p.pool)],['프로젝트 배부 기준',({sales:'매출 비례',labor:'노무비 비례',equal:'균등'})[p.basis]]])+(viewVersion==='live'?act('settings','목표·배부 수정'):'')+'<p class="hint">판관비는 분기별 25%로 편성하고 전체 프로젝트에 배부합니다. 선택 기준의 분기 합계가 0이면 균등 배부합니다.</p>')+panel('관리 기준정보',table(['법인','관리 프로젝트 수'],firms.map((f,i)=>[f,p.projects.filter(x=>x.firm===i).length]))+'<p class="hint">법인명은 사업보고서에 등장하는 회사입니다. 법인별 계약·프로젝트·원가·내부거래·목표는 업무 체험용 가정입니다. 거래 제거는 내부 공급 전액이 같은 기간 구매 법인의 외주비로 소비된다는 단순 모형입니다.</p>')}
+function field(label,k,value,min=0,max=1e8){return '<label>'+label+'<input type="number" required name="'+k+'" min="'+min+'" max="'+max+'" step="any" value="'+value+'"></label>'}
+function simResults(){
+ const baseRows=scope(ledger(plan())),altRows=scope(ledger(plan(),scenario));
+ const base=report(baseRows),alt=report(altRows);
+ const bridges=firms.map((name,i)=>{
+   const b=totals(baseRows.filter(r=>r.firm===i)),a=totals(altRows.filter(r=>r.firm===i));
+   return [name,fmt(a.sales-b.sales),fmt(a.cost-b.cost),fmt(a.sg-b.sg),fmt(a.op-b.op)];
+ }).filter((row,i)=>baseRows.some(r=>r.firm===i));
+ if(firm==='all'){const b=elimination(baseRows),a=elimination(altRows);bridges.push(['연결조정',fmt(a.sales-b.sales),fmt(a.cost-b.cost),'0','0'])}
+ return table(['지표','선택 계획','대안','차이'],Object.keys(metrics).map(k=>[metrics[k],fmt(base[k]),fmt(alt[k]),fmt(alt[k]-base[k])]))+'<h2>법인별 변동 기여</h2>'+table(['법인','매출 증감','원가 증감','판관비 증감','영업이익 증감'],bridges);
+}
+function simulate(){return panel('대안 가정','<label>변동 적용 법인 '+select('simfirm',all('전체 법인',firms),scenario.firm)+'</label><div class="formgrid">'+[['sales','매출단가'],['mat','재료 단가'],['labor','노무 단가'],['sub','외주 단가'],['sg','전사 판관비']].map(([k,n])=>'<label>'+n+' <output id="out-'+k+'">'+scenario[k]+'%</output><input aria-label="'+n+'" data-sim="'+k+'" type="range" min="-35" max="35" step=".5" value="'+scenario[k]+'"></label>').join('')+'</div>'+act('reset','가정 초기화')+act('alternative','대안을 새 버전으로 저장')+'<p class="hint">선택 계획의 분기 물량을 고정하고 단가를 변화시킵니다. 판관비는 전사 풀에 적용하며 배부액을 다시 계산합니다.</p>')+panel('계획 대비 시나리오 손익','<div id="simresult">'+simResults()+'</div>')}
+function bindSimulation(){$('simfirm').onchange=e=>{scenario.firm=e.target.value;$('simresult').innerHTML=simResults()};document.querySelectorAll('[data-sim]').forEach(el=>el.oninput=()=>{scenario[el.dataset.sim]=+el.value;$('out-'+el.dataset.sim).value=el.value+'%';$('simresult').innerHTML=simResults()})}
+function versions(){return panel('기준계획 보관','<p class="hint">현재 작업계획의 입력값과 배부 규칙을 이름과 함께 보관합니다. 저장본은 상단 계획 선택에서 다시 열 수 있습니다.</p>'+act('snapshot','현재 작업계획 저장')+table(['버전','저장 시각','연결 매출','영업이익','작성 근거','조회'],db.versions.map(v=>{const t=reportFull(v.plan);return [esc(v.name),esc(new Date(v.date).toLocaleString('ko-KR')),fmt(t.sales),fmt(t.op),esc(v.note||'작업계획 저장'),act('view','열기',v.id)]})))}
+function disclosure(){return '<p class="hint">연결 공시 실적과 사업별 성장률 모형을 별도로 조회합니다. 내부계획은 예시 계약을 바탕으로 작성합니다.</p><iframe id="disclosed" title="공시 기반 시뮬레이터"></iframe>'}
+function edit(kind,id){const p=plan();draft={kind,id};let html='';
+ if(kind==='new'||kind==='edit'){const x=p.projects.find(x=>x.id===Number(id))||seedProject(0,'',0,0,0,0,[0,0,0,0],[0,0,0,0]);
+ html='<h2>프로젝트 계획</h2><div class="formgrid"><label>프로젝트명<input name="name" required maxlength="80" value="'+esc(x.name)+'"></label><label>법인'+select('ef',options(firms),x.firm)+'</label><label>사업'+select('es',options(segments),x.seg)+'</label><label>거래 구분'+select('ei',[[0,'외부 매출'],[1,'내부 공급']],+x.internal)+'</label>'+field('계약액 · 억 원','contract',x.contract)+field('기초 누적 공정률 %','opening',x.opening,0,100)+'</div><h2>분기별 추가 공정률</h2><p class="muted">분기 매출 = 계약액 × 당분기 추가 공정률</p><div class="formgrid">'+x.q.map((v,j)=>field((j+1)+'분기 %','q'+j,v,0,100)).join('')+'</div><h2>총 예정원가 · 억 원</h2><p class="muted">각 분기의 원가 = 원가 항목별 총 예산 × 당분기 추가 공정률</p><div class="formgrid">'+x.cost.map((v,i)=>field(metrics[costKeys[i]],'c'+i,v)).join('')+'</div>';
+ }else if(kind==='settings'){html='<h2>목표·배부 설정</h2><div class="formgrid">'+field('연결 매출 목표','salesTarget',p.salesTarget)+field('영업이익 목표','profitTarget',p.profitTarget,-1e8)+field('연간 판관비','pool',p.pool)+'<label>배부 기준'+select('eb',[['sales','매출 비례'],['labor','노무비 비례'],['equal','균등']],p.basis)+'</label></div>'}
+ else{html='<h2>'+ (kind==='alternative'?'대안 버전 저장':'기준계획 저장')+'</h2><label>버전명 <input name="name" required maxlength="60" placeholder="예: 경영회의 제출안"></label>'}
+ $('fields').innerHTML=html;$('err').textContent='';const locked=viewVersion!=='live'&&kind==='edit';$('fields').querySelectorAll('select,input').forEach(el=>el.disabled=locked);$('form').querySelector('.primary').hidden=locked;$('editor').showModal()
+}
+$('cancel').onclick=()=>$('editor').close();
+$('form').onsubmit=e=>{e.preventDefault();if(viewVersion!=='live'&&!['snapshot','alternative'].includes(draft.kind))return;const d=new FormData(e.target),num=k=>Number(d.get(k)),next=clone(db),p=next.plan;
+ if(['snapshot','alternative'].includes(draft.kind)){const name=d.get('name').trim();if(!name||next.versions.some(v=>v.name===name)){$('err').textContent='새 버전 이름을 입력하세요.';return}const saved=clone(draft.kind==='alternative'?plan():p);
+ let note='작업계획 저장';
+ if(draft.kind==='alternative'){
+   saved.pool*=1+scenario.sg/100;
+   for(const project of saved.projects){
+     if(scenario.firm!=='all'&&String(project.firm)!==scenario.firm)continue;
+     project.contract*=1+scenario.sales/100;
+     costKeys.forEach((k,i)=>project.cost[i]*=1+(scenario[k]||0)/100);
+   }
+   note=(viewVersion==='live'?'작업계획':db.versions.find(v=>v.id===viewVersion).name)+' 기준 · '+(firms[Number(scenario.firm)]||'전체 법인')+' 매출 '+scenario.sales+'%, 재료 '+scenario.mat+'%, 노무 '+scenario.labor+'%, 외주 '+scenario.sub+'%, 전사 판관비 '+scenario.sg+'%';
+ }
+ next.versions.unshift({id:crypto.randomUUID(),name,date:new Date().toISOString(),note,plan:saved})}
+ else if(draft.kind==='settings'){for(const k of ['salesTarget','profitTarget','pool'])p[k]=num(k);p.basis=$('eb').value}
+ else{const name=d.get('name').trim(),q=[0,1,2,3].map(i=>num('q'+i));if(!name||q.reduce((a,b)=>a+b,num('opening'))>100.0000001){$('err').textContent='이름을 입력하고 기초 공정률과 분기 공정률의 합을 100% 이내로 맞추세요.';return}
+ const id=Number(draft.id)||Math.max(0,...p.projects.map(x=>x.id))+1;const x=seedProject(id,name,+$('ef').value,+$('es').value,num('contract'),num('opening'),q,[0,1,2,3].map(i=>num('c'+i)),!!Number($('ei').value));const i=p.projects.findIndex(x=>x.id===id);if(i===-1)p.projects.push(x);else p.projects[i]=x}
+ if(save(next)){$('editor').close();render();$('notice').textContent='저장했습니다.'}else $('err').textContent='브라우저에 저장할 수 없습니다.'};
+function exportCsv(){const sim=tab===4,rows=scope(ledger(plan(),sim?scenario:{})),keys=Object.keys(metrics);
+ const line=(n,info,r)=>[n,...info,...keys.map(k=>+r[k].toFixed(3))];
+ const csv=[['프로젝트','법인','사업','분기','거래',...Object.values(metrics)],...rows.map(r=>line(r.name,[firms[r.firm],segments[r.seg],r.q+1,r.internal?'내부':'외부'],r)),...(firm==='all'?[line('내부거래 제거',['','','',''],elimination(rows))]:[]),line('합계',['','','',''],report(rows))];
+ const quote=v=>'"'+String(typeof v==='string'&&/^[\s]*[=+@-]/.test(v)?"'"+v:v).replace(/"/g,'""')+'"';
+ const u=URL.createObjectURL(new Blob(['\uFEFF'+csv.map(r=>r.map(quote).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='FY2026_'+(sim?'시나리오':'사업계획')+'_억 원.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-tab],[data-act]');if(!b)return;$('notice').textContent='';
+ if(b.hasAttribute('data-tab')){tab=Number(b.dataset.tab);render();return}const a=b.dataset.act,k=b.dataset.arg;
+ if(['edit','new','settings','snapshot','alternative'].includes(a))edit(a,k);else if(a==='csv')exportCsv();else{if(a==='goto')tab=+k;if(a==='view'){viewVersion=k;tab=0;firm=seg=period='all'}if(a==='reset'){for(const key of Object.keys(scenario))scenario[key]=key==='firm'?'all':0}render()}});
+</script>
+<script type="application/json" id="legacy">"\u003c!doctype html>\u003chtml lang=\"ko\">\u003cmeta charset=\"utf-8\">\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\u003ctitle>한화오션 · 사업계획 스튜디오\u003c/title>\n\u003cstyle>\n*{box-sizing:border-box}body{margin:0;background:#f4f6f8;color:#192e42;font:15px/1.55 Inter,system-ui,\"Malgun Gothic\",sans-serif}header{background:#122e42;color:white;padding:15px max(5vw,16px);display:flex;align-items:center;justify-content:space-between}.logo{font-size:19px;font-weight:750;letter-spacing:-1px}.mark{color:#fc9159;margin-right:9px}header small{color:#c6d5df}main{max-width:1350px;padding:35px 5vw 50px;margin:auto}h1,h2,p{margin:0}h1{font-size:clamp(26px,4vw,41px);letter-spacing:-2px}h2{font-size:18px;letter-spacing:-.7px}.intro,.row,.metric,.actions{display:flex;align-items:center;justify-content:space-between;gap:10px}.intro{margin-bottom:24px}.sub,small{color:#586d7b}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card,article,details{background:#fff;border:1px solid #d9e1e6;border-radius:12px;padding:20px}.card:first-child{background:#163c4c;color:white}.card:first-child small{color:#c4e1df}.card strong{display:block;font-size:clamp(23px,3vw,36px);letter-spacing:-1.2px;margin:6px 0}.card span{font-size:14px}.grid{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.65fr);gap:16px;margin:18px 0;align-items:start}.side{display:grid;gap:16px}.range{display:block;margin:18px 0}.range output{float:right;font-weight:650;color:#027669}.range input{width:100%;accent-color:#08786e}button,select,input{font:inherit}button,select{background:white;border:1px solid #ced9df;border-radius:7px;padding:7px 10px;cursor:pointer;color:#233c49}button:hover{background:#eef6f4}.actions{justify-content:flex-start;flex-wrap:wrap;margin:12px 0}.actions button{font-size:13px}.scroll{overflow-x:auto}table{border-collapse:collapse;font-size:13px;white-space:nowrap;width:100%;margin:13px 0}td,th{text-align:right;padding:10px 7px;border-bottom:1px solid #e3eaee}th{color:#627684;background:#f7f9fa}td:first-child,th:first-child{text-align:left}tfoot{font-weight:bold}.bar{height:12px;border-radius:4px;background:#f0f3f5;overflow:hidden;margin:4px 0 10px}.bar i{height:100%;display:block;background:#167e78}.bar.actual i{background:#aac5c4}.legend{font-size:12px;color:#516975}.legend b{color:#147d77}details{margin:12px 0;color:#425867}summary{cursor:pointer;font-weight:bold;color:#253d4b}details p{margin:8px 0}a{color:#087366}.rate{font-size:12px}.positive{color:#167767}.negative{color:#ac553d}hr{border:0;border-top:1px solid #dfe7ea;margin:18px 0}@media(max-width:830px){.grid{grid-template-columns:1fr}.intro{align-items:start;flex-direction:column}.kpis{gap:6px}.card{padding:10px}.card small{font-size:11px}main{padding:18px 12px}.card strong{font-size:21px}.row{flex-wrap:wrap}}\n\u003c/style>\n\u003cheader>\u003cdiv class=\"logo\">\u003cspan class=\"mark\">◒\u003c/span>사업계획 스튜디오\u003c/div>\u003csmall>한화오션 · 042660\u003c/small>\u003c/header>\n\u003cmain>\u003cdiv class=\"intro\">\u003cdiv>\u003csmall>2025 연결 실적 → 2026 가상 계획\u003c/small>\u003ch1>한화오션 사업계획 시뮬레이터\u003c/h1>\u003cp class=\"sub\">사업별 매출 가정이 연결 영업이익에 미치는 영향을 비교하세요.\u003c/p>\u003c/div>\u003cbutton id=\"csv\">계획 CSV 받기 ↓\u003c/button>\u003c/div>\n\u003cdiv class=\"kpis\" id=\"kpis\">\u003c/div>\u003cdiv class=\"grid\">\u003carticle>\u003ch2>계획 가정\u003c/h2>\u003cdiv class=\"actions\" id=\"presets\">\u003c/div>\u003csmall id=\"status\" role=\"status\">\u003c/small>\u003chr>\u003ch2>사업별 매출 성장률\u003c/h2>\u003cdiv id=\"sliders\">\u003c/div>\u003chr>\u003ch2>비용 가정\u003c/h2>\u003cdiv id=\"costs\">\u003c/div>\u003clabel>판관비 배부 기준 \u003cselect id=\"basis\">\u003coption value=\"sales\">매출 비례\u003c/option>\u003coption value=\"equal\">부문 균등\u003c/option>\u003c/select>\u003c/label>\u003c/article>\n\u003cdiv class=\"side\">\u003carticle>\u003cdiv class=\"row\">\u003ch2>사업별 매출 비교\u003c/h2>\u003cspan class=\"legend\">■ 2025 실적　\u003cb>■ 2026 계획\u003c/b>\u003c/span>\u003c/div>\u003cp class=\"rate sub\">사업을 끌어 놓거나 화살표로 비교 순서를 바꾸세요.\u003c/p>\u003cdiv id=\"chart\">\u003c/div>\u003c/article>\n\u003carticle>\u003ch2>연결 손익계산서\u003c/h2>\u003cdiv class=\"scroll\" id=\"pnl\">\u003c/div>\u003c/article>\n\u003carticle>\u003ch2>사업별 배부 후 손익\u003c/h2>\u003csmall>공통 원가율 및 판관비 배부 가정 적용 · 억 원\u003c/small>\u003cdiv class=\"scroll\" id=\"segments\">\u003c/div>\u003c/article>\u003c/div>\u003c/div>\n\u003cdetails>\u003csummary>공시 출처와 계산 기준\u003c/summary>\u003cp>기준 기간은 2025년 1월~12월입니다. 2026년 값과 시나리오 버튼의 변동률은 사용자가 수정하는 예시 가정입니다.\u003c/p>\u003cp>사업별 매출은 사업보고서 ‘Ⅱ. 사업의 내용 → 4. 매출 및 수주상황’의 백만원 수치를 사용합니다. 상선과 해양·특수선은 수출과 내수를 합산했습니다. 연결조정은 2025년 금액을 고정합니다. 부문 표 합계와 원 단위 연결 손익계산서의 반올림 차이는 연결조정에 포함합니다.\u003c/p>\u003cp>계획 매출 = 기준 매출 × (1 + 부문별 성장률). 계획 매출원가는 모든 부문과 연결조정에 같은 연결 원가율을 적용합니다. 계획 판관비는 2025년 판관비에 변동률을 적용하고 영업 부문에 배부합니다. 개별 사업의 이익은 이 가정에서 계산한 관리 추정치입니다.\u003c/p>\u003cp>\u003ca href=\"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000644\" target=\"_blank\" rel=\"noopener\">DART · 제26기 정정 사업보고서\u003c/a>　\u003ca href=\"https://kind.krx.co.kr/external/2026/03/04/001601/20260304003622/00660.htm\" target=\"_blank\" rel=\"noopener\">KRX · 연결 손익계산서\u003c/a>\u003c/p>\u003c/details>\u003c/main>\n\u003cscript>\nconst actual={sales:12783512278323,cost:10943214281345,overhead:672707859050};\nconst segments=[['상선',10523365],['해양 및 특수선',2030907],['E&I',819373],['기타',140694]].map(([name,millions])=>({name,sales:millions*1e6}));\nconst adjustment=actual.sales-segments.reduce((total,item)=>total+item.sales,0);\nconst presets={'실적 유지':[0,0,0,0,0,0],'성장 예시':[8,12,6,0,-0.5,3],'하방 예시':[-8,-4,-5,0,1.5,2]};\nconst keys=['s0','s1','s2','s3','cost','overhead'];\nconst labels=[...segments.map(s=>s.name),'매출원가율 변화','판관비 증감률'];\nconst $=id=>document.getElementById(id);\nconst units=value=>Math.round(value/1e8).toLocaleString('ko-KR');\nconst pct=value=>value.toFixed(2)+'%';\nconst profit=actual.sales-actual.cost-actual.overhead;\nfunction model(values,basis){\n  const costRate=actual.cost/actual.sales+values[4]/100;\n  const overhead=actual.overhead*(1+values[5]/100);\n  const planned=segments.map((s,i)=>s.sales*(1+values[i]/100));\n  const gross=planned.reduce((sum,n)=>sum+n,0);\n  const sales=gross+adjustment;\n  const rows=planned.map((revenue,i)=>{\n    const allocated=overhead*(basis==='equal'?1/planned.length:revenue/gross);\n    return [segments[i].name,revenue,allocated,revenue*(1-costRate)-allocated];\n  });\n  rows.push(['연결조정',adjustment,0,adjustment*(1-costRate)]);\n  return {sales,cost:sales*costRate,overhead,profit:sales*(1-costRate)-overhead,rows};\n}\nconst inputs=keys.map((key,i)=>{\n  const label=document.createElement('label');label.className='range';\n  const unit=i===4?'%p':'%';\n  label.innerHTML=labels[i]+'\u003coutput id=\"out-'+key+'\">\u003c/output>\u003cinput type=\"range\" aria-label=\"'+labels[i]+'\" min=\"'+(i===4?-5:-30)+'\" max=\"'+(i===4?5:30)+'\" step=\"'+(i===4?.1:1)+'\" value=\"0\">';\n  $(i\u003c4?'sliders':'costs').append(label);\n  const input=label.querySelector('input');input.oninput=()=>render('사용자 가정');return input;\n});\nfunction table(headers,rows,foot=[]){\n  const tr=row=>'\u003ctr>'+row.map(cell=>'\u003ctd>'+cell+'\u003c/td>').join('')+'\u003c/tr>';\n  return '\u003ctable>\u003cthead>\u003ctr>'+headers.map(h=>'\u003cth>'+h+'\u003c/th>').join('')+'\u003c/tr>\u003c/thead>\u003ctbody>'+rows.map(tr).join('')+'\u003c/tbody>\u003ctfoot>'+foot.map(tr).join('')+'\u003c/tfoot>\u003c/table>';\n}\nfunction values(){return inputs.map(input=>Number(input.value))}\nlet order=[0,1,2,3];\nfunction moveSegment(from,to){\n  if(from===to || !order.includes(from) || !order.includes(to)) return;\n  const target=order.indexOf(to);order.splice(order.indexOf(from),1);order.splice(target,0,from);render(currentLabel);\n}\nlet currentLabel='실적 유지';\nfunction render(label){\n  currentLabel=label;\n  const v=values(), m=model(v,$('basis').value);\n  $('status').textContent='현재 시나리오 · '+label;\n  keys.forEach((k,i)=>$('out-'+k).value=(v[i]>0?'+':'')+v[i]+(i===4?'%p':'%'));\n  $('kpis').innerHTML=[['계획 연결 매출',units(m.sales),'억 원',units(actual.sales)+'억 원'],['계획 영업이익',units(m.profit),'억 원',units(profit)+'억 원'],['계획 영업이익률',pct(100*m.profit/m.sales),'',pct(100*profit/actual.sales)]].map(([name,value,unit,base])=>'\u003cdiv class=\"card\">\u003cdiv>'+name+'\u003c/div>\u003cstrong>'+value+' \u003cspan>'+unit+'\u003c/span>\u003c/strong>\u003csmall>2025 실적 '+base+'\u003c/small>\u003c/div>').join('');\n  const maximum=Math.max(...segments.map(s=>s.sales),...m.rows.map(r=>r[1]));\n  $('chart').innerHTML=order.map((i,pos)=>{\n    const s=segments[i];\n    return '\u003cdiv draggable=\"true\" data-segment=\"'+i+'\">\u003cdiv class=\"row\">\u003cb>⠿ '+s.name+'\u003c/b>\u003csmall>'+units(s.sales)+' → '+units(m.rows[i][1])+'억 원 \u003cbutton aria-label=\"'+s.name+' 위로\" data-step=\"-1\" '+(pos===0?'disabled':'')+'>↑\u003c/button> \u003cbutton aria-label=\"'+s.name+' 아래로\" data-step=\"1\" '+(pos===3?'disabled':'')+'>↓\u003c/button>\u003c/small>\u003c/div>\u003cdiv class=\"bar actual\">\u003ci style=\"width:'+s.sales/maximum*100+'%\">\u003c/i>\u003c/div>\u003cdiv class=\"bar\">\u003ci style=\"width:'+m.rows[i][1]/maximum*100+'%\">\u003c/i>\u003c/div>\u003c/div>';\n  }).join('');\n  for(const row of $('chart').children){\n    const id=Number(row.dataset.segment);\n    row.ondragstart=e=>e.dataTransfer.setData('application/x-segment',String(id));\n    row.ondragover=e=>e.preventDefault();\n    row.ondrop=e=>{e.preventDefault();const key=e.dataTransfer.getData('application/x-segment');if(key)moveSegment(Number(key),id)};\n    row.querySelectorAll('button').forEach(b=>b.onclick=()=>moveSegment(id,order[order.indexOf(id)+Number(b.dataset.step)]));\n  }\n  const accounts=[['매출액',actual.sales,m.sales],['매출원가',actual.cost,m.cost],['매출총이익',actual.sales-actual.cost,m.sales-m.cost],['판매비와관리비',actual.overhead,m.overhead],['영업이익',profit,m.profit]];\n  $('pnl').innerHTML=table(['억 원','2025 실적','2026 계획','증감'],accounts.map(([name,a,b])=>[name,units(a),units(b),units(b-a)]));\n  $('segments').innerHTML=table(['부문','계획 매출','판관비','계획 영업이익'],m.rows.map(([n,...nums])=>[n,...nums.map(units)]),[['연결 합계',units(m.sales),units(m.overhead),units(m.profit)]]);\n}\nObject.entries(presets).forEach(([name,v])=>{const b=document.createElement('button');b.textContent=name;b.onclick=()=>{inputs.forEach((input,i)=>input.value=v[i]);render(name)};$('presets').append(b)});\n$('basis').onchange=()=>render('사용자 가정');\n$('csv').onclick=()=>{\n  const v=values(),m=model(v,$('basis').value);\n  const lines=[['한화오션 2026 가상 사업계획','단위 원'],['부문','2025 매출','성장률(%)','계획 매출','배부 판관비','계획 영업이익'],...m.rows.map(([name,...nums],i)=>[name,segments[i]?.sales??adjustment,v[i]&&i\u003c4?v[i]:0,...nums.map(Math.round)]),['합계',actual.sales,'',Math.round(m.sales),Math.round(m.overhead),Math.round(m.profit)],['원가율 변화(%p)',v[4]],['판관비 변화(%)',v[5]],['배부 기준',$('basis').selectedOptions[0].textContent]];\n  const url=URL.createObjectURL(new Blob(['\\ufeff'+lines.map(row=>row.join(',')).join('\\r\\n')],{type:'text/csv;charset=utf-8'}));\n  const link=document.createElement('a');link.href=url;link.download='한화오션_2026_가상계획.csv';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);\n};render('실적 유지');\n\u003c/script>\u003c/html>\n"</script><script>render();$("notice").textContent=loadError;</script></body></html>
